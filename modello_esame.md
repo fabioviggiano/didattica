@@ -1,18 +1,10 @@
 ---
 title: Titolo Materiale Didattico
-author: Nome Cognome
-date: 01/04/24
+author: Fabio Viggiano
+date: 12/04/25
 ---
 
-Esame di Didattica dell'Informatica, A.A. 2023/2024
-
-# Changelog (se necessario)
-
-Se questa relazione è stata già consegnata in precedenza, indicare qui
-
-* i cambiamenti più significativi
-* dove trovare un eventuale diff (se ritenuto necessario)
-* risposte a eventuali domande/commenti fatti dai docenti sulle versioni precedenti
+Esame di Didattica dell'Informatica, A.A. 2024/2025
 
 # Inquadramento del lavoro
 
