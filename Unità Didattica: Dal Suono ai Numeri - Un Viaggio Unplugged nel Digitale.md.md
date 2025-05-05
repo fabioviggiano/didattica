@@ -10,14 +10,14 @@ Esame di Didattica dell'Informatica, A.A. 2024/2025
 
 ## Livello di scuola, classe/i, indirizzo
 
-Livello di scuola, classe/i, indirizzo: Scuola Secondaria di I grado (Scuole Medie), classi prime o seconde. Adattabile anche per le terze.
-A chi è rivolta questa attività? Studenti e studentesse di età compresa tra 11 e 13/14 anni.
-In quale specifica disciplina scolastica si colloca l'attività?
-Disciplina prevalente: Informatica (secondo la Proposta CINI - Area: Rappresentazione dell'Informazione).
-Discipline coinvolte: Tecnologia (processi di trasformazione), Matematica (grafici cartesiani, approssimazione), Scienze (onde sonore), Musica (natura del suono).
-Può essere adattata/rivolta a studenti di diverse età e indirizzi? Sì.
-Scuola Primaria (classi 4-5): Semplificando ulteriormente la terminologia, usando griglie più grandi e meno livelli di quantizzazione, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
-Scuola Secondaria di II grado (primo biennio): Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il trade-off qualità/dimensione file.
+**Livello di scuola, classe/i, indirizzo:** Scuola Secondaria di I grado (Scuole Medie), classi prime o seconde. Adattabile anche per le terze.
+**A chi è rivolta questa attività?** Studenti e studentesse di età compresa tra 11 e 13/14 anni.
+**In quale specifica disciplina scolastica si colloca l'attività?**
+**Disciplina prevalente:** Informatica.
+**Discipline coinvolte:** Tecnologia (processi di trasformazione), Matematica (grafici cartesiani, approssimazione), Scienze (onde sonore), Musica (natura del suono).
+**Può essere adattata/rivolta a studenti di diverse età e indirizzi?** Sì.
+**Scuola Primaria (classi 4-5):** Semplificando ulteriormente la terminologia, usando griglie più grandi e meno livelli di quantizzazione, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
+**Scuola Secondaria di II grado (primo biennio):** Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il trade-off qualità/dimensione file.
 
 
 ## Motivazione e Finalità
