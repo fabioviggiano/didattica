@@ -37,40 +37,51 @@ Differenzia/Migliora: Integra campionamento e quantizzazione in un unico flusso 
 ## Prerequisiti
 
 Comprensione di base di un grafico cartesiano (asse x = tempo, asse y = ampiezza/valore).
+
 Capacità di leggere valori su un asse graduato.
+
 Concetto intuitivo di "segnale che cambia nel tempo" (es. volume della musica, altezza di una collina).
+
 Concetto di approssimazione (arrotondamento a un valore vicino).
 
 ### Percorso
 
 Questa attività può essere considerata autoconsistente per introdurre i concetti base. Può far parte di un percorso più ampio:
+
 Introduzione al suono come onda (Scienze/Musica).
-Questa Unità Didattica: Campionamento e Quantizzazione Unplugged.
+
+Questa unità didattica: Campionamento e quantizzazione unplugged.
+
 (Opzionale) Introduzione alla rappresentazione binaria dei numeri (collegare i livelli di quantizzazione ai bit).
+
 (Opzionale) Utilizzo di software semplice di editing audio (es. Audacity) per visualizzare forme d'onda reali e gli effetti di cambi di frequenza di campionamento/bit depth (collegamento al concreto).
+
 (Opzionale) Discussione sulla compressione audio (MP3, etc.) come passo successivo.
 
 ## Contenuti (spiegati a un informatico)
 
-Conversione Analogico-Digitale (ADC).
-Campionamento: Discretizzazione dell'asse temporale. Acquisizione del valore del segnale a intervalli regolari T (periodo di campionamento). Frequenza di campionamento fs = 1/T. (Si introduce solo l'idea intuitiva che campionare più spesso cattura meglio le variazioni rapide).
-Quantizzazione: Discretizzazione dell'asse delle ampiezze. Approssimazione del valore campionato al livello più vicino tra un insieme finito di livelli discreti (Quantizzazione scalare uniforme). Il numero di livelli è legato alla risoluzione (bit depth). (Si introduce solo l'idea di "arrotondare" a valori predefiniti).
-Errore di quantizzazione.
-Rappresentazione digitale come sequenza di numeri.
+**Conversione Analogico-Digitale (ADC)**.
+
+**Campionamento**: Discretizzazione dell'asse temporale. Acquisizione del valore del segnale a intervalli regolari T (periodo di campionamento). Frequenza di campionamento fs = 1/T. (Si introduce solo l'idea intuitiva che campionare più spesso cattura meglio le variazioni rapide).
+
+**Quantizzazione**: Discretizzazione dell'asse delle ampiezze. Approssimazione del valore campionato al livello più vicino tra un insieme finito di livelli discreti (Quantizzazione scalare uniforme). Il numero di livelli è legato alla risoluzione (bit depth). (Si introduce solo l'idea di "arrotondare" a valori predefiniti).
+
+**Errore di quantizzazione**.
+
+**Rappresentazione digitale come sequenza di numeri**.
 
 ## Grandi idee
 
-Rappresentazione dei Dati: Come l'informazione continua del mondo reale (suono) viene rappresentata in forma discreta (numeri) comprensibile a un computer.
-Astrazione: Il processo di campionamento e quantizzazione è un'astrazione che semplifica la complessità del segnale reale, perdendo dettagli ma rendendolo manipolabile.
-Algoritmi: La sequenza di passi (disegna -> misura a intervalli -> arrotonda ai livelli) è un algoritmo per la conversione A/D.
-
+**Rappresentazione dei Dati**: Come l'informazione continua del mondo reale (suono) viene rappresentata in forma discreta (numeri) comprensibile a un computer.
+**Astrazione**: Il processo di campionamento e quantizzazione è un'astrazione che semplifica la complessità del segnale reale, perdendo dettagli ma rendendolo manipolabile.
+**Algoritmi**: La sequenza di passi (disegna -> misura a intervalli -> arrotonda ai livelli) è un algoritmo per la conversione A/D.
 
 ## Traguardi e Obiettivi
-Nelle varie sottosezioni, vanno elencati traguardi e obiettivi di apprendimento che si vuole raggiungere con le attività proposte
 
 ### Traguardi/obiettivi generali dai documenti ministeriali/proposte
 
 Traguardi/obiettivi generali dai documenti ministeriali/proposte:
+
 (Indicazioni Nazionali Primo Ciclo - Tecnologia): "Utilizzare strumenti informatici e di comunicazione [...] per ricercare, progettare [...]". "Riconoscere nell'ambiente che lo circonda [...] i processi di trasformazione di risorse e di energia [...]". (Qui la trasformazione è del segnale).
 (Proposta CINI - Scuola Secondaria I Grado):
 Area Dati e Informazione, Rappresentazione dell'informazione: D-RI.1: Comprendere che le informazioni possono essere rappresentate in modi diversi (analogico vs digitale). D-RI.2: Spiegare come diversi tipi di dati (numeri, testi, immagini, suoni) sono rappresentati in formato digitale (focus su suoni). D-RI.3: Comprendere il concetto di digitalizzazione e i suoi effetti (approssimazione, perdita di informazione).
@@ -90,26 +101,37 @@ Obiettivi specifici in forma operativa (Lo studente/la studentessa è in grado d
 (Analizzare) Confrontare il segnale originale e quello digitale ricostruito, identificando le differenze.
 (Valutare) Prevedere (intuitivamente) l'effetto sulla fedeltà del segnale digitale cambiando la frequenza di campionamento (intervallo tra i punti).
 (Valutare) Prevedere (intuitivamente) l'effetto sulla fedeltà del segnale digitale cambiando il numero di livelli di quantizzazione.
+
 ## Metodologie didattiche
 
-Unplugged Activity: Attività svolta senza l'uso di computer, utilizzando materiali concreti (carta, matita) per simulare processi computazionali. Permette di focalizzarsi sui concetti senza la barriera tecnologica.
-Apprendimento Attivo / Learning by Doing: Gli studenti non sono recettori passivi, ma eseguono attivamente i passaggi di campionamento e quantizzazione.
-Visualizzazione: L'uso della carta millimetrata e del disegno è centrale per rendere visibili concetti astratti.
-Lezione Dialogata: L'insegnante guida l'attività, ma stimola la discussione, pone domande e incoraggia la riflessione collettiva.
-(Opzionale) Cooperative Learning: L'attività può essere svolta a coppie per favorire il confronto e l'aiuto reciproco.
+**Unplugged Activity**: Attività svolta senza l'uso di computer, utilizzando materiali concreti (carta, matita) per simulare processi computazionali. Permette di focalizzarsi sui concetti senza la barriera tecnologica.
+
+**Apprendimento Attivo / Learning by Doing**: Gli studenti non sono recettori passivi, ma eseguono attivamente i passaggi di campionamento e quantizzazione.
+
+**Visualizzazione**: L'uso della carta millimetrata e del disegno è centrale per rendere visibili concetti astratti.
+
+**Lezione Dialogata**: L'insegnante guida l'attività, ma stimola la discussione, pone domande e incoraggia la riflessione collettiva.
+
+**(Opzionale) Cooperative Learning**: L'attività può essere svolta a coppie per favorire il confronto e l'aiuto reciproco.
 
 ## Tempi
 
-Totale: Circa 2 ore (es. 2 moduli da 50-60 minuti).
-Introduzione e disegno onda analogica: 15-20 min.
-Attività di Campionamento: 20-25 min.
-Attività di Quantizzazione: 20-25 min.
-Ricostruzione e Confronto: 15-20 min.
-Discussione su Variazione Parametri e Conclusioni: 20-30 min.
+**Totale**: Circa 2 ore (es. 2 moduli da 50-60 minuti).
+
+**Introduzione e disegno onda analogica**: 15-20 min.
+
+**Attività di Campionamento**: 20-25 min.
+
+**Attività di Quantizzazione**: 20-25 min.
+
+**Ricostruzione e Confronto**: 15-20 min.
+
+**Discussione su variazione parametri e conclusioni**: 20-30 min.
 
 ## Spazi
 
 Aula scolastica standard con banchi adatti per disegnare.
+
 Lavagna o LIM per le spiegazioni e dimostrazioni dell'insegnante.
 
 ## Materiali e Strumenti
@@ -177,9 +199,9 @@ Dimostrare alla lavagna/LIM: Prendere un punto di campionamento. Guardare la sua
 
 Girare tra i banchi aiutando a trovare il livello più vicino. Questo è il passaggio concettualmente più delicato.
 
-Istruzione Aggiuntiva: "Ora, per ogni crocetta che avete fatto, scrivete sotto (o a fianco) il numero del livello su cui si trova. Fatelo in ordine, da sinistra a destra. Questa sequenza di numeri è il nostro 'segnale digitale'!"
+**Istruzione Aggiuntiva**: "Ora, per ogni crocetta che avete fatto, scrivete sotto (o a fianco) il numero del livello su cui si trova. Fatelo in ordine, da sinistra a destra. Questa sequenza di numeri è il nostro 'segnale digitale'!"
 
-Discussione Guidata: "L'altezza delle crocette è esattamente uguale a quella dei puntini originali? (No, è approssimata). Cosa succederebbe se avessimo meno livelli consentiti, ad esempio solo le linee 0, 2, 4...? (L'approssimazione sarebbe più 'grossolana', perderemmo più dettagli sull'altezza). E se avessimo più livelli, ad esempio anche le linee intermedie a metà quadretto? (L'approssimazione sarebbe più precisa)." Introdurre l'idea intuitiva che più livelli = più fedeltà nell'ampiezza.
+**Discussione Guidata**: "L'altezza delle crocette è esattamente uguale a quella dei puntini originali? (No, è approssimata). Cosa succederebbe se avessimo meno livelli consentiti, ad esempio solo le linee 0, 2, 4...? (L'approssimazione sarebbe più 'grossolana', perderemmo più dettagli sull'altezza). E se avessimo più livelli, ad esempio anche le linee intermedie a metà quadretto? (L'approssimazione sarebbe più precisa)." Introdurre l'idea intuitiva che più livelli = più fedeltà nell'ampiezza.
 
 ## Fase 4: Ricostruzione e confronto (15-20 min)
 
@@ -204,7 +226,9 @@ Ripetete il processo per collegare tutte le crocette. Otterrete una forma a grad
 Facilitare il confronto: 
 
 "Dove vedete le differenze maggiori? La forma a gradini segue l'originale? Esattamente? 
+
 Cosa è andato 'perso' nel processo? (La 'morbidezza', i valori intermedi). 
+
 Questa forma a gradini rappresenta il suono come lo sentirebbe il computer, basandosi solo sui numeri che abbiamo ottenuto."
 
 ## Fase 5: Variare i parametri e conclusioni (20-30 min)
