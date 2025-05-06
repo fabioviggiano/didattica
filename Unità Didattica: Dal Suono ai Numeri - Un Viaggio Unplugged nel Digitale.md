@@ -46,34 +46,32 @@ Concetto di approssimazione (arrotondamento a un valore vicino).
 
 ### Percorso
 
-Questa attività può essere considerata autoconsistente per introdurre i concetti base. Può far parte di un percorso più ampio:
+Questa attività può essere considerata autoconsistente per introdurre i concetti base, può però far parte di un percorso più ampio sull' introduzione al suono come onda (Scienze/Musica).
 
-Introduzione al suono come onda (Scienze/Musica).
+Questa unità didattica può definirsi come: "Campionamento e quantizzazione unplugged". Ad essa, si possono collegare in incontri successivi dei passaggi come:
 
-Questa unità didattica: Campionamento e quantizzazione unplugged.
-
-(Opzionale) Introduzione alla rappresentazione binaria dei numeri (collegare i livelli di quantizzazione ai bit).
-
-(Opzionale) Utilizzo di software semplice di editing audio (es. Audacity) per visualizzare forme d'onda reali e gli effetti di cambi di frequenza di campionamento/bit depth (collegamento al concreto).
-
-(Opzionale) Discussione sulla compressione audio (MP3, etc.) come passo successivo.
+- Introduzione alla rappresentazione binaria dei numeri (collegare i livelli di quantizzazione ai bit)
+- Utilizzo di software semplice di editing audio (es. Audacity) per visualizzare forme d'onda reali e gli effetti di cambi di frequenza di campionamento/bit depth (collegamento al concreto)
+- Discussione sulla compressione audio come passo successivo.
 
 ## Contenuti (spiegati a un informatico)
 
-**Conversione Analogico-Digitale (ADC)**.
+**Conversione Analogico-Digitale (ADC)**
 
 **Campionamento**: Discretizzazione dell'asse temporale. Acquisizione del valore del segnale a intervalli regolari T (periodo di campionamento). Frequenza di campionamento fs = 1/T. (Si introduce solo l'idea intuitiva che campionare più spesso cattura meglio le variazioni rapide).
 
 **Quantizzazione**: Discretizzazione dell'asse delle ampiezze. Approssimazione del valore campionato al livello più vicino tra un insieme finito di livelli discreti (Quantizzazione scalare uniforme). Il numero di livelli è legato alla risoluzione (bit depth). (Si introduce solo l'idea di "arrotondare" a valori predefiniti).
 
-**Errore di quantizzazione**.
+**Errore di quantizzazione**: Differenza tra l'ampiezza esatta del campione e il valore digitale assegnato dalla quantizzazione. È l'inevitabile scarto dovuto all'approssimazione a livelli finiti.
 
-**Rappresentazione digitale come sequenza di numeri**.
+**Rappresentazione digitale come sequenza di numeri**: Il segnale audio, dopo campionamento e quantizzazione, diventa una successione di valori numerici. Ogni numero codifica l'ampiezza di un campione in un preciso istante.
 
 ## Grandi idee
 
 **Rappresentazione dei Dati**: Come l'informazione continua del mondo reale (suono) viene rappresentata in forma discreta (numeri) comprensibile a un computer.
+
 **Astrazione**: Il processo di campionamento e quantizzazione è un'astrazione che semplifica la complessità del segnale reale, perdendo dettagli ma rendendolo manipolabile.
+
 **Algoritmi**: La sequenza di passi (disegna -> misura a intervalli -> arrotonda ai livelli) è un algoritmo per la conversione A/D.
 
 ## Traguardi e Obiettivi
@@ -145,13 +143,13 @@ Lavagna/LIM e pennarelli/pennino.
 
 # Sviluppo dei contenuti
 
-(Guida per gli Insegnanti inframezzata alle fasi)
-
 ## Fase 1: Introduzione e l' onda analogica (15-20 min)
 
 ### Guida insegnante
 
-Iniziare chiedendo agli studenti come pensano che la musica arrivi ai loro telefoni o computer. Introdurre l'idea di suono come qualcosa di "continuo" nel mondo reale (un'onda) che deve essere trasformato in "numeri" per il computer (digitale).
+Si inizi la lezione chiedendo agli studenti come pensano che la musica arrivi ai loro telefoni o computer. 
+
+Introdurre l'idea di suono come qualcosa di "continuo" nel mondo reale (un'onda) che deve essere trasformato in "numeri" per il computer (digitale).
 
 Disegnare alla lavagna/LIM un esempio semplice di onda: un asse X (tempo) e un asse Y (volume/ampiezza). Tracciare una curva morbida e continua.
 
@@ -159,7 +157,7 @@ Enfatizzare: "Questa linea è continua. Significa che per ogni istante di tempo,
 
 Distribuire carta millimetrata e matite.
 
-### Istruzioni per studenti: 
+### Istruzioni per studenti
 
 "Ora disegnate la vostra onda sonora personale sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Fate una curva semplice, che sale e scende, che occupi una buona parte del foglio in larghezza. Usate la matita così potete correggere."
 
@@ -175,7 +173,7 @@ Decidere insieme una "frequenza di campionamento" visiva. Suggerimento: "Proviam
 
 Dimostrare alla lavagna/LIM: sull'onda disegnata, segnare un punto esattamente sulla curva in corrispondenza di x=0, x=3, x=6, x=9, ecc.
 
-### Istruzioni per studenti:  
+### Istruzioni per studenti
 
 "Prendete la vostra matita (o un colore diverso). Partendo dall'inizio della vostra curva (tempo=0), fate un puntino sulla curva ogni 3 quadretti che avanzate sull'asse del tempo. Continuate finché non finite la parte disegnata della vostra onda."
 
@@ -254,7 +252,7 @@ MP3/Streaming bassa qualità: Parametri ridotti (o tecniche più complesse di co
 
 Telefonate: Qualità sufficiente per capire la voce, ma non ottimale per la musica.
 
-# Conclusione:
+# Conclusione
 
 Riepilogare i termini chiave (Analogico, Digitale, Campionamento, Quantizzazione) e il concetto principale: la digitalizzazione è un'approssimazione del mondo reale fatta misurando a intervalli (campionamento) e arrotondando i valori (quantizzazione), con un compromesso tra fedeltà e quantità di dati generati.
 
