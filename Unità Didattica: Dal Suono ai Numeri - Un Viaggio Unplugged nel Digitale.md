@@ -78,25 +78,26 @@ Questa unità didattica può definirsi come: "Campionamento e quantizzazione unp
 
 ### Traguardi/obiettivi generali dai documenti ministeriali/proposte
 
-Traguardi/obiettivi generali dai documenti ministeriali/proposte:
+Traguardi/obiettivi generali dai documenti ministeriali/proposte: **Da completare**
 
-(Indicazioni Nazionali Primo Ciclo - Tecnologia): "Utilizzare strumenti informatici e di comunicazione [...] per ricercare, progettare [...]". "Riconoscere nell'ambiente che lo circonda [...] i processi di trasformazione di risorse e di energia [...]". (Qui la trasformazione è del segnale).
-(Proposta CINI - Scuola Secondaria I Grado):
-Area Dati e Informazione, Rappresentazione dell'informazione: D-RI.1: Comprendere che le informazioni possono essere rappresentate in modi diversi (analogico vs digitale). D-RI.2: Spiegare come diversi tipi di dati (numeri, testi, immagini, suoni) sono rappresentati in formato digitale (focus su suoni). D-RI.3: Comprendere il concetto di digitalizzazione e i suoi effetti (approssimazione, perdita di informazione).
-Traguardi/obiettivi generali (propri):
 Comprendere la differenza fondamentale tra segnale analogico e digitale.
 Afferrare il ruolo del campionamento e della quantizzazione nel processo di digitalizzazione.
 Sviluppare un'intuizione sulla relazione tra parametri di digitalizzazione (frequenza campionamento, livelli quantizzazione) e fedeltà/quantità di dati.
+
 Obiettivi specifici in forma operativa (Lo studente/la studentessa è in grado di...):
+
 (Ricordare) Elencare i due passaggi principali della digitalizzazione audio (campionamento, quantizzazione).
+
 (Comprendere) Spiegare a parole proprie la differenza tra un'onda disegnata liscia (analogica) e una a gradini (digitale).
 (Comprendere) Spiegare perché il campionamento consiste nel misurare il segnale a intervalli regolari.
 (Comprendere) Spiegare perché la quantizzazione consiste nell'arrotondare il valore misurato a livelli predefiniti.
+
 (Applicare) Disegnare una semplice curva continua su carta millimetrata per rappresentare un segnale analogico.
 (Applicare) Identificare e segnare i punti di campionamento su una curva data, secondo un intervallo specificato.
 (Applicare) Approssimare il valore di ciascun campione al livello di quantizzazione più vicino su un grafico.
 (Applicare) Ricostruire graficamente (a gradini) il segnale digitale partendo dai punti quantizzati.
 (Analizzare) Confrontare il segnale originale e quello digitale ricostruito, identificando le differenze.
+
 (Valutare) Prevedere (intuitivamente) l'effetto sulla fedeltà del segnale digitale cambiando la frequenza di campionamento (intervallo tra i punti).
 (Valutare) Prevedere (intuitivamente) l'effetto sulla fedeltà del segnale digitale cambiando il numero di livelli di quantizzazione.
 
