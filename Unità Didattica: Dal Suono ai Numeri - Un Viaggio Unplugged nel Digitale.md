@@ -34,6 +34,8 @@ Mantiene: L'approccio unplugged e l'uso di metafore concrete.
 
 Differenzia/Migliora: Integra campionamento e quantizzazione in un unico flusso di lavoro manuale, partendo da un "segnale" creato dallo studente, rendendo il processo più personale e tangibile. Enfatizza la visualizzazione della perdita di informazione confrontando il disegno originale con quello "digitalizzato".
 
+**PUNTO DI ATTENZIONE SECONDO IL PROF. DAVOLI, AMPLIARE INDICANDO ESEMPI REALI**
+
 ## Prerequisiti
 
 Comprensione di base di un grafico cartesiano (asse x = tempo, asse y = ampiezza/valore).
