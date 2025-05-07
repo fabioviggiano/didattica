@@ -10,7 +10,7 @@ Esame di Didattica dell'Informatica - A.A. 2024/2025
 
 ## Livello di scuola, classe/i, indirizzo
 
-L' unità didattica si rivolge alla scuola secondaria di I grado (scuole medie) dunque tudenti e studentesse di età compresa tra 11 e 13/14 anni. L'Informatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono).
+L' unità didattica si rivolge alla scuola secondaria di I grado (scuole medie) dunque studenti e studentesse di età compresa tra gli 11 ed i 13/14 anni. L'Iiformatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono).
 
 Questa unità didattica può essere adattata sia verso studenti di età inferiore che superiore, in tal modo:
 
@@ -22,7 +22,7 @@ Questa unità didattica può essere adattata sia verso studenti di età inferior
 
 È un'attività manuale unplugged che usa carta millimetrata e matite per simulare visivamente i processi di campionamento e quantizzazione nella digitalizzazione del suono.
 
- È importante perché aiuta gli studenti a comprendere concretamente come i segnali reali (come il suono) vengono trasformati in dati digitali, spiegando così il funzionamento alla base della tecnologia multimediale che usano quotidianamente e sviluppando il pensiero computazionale.
+È importante perché aiuta gli studenti a comprendere concretamente come i segnali reali (come il suono) vengono trasformati in dati digitali, spiegando così il funzionamento alla base della tecnologia multimediale che usano quotidianamente e sviluppando il pensiero computazionale.
 
 ## Innovatività
 
