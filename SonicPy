@@ -1,0 +1,34 @@
+# Simulazione di campionamento e quantizzazione
+
+sample_path = :drum_roll
+
+define :play_original do
+  puts "Suono originale"
+  sample sample_path
+  sleep sample_duration(sample_path) + 2
+end
+
+define :play_low_sample_rate do
+  puts "Simulazione di campionamento ridotto"
+  with_fx :slicer, phase: 0.25, mix: 1 do
+    sample sample_path, rate: 0.5, amp: 0.5
+  end
+  sleep sample_duration(sample_path) / 0.5 + 2
+end
+
+define :play_quantized do
+  puts "Simulazione di quantizzazione"
+  with_fx :bitcrusher, bits: 8, sample_rate: 8000 do
+    sample sample_path
+  end
+  sleep sample_duration(sample_path) + 1
+  with_fx :bitcrusher, bits: 4, sample_rate: 4000 do
+    sample sample_path
+  end
+  sleep sample_duration(sample_path) + 1
+end
+
+# Esegui in sequenza
+play_original
+play_low_sample_rate
+play_quantized
