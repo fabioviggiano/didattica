@@ -10,11 +10,11 @@ Esame di Didattica dell'Informatica - A.A. 2024/2025
 
 ## Livello di scuola, classe/i, indirizzo
 
-L' unità didattica si rivolge alla scuola secondaria di I grado (scuole medie) dunque studenti e studentesse di età compresa tra gli 11 ed i 13/14 anni. L' informatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono).
+L' unità didattica è rivolta a studenti e studentesse di età compresa tra gli 11 e i 13/14 anni (scuola secondaria di I grado). "L'informatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono)." potrebbe essere riformulato leggermente per dare più enfasi all'integrazione: "L'informatica, disciplina prevalente dell'unità, si integra in modo interdisciplinare con la tecnologia (i processi di trasformazione), la matematica (in particolare grafici cartesiani e approssimazione), le scienze (attraverso lo studio delle onde sonore) e la musica (considerando la natura del suono)
 
-Questa unità didattica può essere adattata sia verso studenti di età inferiore che superiore, in tal modo:
+In estrema sintesi, l'obiettivo è far apprendere agli studenti il concetto di suono digitale e i processi di campionamento e quantizzazione. Questo sarà introdotto facendo disegnare loro un'onda sonora su carta millimetrata. Prima di entrare nei dettagli della lezione, vediamo come questa unità didattica può essere adattata a studenti di età inferiore e superiore:
 
-**Scuola Primaria (classi 4-5):** Semplificando ulteriormente la terminologia, usando griglie più grandi e meno livelli di quantizzazione, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
+**Scuola Primaria (classi 4-5):** Semplificando la terminologia, usando griglie più grandi e meno livelli di quantizzazione, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
 
 Obiettivo: introdurre il concetto di “trasformare suoni in numeri” in modo intuitivo.
 
