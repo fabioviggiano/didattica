@@ -162,7 +162,19 @@ Distribuire carta millimetrata e matite.
 
 ### Istruzioni per studenti
 
-"Ora disegnate la vostra onda sonora personale sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Fate una curva semplice, che sale e scende, che occupi una buona parte del foglio in larghezza. Usate la matita così potete correggere."
+"Ora disegnate la vostra onda sonora personale sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Disegnate:
+
+una sinusoide
+
+un' onda quadra
+
+una triangolare
+
+a dente di sega
+
+Usate la matita così potete correggere."
+
+Si raccomanda una lineea di minimo e una di massimo distanti 12.8 cm (o 25.6), in modo da leggere i millimetri.
 
 Girare tra i banchi per assicurarsi che tutti abbiano disegnato una curva adatta (non troppo spigolosa, né troppo piatta).
 
