@@ -1,7 +1,7 @@
 ---
-title: Dal Suono ai Numeri - Un Viaggio Unplugged nel Digitale
+title: Il suono digitale - Campionamento e quantizzazione
 author: Fabio Viggiano
-date: 12/04/25
+date: 19/05/2025
 ---
 
 Esame di Didattica dell'Informatica - A.A. 2024/2025
@@ -10,7 +10,7 @@ Esame di Didattica dell'Informatica - A.A. 2024/2025
 
 ## Livello di scuola, classe/i, indirizzo
 
-L' unità didattica si rivolge alla scuola secondaria di I grado (scuole medie) dunque studenti e studentesse di età compresa tra gli 11 ed i 13/14 anni. L'Iiformatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono).
+L' unità didattica si rivolge alla scuola secondaria di I grado (scuole medie) dunque studenti e studentesse di età compresa tra gli 11 ed i 13/14 anni. L' informatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono).
 
 Questa unità didattica può essere adattata sia verso studenti di età inferiore che superiore, in tal modo:
 
@@ -20,9 +20,8 @@ Questa unità didattica può essere adattata sia verso studenti di età inferior
 
 ## Motivazione e Finalità
 
-È un'attività manuale unplugged che usa carta millimetrata e matite per simulare visivamente i processi di campionamento e quantizzazione nella digitalizzazione del suono.
-
-È importante perché aiuta gli studenti a comprendere concretamente come i segnali reali (come il suono) vengono trasformati in dati digitali, spiegando così il funzionamento alla base della tecnologia multimediale che usano quotidianamente e sviluppando il pensiero computazionale.
+La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.
+L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.
 
 ## Innovatività
 
@@ -34,7 +33,7 @@ Mantiene: L'approccio unplugged e l'uso di metafore concrete.
 
 Differenzia/Migliora: Integra campionamento e quantizzazione in un unico flusso di lavoro manuale, partendo da un "segnale" creato dallo studente, rendendo il processo più personale e tangibile. Enfatizza la visualizzazione della perdita di informazione confrontando il disegno originale con quello "digitalizzato".
 
-**PUNTO DI ATTENZIONE SECONDO IL PROF. DAVOLI, AMPLIARE INDICANDO ESEMPI REALI**
+L' innovatività della lezione in questione è quindi presente come lo studente creatore del segnale, quindi protagonista del processo. La digitalizzazione avviene fisicamente, passo-passo, su carta, rendendo visibile e modificabile ogni singolo passo della conversione A/D; a ciò si aggiunge la riproduzione del suono rendendo la lezione se possibile anche interattiva.
 
 ## Prerequisiti
 
@@ -76,15 +75,17 @@ Questa unità didattica può definirsi come: "Campionamento e quantizzazione unp
 
 **Algoritmi**: La sequenza di passi (disegna -> misura a intervalli -> arrotonda ai livelli) è un algoritmo per la conversione A/D.
 
-## Traguardi e Obiettivi
+## Traguardi e obiettivi
 
 ### Traguardi/obiettivi generali dai documenti ministeriali/proposte
 
-Traguardi/obiettivi generali dai documenti ministeriali/proposte: **Da completare**
+Traguardi/obiettivi generali dai documenti ministeriali/proposte: 
 
-Comprendere la differenza fondamentale tra segnale analogico e digitale.
-Afferrare il ruolo del campionamento e della quantizzazione nel processo di digitalizzazione.
-Sviluppare un'intuizione sulla relazione tra parametri di digitalizzazione (frequenza campionamento, livelli quantizzazione) e fedeltà/quantità di dati.
+Comprendere il concetto di **campionamento** di un segnale audio.
+Intuire il significato di **quantizzazione** e di **perdita di informazione**.
+Collegare il mondo fisico (suono) con la sua rappresentazione digitale.
+Favorire il pensiero **computazionale** attraverso la rappresentazione di dati continui in forma discreta.
+Stimolare l’ **osservazione critica** e il **ragionamento scientifico**.
 
 Obiettivi specifici in forma operativa (Lo studente/la studentessa è in grado di...):
 
@@ -119,68 +120,38 @@ Obiettivi specifici in forma operativa (Lo studente/la studentessa è in grado d
 
 **Totale**: Circa 2 ore (es. 2 moduli da 50-60 minuti).
 
-**Introduzione e disegno onda analogica**: 15-20 min.
+### Fase 1 - Introduzione e l' onda analogica (15-20 min)
 
-**Attività di Campionamento**: 20-25 min.
+**Guida insegnante**: 
 
-**Attività di Quantizzazione**: 20-25 min.
+**Azione 1**: Iniziare la lezione ponendo una domanda aperta agli studenti:
 
-**Ricostruzione e Confronto**: 15-20 min.
+"Come pensate che la musica che ascoltate arrivi sui vostri smartphone o computer?"
 
-**Discussione su variazione parametri e conclusioni**: 20-30 min.
+**Scopo**: Raccogliere le loro idee iniziali, stimolare la discussione e creare un collegamento con la loro esperienza quotidiana. Lasciare che emergano diverse ipotesi per poi disegnare su lavagna un' onda sonora illustrando brevemente di cosa si tratta.
 
-## Spazi
+**Azione 2**: Chiedere agli studenti di disegnare la propria onda sonora personale, con una frase come:
 
-Aula scolastica standard con banchi adatti per disegnare.
+"Ora disegnate la vostra onda sonora sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Disegnate a vostra scelta: una sinusoide, un' onda quadra, una triangolare, dente di sega. Usate la matita così da potete correggere."
 
-Lavagna o LIM per le spiegazioni e dimostrazioni dell'insegnante.
+Nel mentre della frase sarebbe bene disegnare gli esempi delle divese onde sonore per agevolare chi ha più difficoltà nel disegno.
 
-## Materiali e Strumenti
-
-Fogli di carta millimetrata (almeno 2-3 per studente/coppia).
-Matite con punta media (HB o simile).
-Gomme per cancellare.
-Matite colorate o pennarelli a punta fine (almeno 2 colori diversi per studente/coppia, es. nero e rosso).
-Righello (opzionale, può aiutare a tracciare i livelli di quantizzazione).
-Lavagna/LIM e pennarelli/pennino.
-
-# Sviluppo dei contenuti
-
-## Fase 1: Introduzione e l' onda analogica (15-20 min)
-
-### Guida insegnante
-
-Si inizi la lezione chiedendo agli studenti come pensano che la musica arrivi ai loro telefoni o computer. 
-
-Introdurre l'idea di suono come qualcosa di "continuo" nel mondo reale (un'onda) che deve essere trasformato in "numeri" per il computer (digitale).
-
-Disegnare alla lavagna/LIM un esempio semplice di onda: un asse X (tempo) e un asse Y (volume/ampiezza). Tracciare una curva morbida e continua.
-
-Enfatizzare: "Questa linea è continua. Significa che per ogni istante di tempo, anche piccolissimo, c'è un valore preciso di volume, e il volume può cambiare in modo graduale assumendo tutti i valori intermedi." Chiamarla "Onda Analogica".
-
-Distribuire carta millimetrata e matite.
-
-### Istruzioni per studenti
+**Guida studente**:
 
 "Ora disegnate la vostra onda sonora personale sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Disegnate:
 
-una sinusoide
-
-un' onda quadra
-
-una triangolare
-
-a dente di sega
+- una sinusoide
+- un' onda quadra
+- una triangolare
+- dente di sega
 
 Usate la matita così potete correggere."
 
-Si raccomanda una lineea di minimo e una di massimo distanti 12.8 cm (o 25.6), in modo da leggere i millimetri.
+Si raccomanda una lineea di minimo e una di massimo distanti 12.8 cm (o 25.6), in modo da leggere i millimetri. 
 
-Girare tra i banchi per assicurarsi che tutti abbiano disegnato una curva adatta (non troppo spigolosa, né troppo piatta).
+### Fase 2 - Campionamento - Fare le "fotografie" (20-25 min)
 
-## Fase 2: Campionamento - Fare le "fotografie" (20-25 min)
-
-### Guida insegnante
+**Guida insegnante**:
 
 Spiegare: "Il computer non può 'vedere' tutta la curva contemporaneamente. Deve guardarla un pezzetto alla volta, a intervalli regolari. È come fare delle foto (o misurare l'altezza) dell'onda ogni secondo, o ogni mezzo secondo. Questo si chiama Campionamento."
 
@@ -188,17 +159,17 @@ Decidere insieme una "frequenza di campionamento" visiva. Suggerimento: "Proviam
 
 Dimostrare alla lavagna/LIM: sull'onda disegnata, segnare un punto esattamente sulla curva in corrispondenza di x=0, x=3, x=6, x=9, ecc.
 
-### Istruzioni per studenti
+**Guida studente**:
 
 "Prendete la vostra matita (o un colore diverso). Partendo dall'inizio della vostra curva (tempo=0), fate un puntino sulla curva ogni 3 quadretti che avanzate sull'asse del tempo. Continuate finché non finite la parte disegnata della vostra onda."
 
 Girare tra i banchi per verificare che i punti siano sulla curva e a intervalli regolari sull'asse X.
 
-Discussione Guidata: "Cosa rappresentano questi punti? (Sono le nostre 'misure' o 'foto' dell'onda in precisi istanti). Cosa succederebbe se facessimo le foto più spesso, ad esempio ogni quadretto? (Avremmo più punti, cattureremmo meglio le curve veloci). E se le facessimo più raramente, ogni 6 quadretti? (Avremmo meno punti, potremmo 'perderci' delle curve veloci tra una foto e l'altra)." Introdurre l'idea intuitiva che più campioni = più fedeltà nel tempo.
+Discussione guidata: "Cosa rappresentano questi punti? (Sono le nostre 'misure' o 'foto' dell'onda in precisi istanti). Cosa succederebbe se facessimo le foto più spesso, ad esempio ogni quadretto? (Avremmo più punti, cattureremmo meglio le curve veloci). E se le facessimo più raramente, ogni 6 quadretti? (Avremmo meno punti, potremmo 'perderci' delle curve veloci tra una foto e l'altra)." Introdurre l'idea intuitiva che più campioni = più fedeltà nel tempo.
 
-## Fase 3: Quantizzazione - Arrotondare l'altezza (20-25 min)
+### Fase 3 - Quantizzazione - Arrotondare l'altezza (20-25 min)
 
-### Guida insegnante
+**Guida insegnante**:
 
 Spiegare: "Ora abbiamo le nostre 'foto' (i campioni). Ma guardate l'altezza (il valore Y) di questi punti: possono capitare ovunque! Il computer, però, preferisce usare solo un numero limitato di 'livelli' di altezza. Dobbiamo prendere l'altezza di ogni punto che abbiamo segnato e 'arrotondarla' al livello permesso più vicino. Questo si chiama Quantizzazione."
 
@@ -206,7 +177,7 @@ Decidere insieme i livelli di quantizzazione. Suggerimento: Sulla carta millimet
 
 Dimostrare alla lavagna/LIM: Prendere un punto di campionamento. Guardare la sua altezza Y. Trovare la linea orizzontale (livello consentito) più vicina a quel punto. Segnare un nuovo punto (es. una crocetta) che ha la stessa X del campione originale, ma la cui Y è esattamente sul livello consentito più vicino. Ripetere per alcuni campioni.
 
-### Istruzioni per studenti
+**Guida studente**:
 
 "Ora, per ogni puntino di campionamento che avete fatto prima, guardate la sua altezza (il suo valore Y). Trovate qual è la linea orizzontale dei 'livelli consentiti' (quelle che abbiamo deciso/evidenziato) più vicina a quel punto. Fate una crocetta (o usate un altro colore) che stia sulla stessa linea verticale (stessa X) del puntino, ma esattamente sulla linea orizzontale consentita più vicina."
 
@@ -216,33 +187,20 @@ Girare tra i banchi aiutando a trovare il livello più vicino. Questo è il pass
 
 **Discussione Guidata**: "L'altezza delle crocette è esattamente uguale a quella dei puntini originali? (No, è approssimata). Cosa succederebbe se avessimo meno livelli consentiti, ad esempio solo le linee 0, 2, 4...? (L'approssimazione sarebbe più 'grossolana', perderemmo più dettagli sull'altezza). E se avessimo più livelli, ad esempio anche le linee intermedie a metà quadretto? (L'approssimazione sarebbe più precisa)." Introdurre l'idea intuitiva che più livelli = più fedeltà nell'ampiezza.
 
-## Fase 4: Ricostruzione e confronto (15-20 min)
 
-### Guida insegnante
+### Fase 4 - Ricostruzione e confronto (15-20 min)
+
+**Guida insegnante**:
 
 Spiegare: "Abbiamo la nostra sequenza di numeri, che rappresenta il suono digitalizzato. Come possiamo visualizzare questa versione digitale?"
 
 Dimostrare alla lavagna/LIM: Collegare le crocette (i punti quantizzati) usando solo segmenti orizzontali e verticali. Da una crocetta, tracciare un segmento orizzontale fino alla X della crocetta successiva, poi un segmento verticale per raggiungerla. Si formerà un grafico "a gradini" (staircase).
 
-### Istruzioni per studenti
+**Guida studente**:
 
 "Usando una matita colorata (diversa da quella dell'onda originale), collegate le crocette che avete segnato. Partite dalla prima crocetta a sinistra: disegnate una linea orizzontale fino a raggiungere la verticale della seconda crocetta, poi salite o scendete in verticale per collegarvi alla seconda crocetta. 
 
 Ripetete il processo per collegare tutte le crocette. Otterrete una forma a gradini."
-
-### Istruzioni per studenti
-
-"Ora confrontate la vostra onda originale (quella liscia disegnata all'inizio) con questa nuova forma a gradini. Sono uguali?"
-
-### Discussione guidata
-
-Facilitare il confronto: 
-
-"Dove vedete le differenze maggiori? La forma a gradini segue l'originale? Esattamente? 
-
-Cosa è andato 'perso' nel processo? (La 'morbidezza', i valori intermedi). 
-
-Questa forma a gradini rappresenta il suono come lo sentirebbe il computer, basandosi solo sui numeri che abbiamo ottenuto."
 
 ## Fase 5: Variare i parametri e conclusioni (20-30 min)
 
@@ -266,6 +224,40 @@ CD Audio: Alta frequenza di campionamento (44100 volte al secondo!) e molti live
 MP3/Streaming bassa qualità: Parametri ridotti (o tecniche più complesse di compressione) -> Fedeltà minore, file piccoli.
 
 Telefonate: Qualità sufficiente per capire la voce, ma non ottimale per la musica.
+
+
+### Discussione guidata
+
+Facilitare il confronto: 
+
+"Dove vedete le differenze maggiori? La forma a gradini segue l'originale? Esattamente? 
+
+Cosa è andato 'perso' nel processo? (La 'morbidezza', i valori intermedi). 
+
+Questa forma a gradini rappresenta il suono come lo sentirebbe il computer, basandosi solo sui numeri che abbiamo ottenuto."
+
+
+
+
+## Spazi
+
+Aula scolastica standard con banchi adatti per disegnare.
+
+Lavagna o LIM per le spiegazioni e dimostrazioni dell'insegnante.
+
+## Materiali e Strumenti
+
+Fogli di carta millimetrata (almeno 2-3 per studente/coppia).
+Matite con punta media (HB o simile).
+Gomme per cancellare.
+Matite colorate o pennarelli a punta fine (almeno 2 colori diversi per studente/coppia, es. nero e rosso).
+Righello (opzionale, può aiutare a tracciare i livelli di quantizzazione).
+Lavagna/LIM e pennarelli/pennino.
+Cassa bluetooth.
+
+# Sviluppo dei contenuti
+
+
 
 # Conclusione
 
