@@ -23,6 +23,14 @@ Questa unità didattica può essere adattata sia verso studenti di età inferior
 La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.
 L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.
 
+## Contestualizzazione teorica
+
+L’attività didattica si inserisce nell’ambito dell’educazione al pensiero computazionale e alla comprensione dei fondamenti del digitale, in particolare del processo di digitalizzazione del suono. Questo processo è governato da due principi fondamentali: il campionamento e la quantizzazione. Il Teorema di Nyquist-Shannon stabilisce che per rappresentare fedelmente un segnale analogico, è necessario campionarlo ad una frequenza almeno doppia rispetto alla massima frequenza presente nel segnale. Se questa condizione non è rispettata, si verifica il fenomeno dell’aliasing, ovvero la comparsa di distorsioni nel segnale digitale.
+
+La quantizzazione, invece, consiste nell’approssimare ogni campione a un valore discreto all’interno di un numero finito di livelli, determinati dalla profondità in bit. Questo introduce un errore chiamato rumore di quantizzazione, che può ridurre la qualità del segnale audio risultante. In termini didattici, questi concetti rappresentano un’occasione per esplorare in modo interdisciplinare nozioni di matematica (discretizzazione, numeri binari) e di fisica (onde sonore), rendendoli tangibili attraverso attività concrete e visive.
+
+Questi principi, benché astratti, possono essere veicolati efficacemente anche a studenti della scuola secondaria di primo grado tramite attività unplugged, come la rappresentazione su carta millimetrata, e con esempi uditivi selezionati. Tuttavia, come evidenziato nella riflessione critica, è essenziale che la progettazione didattica tenga conto delle limitazioni percettive e cognitive degli studenti, affinché la traduzione pratica dei concetti teorici risulti significativa e accessibile.
+
 ### Obiettivo generale
 
 Accompagnare gli studenti della scuola secondaria di primo grado alla scoperta del mondo digitale attraverso attività unplugged legate al suono, favorendo la comprensione dei concetti di campionamento, quantizzazione, e rappresentazione numerica del suono.
@@ -62,8 +70,6 @@ Sviluppare il pensiero computazionale attraverso la rappresentazione di dati.
 Acquisire consapevolezza del ruolo della digitalizzazione nella vita quotidiana (es. musica digitale, telefonia, videochiamate).
 
 **Competenze trasversali**
-
-Competenze Trasversali
 
 - Collaborazione: lavorare in gruppo per analizzare e trasformare il suono.
 
@@ -280,8 +286,6 @@ Cosa è andato 'perso' nel processo? (La 'morbidezza', i valori intermedi).
 Questa forma a gradini rappresenta il suono come lo sentirebbe il computer, basandosi solo sui numeri che abbiamo ottenuto."
 
 
-
-
 ## Spazi
 
 Aula scolastica standard con banchi adatti per disegnare.
@@ -301,6 +305,16 @@ Matite colorate o pennarelli a punta fine (almeno 2 colori diversi per studente/
 Righello (opzionale, può aiutare a tracciare i livelli di quantizzazione).
 
 Lavagna/LIM e pennarelli/pennino.
+
+## Riflessione critica sull'attività
+
+Durante la progettazione dell’unità didattica, una delle principali sfide emerse ha riguardato la realizzazione e la presentazione di esempi audio campionati a diverse frequenze e con differenti livelli di quantizzazione. L’obiettivo era mostrare chiaramente agli studenti le conseguenze della riduzione della frequenza di campionamento e della profondità di bit sulla qualità sonora. Sebbene tecnicamente sia stato possibile produrre questi audio, in pratica la differenza tra un suono ad alta qualità (ad esempio 44.1 kHz, 16 bit) e uno degradato (es. 8 kHz, 8 bit) non sempre è risultata percepibile in modo marcato all’ascolto.
+
+In alcune situazioni, l’audio a bassa qualità risultava chiaramente distorto o "metallico", ma in altri casi la differenza era molto più sottile, soprattutto per suoni semplici o vocali singole. Questo rischio di ambiguità percettiva potrebbe confondere gli studenti più giovani, portandoli a concludere erroneamente che la qualità digitale non dipenda in modo rilevante dal campionamento o dalla quantizzazione. In altre parole, si rischia di compromettere l’efficacia dimostrativa dell’attività se gli esempi non risultano immediatamente e chiaramente differenti.
+
+Questa discrepanza trova una spiegazione sia nei limiti della percezione uditiva umana, che è meno sensibile a certe degradazioni (soprattutto in ambienti d'ascolto non ideali), sia nel contenuto del segnale audio scelto: suoni semplici e privi di molte alte frequenze mantengono una qualità percepita anche a basse risoluzioni. Inoltre, moderni codec e sistemi di riproduzione possono introdurre miglioramenti o compensazioni che riducono l’effetto delle distorsioni, falsando ulteriormente la dimostrazione.
+
+Alla luce di queste osservazioni, si può concludere che una lezione che mira a far percepire chiaramente le differenze tra livelli di campionamento e quantizzazione richiede un’attenta selezione degli esempi audio e, possibilmente, l’uso di rappresentazioni visive (come forme d’onda o grafici su carta millimetrata) per supportare la comprensione anche quando l’udito non coglie pienamente la differenza. Questo dimostra che l’attività, per quanto ben pianificata, può risultare più complessa del previsto e necessita di una progettazione didattica mirata per garantire un apprendimento efficace.
 
 # Conclusione
 
@@ -329,8 +343,7 @@ Il materiale principale sono i fogli di carta millimetrata e le istruzioni verba
 
 # Bibliografia
 
-Citare le fonti utilizzate (si consiglia ad esempio bibtex o biblatex).
-Scegliere lo stile preferito, e mantenerlo coerente ([esempio](https://www.acm.org/publications/authors/reference-formatting))
+[Doremat - La musica della matematica: il suono dell’aritmetica](https://blog.matematica.deascuola.it/articoli/doremat-la-musica-della-matematica-il-suono-dellaritmetica?utm_source=chatgpt.com)
 
 # Licenza del documento
 
