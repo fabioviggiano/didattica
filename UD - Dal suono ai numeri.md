@@ -16,7 +16,25 @@ Questa unità didattica può essere adattata sia verso studenti di età inferior
 
 **Scuola Primaria (classi 4-5):** Semplificando ulteriormente la terminologia, usando griglie più grandi e meno livelli di quantizzazione, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
 
+Obiettivo: introdurre il concetto di “trasformare suoni in numeri” in modo intuitivo.
+
+Adattamento:
+
+- Utilizzo di una linea del tempo con disegni al posto del grafico (es. rappresentare l’intensità del suono con l’altezza di barrette colorate).
+
+- Introduzione del concetto di “fotografare” il suono in momenti precisi (campionamento) con esempi come scattare tante foto in sequenza.
+
 **Scuola Secondaria di II grado (primo biennio):** Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il trade-off qualità/dimensione file.
+
+Obiettivo: collegare l'attività a concetti più formali di informatica, matematica e fisica.
+
+Adattamento:
+
+- Aggiunta di una seconda parte in cui si mostra come il segnale può essere rappresentato come array numerici (es. su fogli di calcolo).
+
+- Introduzione dei concetti di frequenza di campionamento, bit depth, aliasing.
+
+- Se disponibile, utilizzo di strumenti digitali (come Audacity o Python) per confrontare grafici manuali con versioni digitali.
 
 ## Motivazione e finalità
 
@@ -305,6 +323,18 @@ Matite colorate o pennarelli a punta fine (almeno 2 colori diversi per studente/
 Righello (opzionale, può aiutare a tracciare i livelli di quantizzazione).
 
 Lavagna/LIM e pennarelli/pennino.
+
+## Adattamento secondo le risorse disponibili
+
+Nessuna tecnologia disponibile
+
+Usa strumenti analogici: righello, penna, carta millimetrata.
+Utilizza la voce o strumenti musicali reali per generare il suono da rappresentare.
+
+Tecnologia disponibile
+
+Registra la voce degli studenti e visualizzala con software audio (es. Audacity).
+Confronta le loro rappresentazioni su carta con quelle digitali.
 
 ## Riflessione critica sull'attività
 
