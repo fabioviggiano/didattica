@@ -18,10 +18,60 @@ Questa unità didattica può essere adattata sia verso studenti di età inferior
 
 **Scuola Secondaria di II grado (primo biennio):** Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il trade-off qualità/dimensione file.
 
-## Motivazione e Finalità
+## Motivazione e finalità
 
 La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.
 L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.
+
+### Obiettivo generale
+
+Accompagnare gli studenti della scuola secondaria di primo grado alla scoperta del mondo digitale attraverso attività unplugged legate al suono, favorendo la comprensione dei concetti di campionamento, quantizzazione, e rappresentazione numerica del suono.
+
+### Obiettivi Specifici
+
+**Area: Tecnologia / Informatica**
+
+Comprendere che i dispositivi digitali rappresentano i suoni attraverso numeri.
+
+Intuire i concetti base di analogico vs digitale.
+
+Conoscere il processo di campionamento (trasformazione di un segnale continuo in una sequenza discreta).
+
+Conoscere il processo di quantizzazione (approssimazione del valore di ciascun campione a un insieme finito di valori).
+
+Rappresentare graficamente un suono semplificato su carta millimetrata e convertirlo in valori numerici.
+
+Riflettere sui limiti e le approssimazioni della digitalizzazione del suono.
+
+**Area: Matematica**
+
+Usare il piano cartesiano per rappresentare graficamente funzioni semplici.
+
+Saper leggere e scrivere coordinate (tempo, ampiezza).
+
+Comprendere il significato di “intervallo”, “scala”, “valore medio”, “errore di approssimazione”.
+
+Applicare semplici trasformazioni numeriche (arrotondamenti, troncamenti).
+
+**Area: Educazione Civica / Competenze digitali**
+
+Comprendere che il digitale è costruito su astrazioni e scelte progettuali.
+
+Sviluppare il pensiero computazionale attraverso la rappresentazione di dati.
+
+Acquisire consapevolezza del ruolo della digitalizzazione nella vita quotidiana (es. musica digitale, telefonia, videochiamate).
+
+**Competenze trasversali**
+
+Competenze Trasversali
+
+- Collaborazione: lavorare in gruppo per analizzare e trasformare il suono.
+
+- Problem solving: risolvere situazioni didattiche attraverso modelli.
+
+- Pensiero critico: riflettere sulle differenze tra mondo analogico e digitale.
+
+- Comunicazione: raccontare in modo efficace ciò che si è fatto (es. presentazione finale dell’attività).
 
 ## Innovatività
 
@@ -264,7 +314,16 @@ Domande durante la discussione: Porre domande mirate per verificare la comprensi
 
 Analisi dei grafici prodotti: Raccogliere (anche temporaneamente) i fogli per osservare il risultato finale. Il confronto tra l'onda originale e quella a gradini è un buon indicatore della comprensione del processo di approssimazione.
 
-(Opzionale) Breve quiz/domanda aperta alla fine: Chiedere di spiegare a parole proprie uno dei concetti chiave o di disegnare un esempio semplice.
+Al termine dell’attività, gli studenti producono:
+
+- Una rappresentazione grafica del segnale campionato su carta millimetrata;
+
+- Una tabella con i valori numerici ottenuti dalla quantizzazione;
+
+- Una breve riflessione scritta o orale (individuale o di gruppo) su cosa hanno scoperto e imparato.
+
+Ciò che si valuta sono: accuratezza, coerenza con la traccia, uso corretto dei termini.
+
 
 Il materiale principale sono i fogli di carta millimetrata e le istruzioni verbali/dimostrazioni dell'insegnante. Non è previsto materiale cartaceo aggiuntivo per mantenere la natura fluida e adattabile dell'attività unplugged, ma si potrebbe fornire un foglio riassuntivo alla fine con i termini chiave e una definizione semplice.
 
