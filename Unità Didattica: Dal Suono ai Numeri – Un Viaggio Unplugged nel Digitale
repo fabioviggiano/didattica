@@ -1,5 +1,5 @@
 ---
-title: Il suono digitale - Campionamento e quantizzazione
+title: Dal Suono ai numeri – Un viaggio unplugged nel digitale
 author: Fabio Viggiano
 date: 19/05/2025
 ---
@@ -132,20 +132,13 @@ Obiettivi specifici in forma operativa (Lo studente/la studentessa è in grado d
 
 **Azione 2**: Chiedere agli studenti di disegnare la propria onda sonora personale, con una frase come:
 
-"Ora disegnate la vostra onda sonora sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Disegnate a vostra scelta: una sinusoide, un' onda quadra, una triangolare, dente di sega. Usate la matita così da potete correggere."
+"Ora disegnate con una matita la vostra onda sonora sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Disegnate a vostra scelta: una sinusoide, un' onda quadra, una triangolare o a dente di sega."
 
-Nel mentre della frase sarebbe bene disegnare gli esempi delle divese onde sonore per agevolare chi ha più difficoltà nel disegno.
+Nel mentre della richiesta sarebbe bene disegnare gli esempi delle divese onde sonore per agevolare chi ha più difficoltà nel disegno.
 
 **Guida studente**:
 
-"Ora disegnate la vostra onda sonora personale sulla carta millimetrata. Usate l'asse orizzontale per il tempo e quello verticale per il volume. Disegnate:
-
-- una sinusoide
-- un' onda quadra
-- una triangolare
-- dente di sega
-
-Usate la matita così potete correggere."
+Disegnare l' onda sonora secondo le richieste del docente (tipologai di onda, utilizzo di matita).
 
 Si raccomanda una lineea di minimo e una di massimo distanti 12.8 cm (o 25.6), in modo da leggere i millimetri. 
 
@@ -153,7 +146,7 @@ Si raccomanda una lineea di minimo e una di massimo distanti 12.8 cm (o 25.6), i
 
 **Guida insegnante**:
 
-Spiegare: "Il computer non può 'vedere' tutta la curva contemporaneamente. Deve guardarla un pezzetto alla volta, a intervalli regolari. È come fare delle foto (o misurare l'altezza) dell'onda ogni secondo, o ogni mezzo secondo. Questo si chiama Campionamento."
+Spiegare: "Il computer non può 'vedere' tutta la curva contemporaneamente. Deve guardarla un pezzetto alla volta, a intervalli regolari. È come fare delle foto (o misurare l'altezza) dell'onda ogni secondo, o ogni mezzo secondo. Questo si chiama **campionamento**."
 
 Decidere insieme una "frequenza di campionamento" visiva. Suggerimento: "Proviamo a misurare la nostra onda ogni 3 quadretti sull'asse del tempo." (Scegliere un intervallo che generi un numero ragionevole di campioni, es. 8-15 punti).
 
@@ -248,16 +241,16 @@ Lavagna o LIM per le spiegazioni e dimostrazioni dell'insegnante.
 ## Materiali e Strumenti
 
 Fogli di carta millimetrata (almeno 2-3 per studente/coppia).
+
 Matite con punta media (HB o simile).
+
 Gomme per cancellare.
+
 Matite colorate o pennarelli a punta fine (almeno 2 colori diversi per studente/coppia, es. nero e rosso).
+
 Righello (opzionale, può aiutare a tracciare i livelli di quantizzazione).
+
 Lavagna/LIM e pennarelli/pennino.
-Cassa bluetooth.
-
-# Sviluppo dei contenuti
-
-
 
 # Conclusione
 
