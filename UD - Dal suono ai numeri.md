@@ -1,5 +1,5 @@
 ---
-title: Dal suono ai numeri – Un viaggio unplugged nel digitale
+title: 
 author: Fabio Viggiano
 date: 19/05/2025
 ---
