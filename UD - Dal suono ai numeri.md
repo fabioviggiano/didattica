@@ -10,21 +10,23 @@ Esame di Didattica dell'Informatica - A.A. 2024/2025
 
 ## Livello di scuola, classe/i, indirizzo
 
-L' unità didattica è rivolta a studenti e studentesse di età compresa tra gli 11 e i 13/14 anni (scuola secondaria di I grado). "L'informatica, che è la disciplina prevalente, si integra con tecnologia (processi di trasformazione), matematica (grafici cartesiani, approssimazione), scienze (onde sonore) e musica (natura del suono)." potrebbe essere riformulato leggermente per dare più enfasi all'integrazione: "L'informatica, disciplina prevalente dell'unità, si integra in modo interdisciplinare con la tecnologia (i processi di trasformazione), la matematica (in particolare grafici cartesiani e approssimazione), le scienze (attraverso lo studio delle onde sonore) e la musica (considerando la natura del suono)
+L' unità didattica è rivolta a studenti e studentesse di età compresa tra gli 11 e i 13/14 anni (scuola secondaria di I grado).
 
-In estrema sintesi, l'obiettivo è far apprendere agli studenti il concetto di suono digitale e i processi di campionamento e quantizzazione. Questo sarà introdotto facendo disegnare loro un'onda sonora su carta millimetrata. Prima di entrare nei dettagli della lezione, vediamo come questa unità didattica può essere adattata a studenti di età inferiore e superiore:
+L'informatica, disciplina prevalente dell'unità, si integra in modo interdisciplinare con la tecnologia (i processi di trasformazione), la matematica (in particolare grafici cartesiani e approssimazione), le scienze (attraverso lo studio delle onde sonore) e la musica (considerando la natura del suono)
 
-**Scuola Primaria (classi 4-5):** Semplificando la terminologia, usando griglie più grandi e meno livelli di quantizzazione, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
+In estrema sintesi, l'obiettivo è far apprendere agli studenti il concetto di suono digitale, insieme ai processi di campionamento e quantizzazione che ne permettono la rappresentazione e l'elaborazione mediante strumenti informatici. Questo verrà illustrato facendo disegnare loro un'onda sonora su carta millimetrata. Prima di entrare nei dettagli della lezione, vediamo come questa unità didattica può essere adattata a studenti di età inferiore e superiore:
+
+**Scuola Primaria (classi 4-5):** Semplificando la terminologia, usando griglie più grandi come il classico foglio del quaderno a quadretti e meno livelli di quantizzazione, l' uso di matite colorate, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
 
 Obiettivo: introdurre il concetto di “trasformare suoni in numeri” in modo intuitivo.
 
 Adattamento:
 
-- Utilizzo di una linea del tempo con disegni al posto del grafico (es. rappresentare l’intensità del suono con l’altezza di barrette colorate).
+- Utilizzo di una linea del tempo con disegni al posto del grafico ad esempio disegnando l’intensità del suono con l’altezza di barrette colorate.
 
 - Introduzione del concetto di “fotografare” il suono in momenti precisi (campionamento) con esempi come scattare tante foto in sequenza.
 
-**Scuola Secondaria di II grado (primo biennio):** Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il trade-off qualità/dimensione file.
+**Scuola Secondaria di II grado (primo biennio):** Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il compromesso tra la qualità e la dimensione file.
 
 Obiettivo: collegare l'attività a concetti più formali di informatica, matematica e fisica.
 
@@ -34,12 +36,17 @@ Adattamento:
 
 - Introduzione dei concetti di frequenza di campionamento, bit depth, aliasing.
 
-- Se disponibile, utilizzo di strumenti digitali (come Audacity o Python) per confrontare grafici manuali con versioni digitali.
+- Se disponibile, utilizzo di strumenti digitali per confrontare grafici manuali con versioni digitali.
 
 ## Motivazione e finalità
 
 La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.
-L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.
+
+L' idea nasce da due grandi passioni ossia la tecnologia e la musica, questi due percorsi si sono spesso intrecciati nel mio percorso e nell' iptozzizare un argomento di lezione ho pensato alle basi del suono digitale, uno dei primi passi di qualsiasi musicista o fruitore dell' ascolto della musica in digitale quando la curiosità lo porta d interrogarsi su cosa si cela dietro il tasto Play di un riproduttore di suoni. 
+
+L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione. 
+
+Nelle prime battute l'idea era ad un bivio tra un approccio ancora più interattivo attraverso l'uso di campionamenti e quantizzazioni differenti da provare in aula ed una approccio attraverso lo sviluppo di codice, in entrambi i casi si sono però intraviste criticità, in primis sull' andare contro i principi dell' attività unplugged, tali sviluppi sono dunque da rimandare verso un percorso più ampio e più specifico negli studi musicali.
 
 ## Contestualizzazione teorica
 
@@ -73,19 +80,19 @@ Riflettere sui limiti e le approssimazioni della digitalizzazione del suono.
 
 Usare il piano cartesiano per rappresentare graficamente funzioni semplici.
 
-Saper leggere e scrivere coordinate (tempo, ampiezza).
+- Saper leggere e scrivere coordinate (tempo, ampiezza).
 
-Comprendere il significato di “intervallo”, “scala”, “valore medio”, “errore di approssimazione”.
+- Comprendere il significato di “intervallo”, “scala”, “valore medio”, “errore di approssimazione”.
 
-Applicare semplici trasformazioni numeriche (arrotondamenti, troncamenti).
+- Applicare semplici trasformazioni numeriche (arrotondamenti, troncamenti).
 
 **Area: Educazione Civica / Competenze digitali**
 
-Comprendere che il digitale è costruito su astrazioni e scelte progettuali.
+- Comprendere che il digitale è costruito su astrazioni e scelte progettuali.
 
-Sviluppare il pensiero computazionale attraverso la rappresentazione di dati.
+- Sviluppare il pensiero computazionale attraverso la rappresentazione di dati.
 
-Acquisire consapevolezza del ruolo della digitalizzazione nella vita quotidiana (es. musica digitale, telefonia, videochiamate).
+- Acquisire consapevolezza del ruolo della digitalizzazione nella vita quotidiana.
 
 **Competenze trasversali**
 
@@ -153,7 +160,7 @@ Questa unità didattica può definirsi come: "Campionamento e quantizzazione unp
 
 ### Traguardi/obiettivi generali dai documenti ministeriali/proposte
 
-Traguardi/obiettivi generali dai documenti ministeriali/proposte: 
+Traguardi/obiettivi generali: 
 
 Comprendere il concetto di **campionamento** di un segnale audio.
 Intuire il significato di **quantizzazione** e di **perdita di informazione**.
@@ -161,22 +168,25 @@ Collegare il mondo fisico (suono) con la sua rappresentazione digitale.
 Favorire il pensiero **computazionale** attraverso la rappresentazione di dati continui in forma discreta.
 Stimolare l’ **osservazione critica** e il **ragionamento scientifico**.
 
-Obiettivi specifici in forma operativa (Lo studente/la studentessa è in grado di...):
+Obiettivi specifici in forma operativa:
 
-(Ricordare) Elencare i due passaggi principali della digitalizzazione audio (campionamento, quantizzazione).
+Lo studente/la studentessa è in grado di...
 
-(Comprendere) Spiegare a parole proprie la differenza tra un'onda disegnata liscia (analogica) e una a gradini (digitale).
-(Comprendere) Spiegare perché il campionamento consiste nel misurare il segnale a intervalli regolari.
-(Comprendere) Spiegare perché la quantizzazione consiste nell'arrotondare il valore misurato a livelli predefiniti.
+- (Ricordare) Elencare i due passaggi principali della digitalizzazione audio (campionamento, quantizzazione).
 
-(Applicare) Disegnare una semplice curva continua su carta millimetrata per rappresentare un segnale analogico.
-(Applicare) Identificare e segnare i punti di campionamento su una curva data, secondo un intervallo specificato.
-(Applicare) Approssimare il valore di ciascun campione al livello di quantizzazione più vicino su un grafico.
-(Applicare) Ricostruire graficamente (a gradini) il segnale digitale partendo dai punti quantizzati.
-(Analizzare) Confrontare il segnale originale e quello digitale ricostruito, identificando le differenze.
+- (Comprendere) Spiegare a parole proprie la differenza tra un'onda disegnata liscia (analogica) e una a gradini (digitale).
+- (Comprendere) Spiegare perché il campionamento consiste nel misurare il segnale a intervalli regolari.
+- (Comprendere) Spiegare perché la quantizzazione consiste nell'arrotondare il valore misurato a livelli predefiniti.
 
-(Valutare) Prevedere (intuitivamente) l'effetto sulla fedeltà del segnale digitale cambiando la frequenza di campionamento (intervallo tra i punti).
-(Valutare) Prevedere (intuitivamente) l'effetto sulla fedeltà del segnale digitale cambiando il numero di livelli di quantizzazione.
+- (Applicare) Disegnare una semplice curva continua su carta millimetrata per rappresentare un segnale analogico.
+- (Applicare) Identificare e segnare i punti di campionamento su una curva data, secondo un intervallo specificato.
+- (Applicare) Approssimare il valore di ciascun campione al livello di quantizzazione più vicino su un grafico.
+- (Applicare) Ricostruire graficamente (a gradini) il segnale digitale partendo dai punti quantizzati.
+
+- (Analizzare) Confrontare il segnale originale e quello digitale ricostruito, identificando le differenze.
+
+- (Valutare) Prevedere intuitivamente l'effetto sulla fedeltà del segnale digitale cambiando la frequenza di campionamento (intervallo tra i punti).
+- (Valutare) Prevedere intuitivamente l'effetto sulla fedeltà del segnale digitale cambiando il numero di livelli di quantizzazione.
 
 ## Metodologie didattiche
 
