@@ -4,19 +4,19 @@ author: Fabio Viggiano
 date: 02/07/2025
 ---
 
-Esame di Didattica dell'Informatica, A.A. 2024/2025
+Esame di didattica dell'informatica, A.A. 2024/2025
 
-Dal suono ai numeri un viaggio unplugged nel digitale
+Dal suono ai numeri: un viaggio unplugged nel digitale
 
 Fabio Viggiano - 0001195183
 
-# Changelog 
+# Changelog
 
-Questa relazione è stata consegnata a fine Maggio, ricevute le indicazioni per migliorarla, sono state apportare le seguenti modifiche::
+Questa relazione è stata consegnata a fine maggio, ricevute le indicazioni per migliorarla, sono state apportate le seguenti modifiche:
 
-* sono state rese più le parti più complesse attraverso l’ uso di un linguaggio più orientato al livello di conoscenze degli studenti
+* sono state rese più fluide le parti ritenute complesse attraverso l’uso di un linguaggio più orientato al livello di conoscenze degli studenti
 * riscrittura degli obiettivi al fine di renderli misurabili
-
+* migliorate le guide per insegnanti e studenti
 
 # Inquadramento del lavoro
 
@@ -26,32 +26,32 @@ L'unità didattica è rivolta a studenti e studentesse di età compresa tra gli 
 
 L'informatica, disciplina prevalente dell'unità, si integra in modo interdisciplinare con la tecnologia (i processi di trasformazione), la matematica (in particolare grafici cartesiani e approssimazione), le scienze (attraverso lo studio delle onde sonore) e la musica (considerando la natura del suono).
 
-In estrema sintesi, l'obiettivo è far apprendere agli studenti il concetto di suono digitale, insieme ai processi di campionamento e quantizzazione che ne permettono la rappresentazione e l'elaborazione mediante strumenti informatici. Questo verrà illustrato facendo disegnare loro un'onda sonora su carta millimetrata. Prima di entrare nei dettagli della lezione, vediamo come questa unità didattica può essere adattata a studenti di età inferiore e superiore:
+L'obiettivo è far apprendere agli studenti il concetto di suono digitale, insieme ai processi di campionamento e quantizzazione che ne permettono la rappresentazione e l'elaborazione mediante strumenti informatici. Questo verrà illustrato facendo disegnare loro un'onda sonora su carta millimetrata. Vediamo come questa unità didattica può inoltre essere adattata a studenti di età inferiore e superiore:
 
-Scuola Primaria (classi 4-5): Semplificando la terminologia, usando griglie più grandi come il classico foglio del quaderno a quadretti e meno livelli di quantizzazione, l'uso di matite colorate, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
+Scuola primaria (classi 4-5): semplificando la terminologia, usando griglie più grandi come il classico foglio del quaderno a quadretti e meno livelli di quantizzazione, l'uso di matite colorate, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
 
 Obiettivo: introdurre il concetto di “trasformare suoni in numeri” in modo intuitivo.
 
-Adattamento: 
+Adattamento:
 
-- Utilizzo di una linea del tempo con disegni al posto del grafico, ad esempio disegnando l’intensità del suono con l’altezza di barrette colorate.
-- Introduzione del concetto di “fotografare” il suono in momenti precisi (campionamento) con esempi come scattare tante foto in sequenza.
+- utilizzo di una linea del tempo con disegni al posto del grafico, ad esempio disegnando l’intensità del suono con l’altezza di barrette colorate
+- introduzione del concetto di “fotografare” il suono in momenti precisi (campionamento) con esempi come scattare tante foto in sequenza
 
-Scuola Secondaria di II grado (primo biennio): Introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il compromesso tra la qualità e la dimensione file.
+Scuola secondaria di II grado (primo biennio): introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il compromesso tra la qualità e la dimensione file.
 
 Obiettivo: collegare l'attività a concetti più formali di informatica, matematica e fisica.
 
 Adattamento:
 
-- Aggiunta di una seconda parte in cui si mostra come il segnale può essere rappresentato come array numerici (es. su fogli di calcolo).
-- Introduzione dei concetti di frequenza di campionamento, bit depth, aliasing.
-- Se disponibile, utilizzo di strumenti digitali per confrontare grafici manuali con versioni digitali.
+- aggiunta di una seconda parte in cui si mostra come il segnale può essere rappresentato come array numerici (es. su fogli di calcolo)
+- introduzione dei concetti di frequenza di campionamento, bit depth, aliasing
+- se disponibile, utilizzo di strumenti digitali per confrontare grafici manuali con versioni digitali
 
 ## Motivazione e finalità
 
 La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.
 
-L'idea nasce da due grandi passioni, ossia la tecnologia e la musica; questi due percorsi si sono spesso intrecciati nel mio percorso e, nell'ipotizzare un argomento di lezione, ho pensato alle basi del suono digitale, uno dei primi passi di qualsiasi musicista o fruitore dell'ascolto della musica in digitale quando la curiosità lo porta d'interrogarsi su cosa si cela dietro il tasto Play di un riproduttore di suoni.
+L'idea nasce da due grandi passioni, ossia la tecnologia e la musica; questi due percorsi si sono spesso intrecciati nel mio percorso e, nell'ipotizzare un argomento di lezione, ho pensato alle basi del suono digitale, uno dei primi passi di qualsiasi musicista o fruitore dell'ascolto della musica in digitale quando la curiosità lo porta a interrogarsi su cosa si cela dietro il tasto play di un riproduttore di suoni.
 
 L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.
 
@@ -61,32 +61,29 @@ Nelle prime battute l'idea era a un bivio tra un approccio ancora più interatti
 
 Sebbene le attività unplugged per l'informatica siano diffuse, questa proposta si focalizza specificamente sulla visualizzazione manuale e combinata del campionamento e della quantizzazione su carta millimetrata come processo sequenziale applicato a un segnale disegnato dagli studenti stessi. L'approccio manuale rende più chiari i passaggi e l'approssimazione necessaria, cosa che le simulazioni software fanno meno.
 
-Esistono risorse online e attività unplugged generiche sulla rappresentazione binaria. CS Unplugged sulla rappresentazione delle immagini, ma meno focalizzate sul processo A/D audio in questo modo specifico. Questa unità:
+Esistono risorse online e attività unplugged generiche sulla rappresentazione binaria, come CS Unplugged sulla rappresentazione delle immagini, ma meno focalizzate sul processo A/D audio in questo modo specifico. Questa unità:
 
-- Mantiene: l'approccio unplugged e l'uso di metafore concrete.
-- Differenzia/Migliora: Integra campionamento e quantizzazione in un unico flusso di lavoro manuale, partendo da un "segnale" creato dallo studente, rendendo il processo più personale e tangibile. Enfatizza la visualizzazione della perdita di informazione confrontando il disegno originale con quello "digitalizzato".
+- mantiene: l'approccio unplugged e l'uso di metafore concrete
+- differenzia/migliora: integra campionamento e quantizzazione in un unico flusso di lavoro manuale, partendo da un "segnale" creato dallo studente, rendendo il processo più personale e tangibile. Enfatizza la visualizzazione della perdita di informazione confrontando il disegno originale con quello "digitalizzato".
 
 L'innovatività della lezione in questione è quindi presente come lo studente creatore del segnale, quindi protagonista del processo. La digitalizzazione avviene fisicamente, passo-passo, su carta, rendendo visibile e modificabile ogni singolo passo della conversione A/D; a ciò si aggiunge la riproduzione del suono rendendo la lezione, se possibile, anche interattiva.
 
 ## Prerequisiti
 
-Comprensione di base di un grafico cartesiano (asse x = tempo, asse y = ampiezza/valore).
-
-Capacità di leggere valori su un asse graduato.
-
-Concetto intuitivo di "segnale che cambia nel tempo" (es. volume della musica, altezza di una collina).
-
-Concetto di approssimazione (arrotondamento a un valore vicino).
+- comprensione di base di un grafico cartesiano (asse x = tempo, asse y = ampiezza/valore)
+- capacità di leggere valori su un asse graduato
+- concetto intuitivo di "segnale che cambia nel tempo" (es. volume della musica, altezza di una collina)
+- concetto di approssimazione (arrotondamento a un valore vicino)
 
 ### Percorso
 
-Questa attività può essere considerata autoconsistente per introdurre i concetti base, può però far parte di un percorso più ampio sull'introduzione al suono come onda sonora (Scienze/Musica).
+Questa attività può essere considerata autoconsistente per introdurre i concetti base, può però far parte di un percorso più ampio sull'introduzione al suono come onda sonora (scienze/musica).
 
-Questa unità didattica può definirsi come: "Campionamento e quantizzazione unplugged". Ad essa, si possono collegare in incontri successivi dei passaggi come:
+Questa unità didattica può definirsi come: "campionamento e quantizzazione unplugged". Ad essa, si possono collegare in incontri successivi dei passaggi come:
 
-- Introduzione alla rappresentazione binaria dei numeri (collegare i livelli di quantizzazione ai bit).
-- Utilizzo di software semplice di editing audio (es. Audacity) per visualizzare forme d'onda reali e gli effetti di cambi di frequenza di campionamento/bit depth (collegamento al concreto).
-- Discussione sulla compressione audio come passo successivo.
+- introduzione alla rappresentazione binaria dei numeri (collegare i livelli di quantizzazione ai bit)
+- utilizzo di software semplice di editing audio (es. Audacity) per visualizzare forme d'onda reali e gli effetti di cambi di frequenza di campionamento/bit depth (collegamento al concreto)
+- discussione sulla compressione audio come passo successivo
 
 ### Contestualizzazione storica
 
@@ -102,82 +99,93 @@ Accompagnare gli studenti della scuola secondaria di primo grado alla scoperta d
 
 ## Contenuti (spiegati a un informatico)
 
-Conversione Analogico-Digitale (ADC)
+Conversione analogico-digitale (ADC)
 
-Campionamento: Discretizzazione dell'asse temporale. Acquisizione del valore del segnale a intervalli regolari T (periodo di campionamento). Frequenza di campionamento fs = 1/T. (Si introduce solo l'idea intuitiva che campionare più spesso cattura meglio le variazioni rapide).
+Campionamento: discretizzazione dell'asse temporale. Acquisizione del valore del segnale a intervalli regolari T (periodo di campionamento). Frequenza di campionamento fs = 1/T. (Si introduce solo l'idea intuitiva che campionare più spesso cattura meglio le variazioni rapide).
 
-Quantizzazione: Discretizzazione dell'asse delle ampiezze. Approssimazione del valore campionato al livello più vicino tra un insieme finito di livelli discreti (Quantizzazione scalare uniforme). Il numero di livelli è legato alla risoluzione (bit depth). (Si introduce solo l'idea di "arrotondare" a valori predefiniti).
+Quantizzazione: discretizzazione dell'asse delle ampiezze. Approssimazione del valore campionato al livello più vicino tra un insieme finito di livelli discreti (quantizzazione scalare uniforme). Il numero di livelli è legato alla risoluzione (bit depth). (Si introduce solo l'idea di "arrotondare" a valori predefiniti).
 
-Errore di quantizzazione: Differenza tra l'ampiezza esatta del campione e il valore digitale assegnato dalla quantizzazione. È l'inevitabile scarto dovuto all'approssimazione a livelli finiti.
+Errore di quantizzazione: differenza tra l'ampiezza esatta del campione e il valore digitale assegnato dalla quantizzazione. È l'inevitabile scarto dovuto all'approssimazione a livelli finiti.
 
-Rappresentazione digitale come sequenza di numeri: Il segnale audio, dopo campionamento e quantizzazione, diventa una successione di valori numerici. Ogni numero codifica l'ampiezza di un campione in un preciso istante.
+Rappresentazione digitale come sequenza di numeri: il segnale audio, dopo campionamento e quantizzazione, diventa una successione di valori numerici. Ogni numero codifica l'ampiezza di un campione in un preciso istante.
 
 ## Grandi idee
 
-Rappresentazione dei Dati: Come l'informazione continua del mondo reale (suono) viene rappresentata in forma discreta (numeri) comprensibile a un computer.
+Rappresentazione dei dati: come l'informazione continua del mondo reale (suono) viene rappresentata in forma discreta (numeri) comprensibile a un computer.
 
-Astrazione: Il processo di campionamento e quantizzazione è un'astrazione che semplifica la complessità del segnale reale, perdendo dettagli ma rendendolo manipolabile.
+Astrazione: il processo di campionamento e quantizzazione è un'astrazione che semplifica la complessità del segnale reale, perdendo dettagli ma rendendolo manipolabile.
 
 ## Traguardi e obiettivi
 
 ### Traguardi generali dai documenti ministeriali/proposte
 
-L’ attività si inserisce in un quadro nazionale e risponde a precise richieste istituzionali.
+L’attività si inserisce in un quadro nazionale e risponde a precise richieste istituzionali.
 
-#### Proposta di Indicazioni Nazionali per l'insegnamento dell’Informatica nella Scuola
+#### Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola
 
 Secondo il documento del CINI, i traguardi raggiunti per lo sviluppo delle competenze al termine di questa unità didattica saranno:
-T-M-1 l’allievo comprende l’esigenza di precisione affinché le istruzioni vengano interpretate sempre nello stesso modo da un esecutore automatico;
-T-M-2 descrive in maniera algoritmica semplici processi della natura o della vita quotidiana o studiati in altre discipline;
-T-M-3 comprende l'importanza e la necessità di riflettere sulla correttezza delle descrizioni algoritmiche;
-T-M-7 riconosce dati di ingresso e di uscita delle applicazioni informatiche;
-T-M-9 classifica le tipologie di dati (es.: numerici, testuali, ...);
-T-M-10 conosce l'architettura di principio (fisica e funzionale) di un sistema di
-elaborazione digitale;
-T-M-11 riconosce le componenti hardware e software dei sistemi di elaborazione digitale;
-T-M-14 seleziona ed utilizza, anche in modo combinato, programmi e servizi software per raggiungere uno specifico obiettivo;
-T-M-15 sperimenta le potenzialità della tecnologia informatica come strumento di espressione personale;
-O-M-D-2 effettuare operazioni semplici su simboli che rappresentano informazione strutturata (es. numeri binari, immagini "bitmap").
-#### Nuove Indicazioni 2025 -  Scuola dell’infanzia e primo ciclo di istruzione
 
-Secondo il testo reperibile sul sito del Ministero dell’ Istruzione che definisce le linee di indirizzo dei nuovi curricoli per le scuole dell’infanzia, nell’ ambito degli obiettivi specifici di apprendimento, al termine dell’ unità didattica, gli allievi:
-(Numeri) sapranno fornire stime approssimate per il risultato di una operazione e controllare la plausibilità di un calcolo;
-(Spazio e figure) rappresentare punti, segmenti e figure nel piano cartesiano;
-(Spazio e figure) descrivere figure complesse e costruzioni geometriche al fine di comunicarle ad altri;
-(Spazio e figure) riprodurre figure e disegni geometrici in base a una descrizione e codificazione fatta da altri;
-(Dati e previsioni) rappresentare insiemi di dati, anche facendo uso di software;
-(Informatica) esprimere gli algoritmi in funzione delle capacità dell'esecutore e riflette sulla loro correttezza.
-### Traguardi/obiettivi generali 
+- **M-1**: l’allievo comprende l’esigenza di precisione affinché le istruzioni vengano interpretate sempre nello stesso modo da un esecutore automatico
+- **T-M-2**: descrive in maniera algoritmica semplici processi della natura o della vita quotidiana o studiati in altre discipline
+- **T-M-3**: comprende l'importanza e la necessità di riflettere sulla correttezza delle descrizioni algoritmiche
+- **T-M-7**: riconosce dati di ingresso e di uscita delle applicazioni informatiche
+- **T-M-9**: classifica le tipologie di dati (es.: numerici, testuali, ...)
+- **T-M-10**: conosce l'architettura di principio (fisica e funzionale) di un sistema di elaborazione digitale
+- **T-M-11**: riconosce le componenti hardware e software dei sistemi di elaborazione digitale
+- **T-M-14**: seleziona ed utilizza, anche in modo combinato, programmi e servizi software per raggiungere uno specifico obiettivo
+- **T-M-15**: sperimenta le potenzialità della tecnologia informatica come strumento di espressione personale
+- **O-M-D-2**: effettua operazioni semplici su simboli che rappresentano informazione strutturata (es. numeri binari, immagini "bitmap")
+
+#### Nuove indicazioni 2025 - scuola dell’infanzia e primo ciclo di istruzione
+
+Secondo il testo reperibile sul sito del Ministero dell’Istruzione che definisce le linee di indirizzo dei nuovi curricoli per le scuole dell’infanzia, nell’ambito degli obiettivi specifici di apprendimento, al termine dell’unità didattica, gli allievi:
+- (**Numeri**) saper fornire stime approssimate per il risultato di un’operazione e controllare la plausibilità di un calcolo
+- (**Spazio e figure**) rappresentare punti, segmenti e figure nel piano cartesiano
+- (**Spazio e figure**) descrivere figure complesse e costruzioni geometriche al fine di comunicarle ad altri
+- (**Spazio e figure**) riprodurre figure e disegni geometrici in base a una descrizione e codificazione fatta da altri
+- (**Dati e previsioni**) rappresentare insiemi di dati, anche facendo uso di software
+- (**Informatica**) esprimere gli algoritmi in funzione delle capacità dell’esecutore e riflettere sulla loro correttezza
+
+### Traguardi/obiettivi generali
 
 Al termine di questa unità, lo studente sarà in grado di:
-Spiegare con parole proprie il concetto di campionamento di un segnale audio, descrivendo come un'onda sonora continua viene convertita in una serie di valori discreti. 
-Descrivere il significato di quantizzazione e motivare perché questo processo introduce una inevitabile perdita di informazione rispetto al segnale originale.
-Mettere in relazione un'onda sonora (fenomeno fisico) con la sua rappresentazione digitale (sequenza di numeri), spiegando i passaggi fondamentali della conversione.
-Applicare i principi del pensiero computazionale (in particolare la discretizzazione) per descrivere come un fenomeno continuo può essere gestito da un computer.
-Analizzare la relazione tra parametri come la frequenza di campionamento e la qualità del suono digitale, formulando ipotesi su come questi influenzino la fedeltà della riproduzione.
+- spiegare con parole proprie il concetto di **campionamento** di un segnale audio, descrivendo come un'onda sonora continua viene convertita in una serie di valori discreti
+- descrivere il significato di **quantizzazione** e motivare perché questo processo introduce una inevitabile perdita di informazione rispetto al segnale originale
+- mettere in relazione un'onda sonora (fenomeno fisico) con la sua **rappresentazione digitale** (sequenza di numeri), spiegando i passaggi fondamentali della conversione
+- applicare i principi del **pensiero computazionale** (in particolare la discretizzazione) per descrivere come un fenomeno continuo può essere gestito da un computer
+- analizzare la relazione tra parametri come la **frequenza di campionamento** e la **qualità del suono digitale**, formulando ipotesi su come questi influenzino la fedeltà della riproduzione
+
 ### Obiettivi specifici in forma operativa
 
-#### Livello 1: Ricordare (Remembering)
-Lo studente/la studentessa è in grado di definire i concetti di "campionamento", "frequenza di campionamento" e "quantizzazione" nel contesto dell'audio digitale.
-Lo studente/la studentessa è in grado di elencare in sequenza le fasi principali del processo di conversione di un segnale audio da analogico a digitale.
-Lo studente/la studentessa è in grado di identificare le componenti hardware (es. microfono, scheda audio) e software (es. editor audio) necessarie per acquisire un suono con un computer.
-#### Livello 2: Comprendere (Understanding)
-Lo studente/la studentessa è in grado di spiegare con parole proprie perché un computer necessita di discretizzare un segnale continuo come un'onda sonora.
-Lo studente/la studentessa è in grado di descrivere perché il processo di quantizzazione comporta una perdita irreversibile di informazioni rispetto al segnale originale.
-Lo studente/la studentessa è in grado di riassumere la relazione tra un'onda sonora (fenomeno fisico) e la sua rappresentazione digitale (sequenza di numeri binari).
-Lo studente/la studentessa è in grado di confrontare il concetto di segnale analogico (continuo) con quello di segnale digitale (discreto), utilizzando l'audio come esempio.
-#### Livello 3: Applicare (Applying)
-Lo studente/la studentessa è in grado di utilizzare un software di editing audio (es. Audacity) per registrare un breve suono e visualizzarne la forma d'onda.
-Lo studente/la studentessa è in grado di modificare i parametri di un file audio (es. frequenza di campionamento, profondità di bit) per osservarne l'effetto sulla dimensione del file.
-Lo studente/la studentessa è in grado di calcolare la dimensione (in bit o byte) di un breve file audio non compresso, dati la frequenza di campionamento, la profondità di bit e la durata.
-#### Livello 4: Analizzare (Analyzing)
-Lo studente/la studentessa è in grado di analizzare la forma d'onda di un segnale audio digitale, distinguendo l'effetto di una bassa frequenza di campionamento da quello di una bassa profondità di bit.
-Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con parametri di qualità diversi, e collegare le differenze qualitative percepite (chiarezza, rumore di fondo) ai parametri tecnici utilizzati.
-Lo studente/la studentessa è in grado di scomporre il processo di digitalizzazione audio in un diagramma che illustri i dati di ingresso (onda sonora) e i dati di uscita (sequenza di numeri).
-#### Livello 5-6: Valutare e Creare (Evaluating and Creating)
-Lo studente/la studentessa è in grado di formulare un'ipotesi verificabile sulla relazione tra l'aumento della frequenza di campionamento e il miglioramento della fedeltà di riproduzione di un suono.
-Lo studente/la studentessa è in grado di giustificare la scelta di specifici parametri di codifica audio (es. qualità CD vs. qualità telefonica) in base a un determinato scopo di utilizzo (es. podcast, suoneria, archiviazione musicale).
-Lo studente/la studentessa è in grado di progettare un semplice esperimento, utilizzando un software audio, per dimostrare l'impatto della quantizzazione sulla qualità del suono
+#### Livello 1: ricordare (**remembering**)
+- Lo studente/la studentessa è in grado di definire i concetti di "**campionamento**", "**frequenza di campionamento**" e "**quantizzazione**" nel contesto dell'audio digitale
+- Lo studente/la studentessa è in grado di elencare in sequenza le fasi principali del processo di conversione di un segnale audio da analogico a digitale
+- Lo studente/la studentessa è in grado di identificare le componenti **hardware** (es. microfono, scheda audio) e **software** (es. editor audio) necessarie per acquisire un suono con un computer
+
+#### Livello 2: comprendere (**understanding**)
+- Lo studente/la studentessa è in grado di spiegare con parole proprie perché un computer necessita di **discretizzare** un segnale continuo come un'onda sonora
+- Lo studente/la studentessa è in grado di descrivere perché il processo di **quantizzazione** comporta una perdita irreversibile di informazioni rispetto al segnale originale
+- Lo studente/la studentessa è in grado di riassumere la relazione tra un'onda sonora (fenomeno fisico) e la sua **rappresentazione digitale** (sequenza di numeri binari)
+- Lo studente/la studentessa è in grado di confrontare il concetto di **segnale analogico** (continuo) con quello di **segnale digitale** (discreto), utilizzando l'audio come esempio
+
+#### Livello 3: applicare (**applying**)
+- Lo studente/la studentessa è in grado di utilizzare un **software di editing audio** (es. Audacity) per registrare un breve suono e visualizzarne la forma d'onda
+- Lo studente/la studentessa è in grado di modificare i **parametri** di un file audio (es. frequenza di campionamento, profondità di bit) per osservarne l'effetto sulla **dimensione del file**
+- Lo studente/la studentessa è in grado di calcolare la **dimensione** (in bit o byte) di un breve file audio non compresso, dati la frequenza di campionamento, la profondità di bit e la durata
+
+#### Livello 4: analizzare (**analyzing**)
+- Lo studente/la studentessa è in grado di analizzare la **forma d'onda** di un segnale audio digitale, distinguendo l'effetto di una **bassa frequenza di campionamento** da quello di una **bassa profondità di bit**
+- Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con **parametri di qualità diversi**, e collegare le differenze qualitative percepite (**chiarezza**, **rumore
+
+#### Livello 4: Analizzare (**Analyzing**)
+- Lo studente/la studentessa è in grado di analizzare la **forma d'onda** di un segnale audio digitale, distinguendo l'effetto di una **bassa frequenza di campionamento** da quello di una **bassa profondità di bit**.
+- Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con **parametri di qualità diversi**, e collegare le differenze qualitative percepite (**chiarezza**, **rumore di fondo**) ai parametri tecnici utilizzati.
+- Lo studente/la studentessa è in grado di scomporre il processo di **digitalizzazione audio** in un diagramma che illustri i **dati di ingresso** (onda sonora) e i **dati di uscita** (sequenza di numeri).
+
+#### Livello 5-6: Valutare e Creare (**Evaluating and Creating**)
+- Lo studente/la studentessa è in grado di formulare un'**ipotesi verificabile** sulla relazione tra l'aumento della **frequenza di campionamento** e il miglioramento della **fedeltà di riproduzione** di un suono.
+- Lo studente/la studentessa è in grado di giustificare la scelta di specifici **parametri di codifica audio** (es. qualità CD vs. qualità telefonica) in base a un determinato scopo di utilizzo (es. podcast, suoneria, archiviazione musicale).
+- Lo studente/la studentessa è in grado di **progettare un semplice esperimento**, utilizzando un software audio, per dimostrare l'impatto della **quantizzazione** sulla qualità del suono.
 
 ## Metodologie didattiche
 
