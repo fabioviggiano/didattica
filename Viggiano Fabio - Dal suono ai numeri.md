@@ -493,9 +493,12 @@ Supporto Narrativo: Associare il disegno a una storia semplicissima: "la palla c
 
 ### Fase 2 (Campionamento):
 
-Materiali Strutturati: Usare fogli a quadretti molto grandi (es. 1 cm). Pre-segnare con un evidenziatore le linee verticali dove deve essere effettuato il campionamento. Lo studente deve solo trovare il punto di intersezione.
-Semplificazione della Regola: Usare una frequenza di campionamento molto bassa e facile da contare (es. "ogni 5 quadretti").
-Lavoro in Coppia (Peer Tutoring): Far lavorare uno studente più sicuro con uno in difficoltà. Uno conta i quadretti, l'altro segna il punto.
+**Lavoro in Coppia (Peer Tutoring Strutturato):** Far lavorare uno studente più sicuro con uno in difficoltà per favorire l'apprendimento tra pari. Per rendere la collaborazione efficace, si suggerisce di assegnare ruoli specifici che aumentino l'interdipendenza positiva. Ad esempio:
+
+*   **Ruolo A - "Il Misuratore":** Conta i quadretti sull'asse del tempo e si assicura che il campionamento avvenga all'intervallo corretto.
+*   **Ruolo B - "Il Disegnatore":** Individua il punto di intersezione sulla curva e lo segna fisicamente sul foglio.
+
+I ruoli possono essere scambiati a metà attività per permettere a entrambi gli studenti di sperimentare entrambi i compiti.
 
 ### Fase 3 (Quantizzazione):
 
