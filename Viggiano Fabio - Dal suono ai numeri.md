@@ -430,8 +430,6 @@ Capisce visivamente perché l'audio digitale non è "reale", ma una ricostruzion
 
 ![Confronto tra l'onda analogica originale, i punti quantizzati (crocette) e il segnale digitale ricostruito (linea spezzata).](immagine-ricostruzione.png)
 
-### Fase 5 - Variare i parametri e conclusioni (20-30 min)
-
 ## Fase 5 -  Variare i parametri e conclusioni (20-30 min)
 
 ### Guida insegnante
@@ -546,6 +544,10 @@ Problema di Progettazione: Porre un problema reale: "Devi progettare il sistema 
 
 Per i dialoghi dei personaggi, useresti la stessa qualità della colonna sonora principale? Perché? Quali parametri cambieresti?".
 
+### Estensione digitale (facoltativa):
+
+Per collegare l'esperienza manuale a quella reale, l'insegnante può concludere la lezione mostrando sullo schermo (LIM) un software di editing audio come Audacity. Registrando un breve suono (es. un battito di mani) e facendo uno zoom estremo sulla forma d'onda, gli studenti potranno vedere i singoli 'punti' (campioni) che compongono il segnale digitale, riconoscendo visivamente la struttura che hanno appena costruito a mano sulla carta.
+
 ### Valutazione dell' apprendimento
 
 La valutazione di questa unità didattica è concepita come un processo continuo che integra momenti di valutazione formativa (in itinere) e sommativa (finale). L'obiettivo non è solo misurare l'apprendimento, ma anche monitorare la comprensione in tempo reale, fornire feedback agli studenti e verificare il raggiungimento degli obiettivi specifici definiti in precedenza.
@@ -595,7 +597,6 @@ Scrivi un breve testo (massimo 10 righe) usando le idee che abbiamo scoperto ogg
 Correttezza concettuale: Lo studente dimostra di aver capito la differenza tra segnale continuo e discreto.
 Uso appropriato delle metafore: Le idee di campionamento ("fotografie") e quantizzazione ("gradini") sono usate correttamente per spiegare il processo.
 Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
-
 
 # Bibliografia
 
