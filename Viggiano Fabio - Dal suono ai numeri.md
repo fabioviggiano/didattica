@@ -387,7 +387,7 @@ Lanciare la sfida finale agli studenti:
 
 Scopo: Impostare il compito come un'inversione del processo precedente, introducendo l'idea della conversione da digitale ad analogico (DAC).
 
-#### Guidare la Ricostruzione
+#### Guidare la ricostruzione
 
 Fornire istruzioni chiare e dimostrare il primo passaggio alla lavagna:
 "Prendete un pennarello di un nuovo colore. Ora, dimenticatevi della vostra curva originale e delle crocette. Guardate solo la sequenza di numeri che avete scritto.
@@ -398,7 +398,7 @@ Adesso, collegate questi due punti con una linea retta.
 Continuate così: leggete un numero, trovate il punto e collegatelo a quello precedente. Stiamo 'unendo i puntini'."
 Nota per l'insegnante: È cruciale che gli studenti lavorino solo sulla base della loro sequenza numerica per simulare il comportamento di una macchina che non ha accesso all'informazione originale.
 
-#### Stimolare il Confronto e la Discussione Finale
+#### Stimolare il confronto e la discussione finale
 
 Una volta che tutti hanno terminato, guidare una discussione di sintesi:
 "Ora osservate il vostro foglio. Vedete tre cose: la vostra onda originale morbida, le crocette e questa nuova linea spezzata.
@@ -436,7 +436,7 @@ Capisce visivamente perché l'audio digitale non è "reale", ma una ricostruzion
 
 Obiettivo: Consolidare l'apprendimento spingendo gli studenti a riflettere su come la modifica dei parametri (frequenza di campionamento e numero di livelli) influenzi la qualità del segnale ricostruito. Collegare l'esperienza pratica ai formati audio e ai dispositivi di uso quotidiano.
 
-#### Impostare un Esperimento Mentale (o Pratico)
+#### Impostare un esperimento mentale (o Pratico)
 
 Guidare una discussione ipotetica per esplorare gli estremi.
 "Abbiamo usato una regola: un campione ogni 3 quadretti e i livelli interi. Ma cosa succederebbe se cambiassimo queste regole?
@@ -445,14 +445,14 @@ Scenario 1 (Bassa Qualità): Immaginate di dover rifare tutto prendendo un campi
 Scenario 2 (Alta Qualità): E se invece potessimo prendere un campione ogni quadretto e usare anche i livelli a metà (0.5, 1.5, 2.5...)? Come cambierebbe il risultato?"
 Scopo: Far dedurre agli studenti la relazione diretta tra densità dei dati e fedeltà della ricostruzione, senza necessariamente rieseguire l'intero processo.
 
-#### Formalizzare i Principi Chiave
+#### Formalizzare i principi chiave
 
 Riassumere le scoperte in due regole chiare e scriverle alla lavagna:
 Regola della Frequenza: Più spesso facciamo le "foto" (maggiore frequenza di campionamento), più catturiamo i dettagli veloci del suono.
 Regola della Precisione: Più "gradini" usiamo (maggior numero di livelli di quantizzazione), più precisa è l'altezza di ogni campione.
 "Queste due regole decidono la qualità del nostro suono digitale. Alta qualità significa tanti campioni e tanti livelli. Ma questo ha un costo..."
 
-#### Collegare l'Esperienza al Mondo Reale
+#### Collegare l'esperienza al mondo reale
 
 Portare la discussione sui dispositivi e i formati che gli studenti conoscono, usando l'attività come chiave di lettura.
 "Tutto quello che abbiamo fatto oggi sul foglio è ciò che accade miliardi di volte al secondo nei vostri dispositivi.
@@ -461,7 +461,7 @@ Un file MP3 o lo streaming a bassa qualità è come il nostro 'Scenario a Bassa 
 Una telefonata è ottimizzata per la voce. Usa pochi dati, sufficienti a farci capire le parole, ma se provassimo ad ascoltare musica, la sentiremmo 'piatta' e 'povera'."
 Scopo: Trasformare l'esercizio astratto in una competenza critica per comprendere il mondo digitale. Lo studente ora sa perché un video su YouTube può essere visto in "1080p" o "360p" e perché c'è differenza tra Spotify Free e Premium.
 
-**Estensione Digitale (Facoltativa):** Per collegare l'esperienza manuale a quella reale, l'insegnante può concludere la lezione mostrando sullo schermo (LIM) un software di editing audio come Audacity. Registrando un breve suono (es. un battito di mani) e facendo uno zoom estremo sulla forma d'onda, gli studenti potranno vedere i singoli 'punti' (campioni) che compongono il segnale digitale, riconoscendo visivamente la struttura che hanno appena costruito a mano sulla carta.
+**Estensione digitale (Facoltativa):** Per collegare l'esperienza manuale a quella reale, l'insegnante può concludere la lezione mostrando sullo schermo (LIM) un software di editing audio come Audacity. Registrando un breve suono (es. un battito di mani) e facendo uno zoom estremo sulla forma d'onda, gli studenti potranno vedere i singoli 'punti' (campioni) che compongono il segnale digitale, riconoscendo visivamente la struttura che hanno appena costruito a mano sulla carta.
 
 ### Guida studente
 
@@ -478,7 +478,7 @@ Pensa all'MP3 come a un foglio con una griglia più larga, dove si è deciso di 
 Pensa alla telefonata come a un disegno fatto con pochissimi punti, giusto l'essenziale per riconoscere la forma.
 Guarda il suo smartphone in modo diverso. Ora sa che dietro ogni file audio, ogni canzone su Spotify, c'è una lunga sequenza di numeri nata esattamente dal processo che ha appena eseguito a mano. Ha smontato e rimontato un pezzo di realtà digitale, comprendendone i meccanismi, i limiti e le potenzialità.
 
-# Strategie di Differenziazione Didattica
+# Strategie di differenziazione didattica
 
 Questa attività, per sua natura manuale e visiva, si presta bene a essere adattata. Di seguito sono proposte strategie di scaffolding (supporto per studenti con maggiori difficoltà, BES o DSA) e di potenziamento (per studenti più veloci o con maggiore attitudine).
 
@@ -504,9 +504,9 @@ I ruoli possono essere scambiati a metà attività per permettere a entrambi gli
 
 ### Fase 3 (Quantizzazione):
 
-Riduzione delle Scelte: Usare pochissimi livelli di quantizzazione, molto distanziati tra loro (es. solo le linee Y=0, Y=5, Y=10). Questo rende la scelta del "livello più vicino" quasi ovvia.
-Guida Visiva: Evidenziare non solo le linee dei livelli, ma anche le "zone" di appartenenza (es. colorare debolmente l'area tra Y=2.5 e Y=7.5 per indicare la "zona del livello 5").
-Focus sulla Sequenza: Se la parte grafica è troppo complessa, concentrarsi sulla traduzione in numeri. L'insegnante può indicare la crocetta e lo studente deve solo scrivere il numero corrispondente.
+Riduzione delle scelte: Usare pochissimi livelli di quantizzazione, molto distanziati tra loro (es. solo le linee Y=0, Y=5, Y=10). Questo rende la scelta del "livello più vicino" quasi ovvia.
+Guida visiva: Evidenziare non solo le linee dei livelli, ma anche le "zone" di appartenenza (es. colorare debolmente l'area tra Y=2.5 e Y=7.5 per indicare la "zona del livello 5").
+Focus sulla sequenza: Se la parte grafica è troppo complessa, concentrarsi sulla traduzione in numeri. L'insegnante può indicare la crocetta e lo studente deve solo scrivere il numero corrispondente.
 
 ### Fase 4 (Ricostruzione):
 
@@ -518,14 +518,14 @@ Guida Verbale: L'insegnante o un compagno può dettare i numeri uno alla volta m
 Analogie Concrete: Invece di parlare di formati, usare analogie più tangibili. "Un disegno con pochi 
 mattoncini Lego grandi (bassa qualità) contro un disegno con tantissimi mattoncini piccoli (alta qualità)". Oppure, una foto molto sgranata/pixelata contro una foto nitida.
 
-## Per studenti ad alto potenziale cognitivo (Potenziamento ed Estensione)
+## Per studenti ad alto potenziale cognitivo (Potenziamento ed estensione)
 
 L'obiettivo è stimolare il pensiero critico, introdurre maggiore complessità e incoraggiare l'esplorazione autonoma.
 
 ### Fase 1 (Onda analogica):
 
-Complessità Aggiuntiva: Chiedere di rappresentare un suono più complesso, come una breve melodia, includendo variazioni di ampiezza (un crescendo o un diminuendo). Chiedere di giustificare la forma disegnata.
-Introduzione di un Secondo Parametro: Introdurre l'idea che l'asse Y può rappresentare il volume, ma la "larghezza" delle onde può rappresentare la nota (onde strette = suono acuto, onde larghe = suono grave).
+Complessità aggiuntiva: Chiedere di rappresentare un suono più complesso, come una breve melodia, includendo variazioni di ampiezza (un crescendo o un diminuendo). Chiedere di giustificare la forma disegnata.
+Introduzione di un secondo parametro: Introdurre l'idea che l'asse Y può rappresentare il volume, ma la "larghezza" delle onde può rappresentare la nota (onde strette = suono acuto, onde larghe = suono grave).
 
 ### Fase 2 (Campionamento):
 
@@ -534,16 +534,16 @@ Introduzione all'Aliasing (intuitiva): Far disegnare un'onda molto veloce (tante
 
 ### Fase 3 (Quantizzazione):
 
-Introduzione alla Codifica Binaria: "Se avessimo 4 livelli, potremmo chiamarli 0, 1, 2, 3. In binario, sarebbero 00, 01, 10, 11. Servono 2 bit. E se avessimo 8 livelli? Quanti bit servirebbero? Prova a scrivere la tua sequenza di numeri in binario."
+Introduzione alla codifica binaria: "Se avessimo 4 livelli, potremmo chiamarli 0, 1, 2, 3. In binario, sarebbero 00, 01, 10, 11. Servono 2 bit. E se avessimo 8 livelli? Quanti bit servirebbero? Prova a scrivere la tua sequenza di numeri in binario."
 Calcolo dell'Errore: Chiedere di calcolare, per alcuni punti, l'errore di quantizzazione: la differenza numerica tra l'altezza del punto originale e quella della crocetta.
 
 ### Fase 4 (Ricostruzione):
 
-Critica all'Algoritmo: "Abbiamo unito i punti con linee rette. Ti sembra il modo migliore? Riesci a immaginare un modo più 'intelligente' per collegarli, in modo che la curva finale sia più morbida e simile all'originale?" (Questo introduce l'idea di algoritmi di interpolazione più complessi).
+Critica all'algoritmo: "Abbiamo unito i punti con linee rette. Ti sembra il modo migliore? Riesci a immaginare un modo più 'intelligente' per collegarli, in modo che la curva finale sia più morbida e simile all'originale?" (Questo introduce l'idea di algoritmi di interpolazione più complessi).
 
 ### Fase 5 (Conclusioni):
 
-Calcolo della Dimensione del File: Introdurre un calcolo semplificato. "Se ogni numero della tua sequenza occupa 2 bit, e hai 10 numeri, quanto è 'grande' il tuo file audio in bit? E se avessi usato 16 livelli (4 bit per numero)?". Questo rende concreto il concetto di "dimensione del file".
+Calcolo della dimensione del file: Introdurre un calcolo semplificato. "Se ogni numero della tua sequenza occupa 2 bit, e hai 10 numeri, quanto è 'grande' il tuo file audio in bit? E se avessi usato 16 livelli (4 bit per numero)?". Questo rende concreto il concetto di "dimensione del file".
 
 Problema di Progettazione: Porre un problema reale: "Devi progettare il sistema audio per un videogioco. 
 
@@ -562,12 +562,12 @@ Scopo: Identificare immediatamente difficoltà, correggere eventuali fraintendim
 
 Esempio di griglia di osservazione:
 
-| Indicatore di Competenza | Livello Iniziale (1) | Livello Base (2) | Livello Avanzato (3) | Note |
+| Indicatore di competenza | Livello iniziale (1) | Livello base (2) | Livello avanzato (3) | 
 | :--- | :--- | :--- | :--- | :--- |
-| **Partecipazione e Impegno** | Svolge l'attività solo se sollecitato, appare distratto. | Partecipa in modo autonomo, seguendo le istruzioni. | Partecipa con entusiasmo, pone domande, aiuta i compagni. | |
-| **Competenza Procedurale** | Fatica a seguire i passaggi (es. contare i quadretti, trovare il livello più vicino). | Esegue correttamente le procedure di campionamento e quantizzazione. | Esegue le procedure con sicurezza e precisione, proponendo anche piccole varianti. | |
-| **Comprensione Concettuale** | Esegue meccanicamente senza cogliere il nesso tra l'azione e il concetto. | Collega l'azione pratica alla metafora (es. "sto facendo le foto"). | Spiega con parole proprie il significato dei passaggi (es. "ora sto approssimando"). | |
-| **Collaborazione (se in coppia)** | Lavora in modo isolato o non contribuisce al lavoro di coppia. | Collabora con il compagno, dividendosi i compiti in modo funzionale. | Discute attivamente con il compagno, confrontando idee e strategie. | |
+| **Partecipazione e impegno** | Svolge l'attività solo se sollecitato, appare distratto. | Partecipa in modo autonomo, seguendo le istruzioni. | Partecipa con entusiasmo, pone domande, aiuta i compagni. | 
+| **Competenza procedurale** | Fatica a seguire i passaggi (es. contare i quadretti, trovare il livello più vicino). | Esegue correttamente le procedure di campionamento e quantizzazione. | Esegue le procedure con sicurezza e precisione, proponendo anche piccole varianti. | 
+| **Comprensione concettuale** | Esegue meccanicamente senza cogliere il nesso tra l'azione e il concetto. | Collega l'azione pratica alla metafora (es. "sto facendo le foto"). | Spiega con parole proprie il significato dei passaggi (es. "ora sto approssimando"). | 
+| **Collaborazione (se in coppia)** | Lavora in modo isolato o non contribuisce al lavoro di coppia. | Collabora con il compagno, dividendosi i compiti in modo funzionale. | Discute attivamente con il compagno, confrontando idee e strategie. | 
 
 2. Domande-stimolo per la discussione finale (Valutazione orale e sommativa)
 
@@ -588,7 +588,7 @@ Per consolidare l'apprendimento e ottenere una valutazione individuale scritta, 
 
 **Scopo**: Verificare la comprensione individuale e la capacità di comunicare un concetto tecnico in modo semplice e chiaro.
 
-**Consegna del Compito**:
+**Consegna del compito**:
 
 > "Immagina di dover spiegare a un amico che non era presente a lezione la differenza tra un suono 'reale' (come quello di una chitarra suonata dal vivo) e un suono 'digitale' (come quello in un file MP3).
 Scrivi un breve testo (massimo 10 righe) usando le idee che abbiamo scoperto oggi, come le 'fotografie' del suono, i 'gradini' per misurare l'altezza e la sequenza finale di numeri."
@@ -615,4 +615,10 @@ Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
 
 # Licenza del documento
 
-La presente relazione è rilasciata secondo licenza Creative Commons (CC), uno strumento legale che permette agli autori di opere creative di concedere alcuni diritti patrimoniali a terzi, mantenendo il controllo su altri aspetti dell’utilizzo dell’opera. Le CC offrono una varietà di licenze, permettendo agli autori di definire quali diritti riservare e quali concedere in uso. In sostanza, le licenze CC funzionano come un contratto che specifica come l’opera può essere utilizzata, modificata e distribuita. Ho scelto di distribuirla come *CC BY-SA*. Questa licenza consente ai riutilizzatori di distribuire, remixare, adattare e sviluppare il materiale in qualsiasi mezzo o formato, purché venga attribuita l’attribuzione al creatore. La licenza consente l’uso commerciale. Se si remixa, si adatta o si sviluppa il materiale, è necessario concedere in licenza il materiale modificato alle stesse condizioni. CC BY-SA include i seguenti elementi: BY: deve essere attribuito il merito all’autore. SA: gli adattamenti devono essere condivisi alle stesse condizioni.
+La presente relazione è rilasciata secondo licenza Creative Commons (CC), uno strumento legale che permette agli autori di opere creative di concedere alcuni diritti patrimoniali a terzi, mantenendo il controllo su altri aspetti dell’utilizzo dell’opera. Le CC offrono una varietà di licenze, permettendo agli autori di definire quali diritti riservare e quali concedere in uso. In sostanza, le licenze CC funzionano come un contratto che specifica come l’opera può essere utilizzata, modificata e distribuita. Ho scelto di distribuirla come *CC BY-SA*. 
+
+<p align="center">
+  <img src="ccbysa.png" width="25%">
+</p>
+
+Questa licenza consente ai riutilizzatori di distribuire, remixare, adattare e sviluppare il materiale in qualsiasi mezzo o formato, purché venga attribuita l’attribuzione al creatore. La licenza consente l’uso commerciale. Se si remixa, si adatta o si sviluppa il materiale, è necessario concedere in licenza il materiale modificato alle stesse condizioni. CC BY-SA include i seguenti elementi: BY: deve essere attribuito il merito all’autore. SA: gli adattamenti devono essere condivisi alle stesse condizioni.
