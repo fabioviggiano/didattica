@@ -317,9 +317,13 @@ In quel punto esatto di intersezione, disegna un altro punto ben marcato.
 Ripete questo processo metodicamente per tutta la lunghezza del suo disegno (a 6, 9, 12 quadretti, ecc.).
 Lo studente confronta l'originale con il risultato: Al termine dell'operazione, osserva il suo foglio. Ora non vede più solo una linea, ma una linea continua (il suono "reale", analogico) e una serie di campioni (i punti, ovvero i dati "digitali") che ne descrivono l'andamento.
 
+![Un'onda sonora analogica (linea curva continua) con i punti di campionamento evidenziati a intervalli regolari.](immagine-campionamento.png)
+
 Lo studente percepisce l'approssimazione: Guardando solo i punti che ha disegnato, si rende conto che, anche senza la linea originale a collegarli, essi mantengono l'informazione essenziale sulla forma del suono. Può ancora "vedere" dove il suono era forte (punti in alto) e dove era debole (punti in basso), dove saliva e dove scende
 
 Lo studente giunge a un'intuizione fondamentale: Capisce che il computer non memorizza tutto il suono, ma solo questa serie di "fotografie" (i campioni). Più queste foto sono vicine (cioè più alta è la frequenza di campionamento), più l'immagine ricostruita sarà fedele all'originale. Ha appena visualizzato il principio alla base della digitalizzazione del suono.
+
+
 
 ## Fase 3 - Quantizzazione - Arrotondare l'altezza (20-25 min)
 
@@ -423,6 +427,10 @@ L'originale (mondo analogico): La sua curva fluida, l'idea perfetta del suono.
 I dati (mondo digitale): Le crocette e la sequenza di numeri, ovvero l'informazione salvata, discreta e approssimata.
 La ricostruzione (il ritorno al mondo analogico): La linea spezzata, che rappresenta il suono come può essere ricreato da una macchina.
 Capisce visivamente perché l'audio digitale non è "reale", ma una ricostruzione. Intuisce che se i suoi campioni fossero stati più fitti e i suoi "gradini" (livelli) più numerosi, la linea spezzata sarebbe stata molto più vicina alla sua curva originale, quasi indistinguibile. Ha appena visualizzato il compromesso tra la qualità di un file audio e la quantità di dati necessari per descriverlo.
+
+![Confronto tra l'onda analogica originale, i punti quantizzati (crocette) e il segnale digitale ricostruito (linea spezzata).](immagine-ricostruzione.png)
+
+### Fase 5 - Variare i parametri e conclusioni (20-30 min)
 
 ## Fase 5 -  Variare i parametri e conclusioni (20-30 min)
 
