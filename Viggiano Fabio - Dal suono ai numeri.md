@@ -544,7 +544,7 @@ La valutazione di questa unità didattica è concepita come un processo continuo
 
 Si farà uso di tre strumenti principali: una griglia di osservazione sistematica per il lavoro pratico, domande-stimolo per la discussione collettiva e un breve compito di consolidamento da svolgere a casa.
 
-1. Griglia di Osservazione Sistematica (Valutazione Formativa in Itinere)
+1. Griglia di osservazione sistematica (valutazione formativa in itinere)
 
 Durante le fasi pratiche dell'attività (disegno, campionamento, quantizzazione, ricostruzione), l'insegnante utilizzerà una griglia per osservare e registrare i comportamenti degli studenti. Questo strumento permette di valutare non solo il prodotto finale, ma soprattutto il processo, l'impegno e la comprensione manifestata durante il lavoro.
 Scopo: Identificare immediatamente difficoltà, correggere eventuali fraintendimenti e valutare le competenze procedurali e di problem solving.
