@@ -461,6 +461,8 @@ Un file MP3 o lo streaming a bassa qualità è come il nostro 'Scenario a Bassa 
 Una telefonata è ottimizzata per la voce. Usa pochi dati, sufficienti a farci capire le parole, ma se provassimo ad ascoltare musica, la sentiremmo 'piatta' e 'povera'."
 Scopo: Trasformare l'esercizio astratto in una competenza critica per comprendere il mondo digitale. Lo studente ora sa perché un video su YouTube può essere visto in "1080p" o "360p" e perché c'è differenza tra Spotify Free e Premium.
 
+**Estensione Digitale (Facoltativa):** Per collegare l'esperienza manuale a quella reale, l'insegnante può concludere la lezione mostrando sullo schermo (LIM) un software di editing audio come Audacity. Registrando un breve suono (es. un battito di mani) e facendo uno zoom estremo sulla forma d'onda, gli studenti potranno vedere i singoli 'punti' (campioni) che compongono il segnale digitale, riconoscendo visivamente la struttura che hanno appena costruito a mano sulla carta.
+
 ### Guida studente
 
 Lo studente ragiona come un ingegnere del suono
@@ -546,10 +548,6 @@ Calcolo della Dimensione del File: Introdurre un calcolo semplificato. "Se ogni 
 Problema di Progettazione: Porre un problema reale: "Devi progettare il sistema audio per un videogioco. 
 
 Per i dialoghi dei personaggi, useresti la stessa qualità della colonna sonora principale? Perché? Quali parametri cambieresti?".
-
-### Estensione digitale (facoltativa):
-
-Per collegare l'esperienza manuale a quella reale, l'insegnante può concludere la lezione mostrando sullo schermo (LIM) un software di editing audio come Audacity. Registrando un breve suono (es. un battito di mani) e facendo uno zoom estremo sulla forma d'onda, gli studenti potranno vedere i singoli 'punti' (campioni) che compongono il segnale digitale, riconoscendo visivamente la struttura che hanno appena costruito a mano sulla carta.
 
 ### Valutazione dell' apprendimento
 
