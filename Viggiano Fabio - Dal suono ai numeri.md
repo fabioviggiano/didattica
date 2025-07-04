@@ -601,7 +601,7 @@ Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
 
 # Bibliografia
 
-*   Bell, T., Witten, I. H., & Fellows, M. (s.d.). *CS Unplugged*. Consultato il 21 maggio 2024, da [https://csunplugged.org/en/](https://csunplugged.org/en/) (Materiale didattico per l'informatica unplugged).
+*   Bell, T., Witten, I. H., & Fellows, M. (s.d.). *CS Unplugged* [https://csunplugged.org/en/](https://csunplugged.org/en/) (Materiale didattico per l'informatica unplugged).
 
 *   Ministero dell'Istruzione, dell'Università e della Ricerca. (2012). *Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione* (Documento Ufficiale). Roma, Italia: Ministero dell'Istruzione, dell'Università e della Ricerca.
 
