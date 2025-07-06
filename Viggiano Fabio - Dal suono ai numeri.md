@@ -182,10 +182,6 @@ Al termine di questa unità, lo studente sarà in grado di:
 - Lo studente/la studentessa è in grado di modificare i **parametri** di un file audio (es. frequenza di campionamento, profondità di bit) per osservarne l'effetto sulla **dimensione del file**
 - Lo studente/la studentessa è in grado di calcolare la **dimensione** (in bit o byte) di un breve file audio non compresso, dati la frequenza di campionamento, la profondità di bit e la durata
 
-#### Livello 4: analizzare (**analyzing**)
-- Lo studente/la studentessa è in grado di analizzare la **forma d'onda** di un segnale audio digitale, distinguendo l'effetto di una **bassa frequenza di campionamento** da quello di una **bassa profondità di bit**
-- Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con **parametri di qualità diversi**, e collegare le differenze qualitative percepite (**chiarezza**, **rumore
-
 #### Livello 4: Analizzare (**Analyzing**)
 - Lo studente/la studentessa è in grado di analizzare la **forma d'onda** di un segnale audio digitale, distinguendo l'effetto di una **bassa frequenza di campionamento** da quello di una **bassa profondità di bit**.
 - Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con **parametri di qualità diversi**, e collegare le differenze qualitative percepite (**chiarezza**, **rumore di fondo**) ai parametri tecnici utilizzati.
@@ -317,13 +313,11 @@ In quel punto esatto di intersezione, disegna un altro punto ben marcato.
 Ripete questo processo metodicamente per tutta la lunghezza del suo disegno (a 6, 9, 12 quadretti, ecc.).
 Lo studente confronta l'originale con il risultato: Al termine dell'operazione, osserva il suo foglio. Ora non vede più solo una linea, ma una linea continua (il suono "reale", analogico) e una serie di campioni (i punti, ovvero i dati "digitali") che ne descrivono l'andamento.
 
-![Un'onda sonora analogica (linea curva continua) con i punti di campionamento evidenziati a intervalli regolari.](immagine-campionamento.png)
+![Un'onda sonora analogica (linea curva continua) con i punti di campionamento evidenziati a intervalli regolari.](img/immagine-campionamento.png)
 
 Lo studente percepisce l'approssimazione: Guardando solo i punti che ha disegnato, si rende conto che, anche senza la linea originale a collegarli, essi mantengono l'informazione essenziale sulla forma del suono. Può ancora "vedere" dove il suono era forte (punti in alto) e dove era debole (punti in basso), dove saliva e dove scende
 
 Lo studente giunge a un'intuizione fondamentale: Capisce che il computer non memorizza tutto il suono, ma solo questa serie di "fotografie" (i campioni). Più queste foto sono vicine (cioè più alta è la frequenza di campionamento), più l'immagine ricostruita sarà fedele all'originale. Ha appena visualizzato il principio alla base della digitalizzazione del suono.
-
-
 
 ## Fase 3 - Quantizzazione - Arrotondare l'altezza (20-25 min)
 
@@ -618,7 +612,7 @@ Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
 La presente relazione è rilasciata secondo licenza Creative Commons (CC), uno strumento legale che permette agli autori di opere creative di concedere alcuni diritti patrimoniali a terzi, mantenendo il controllo su altri aspetti dell’utilizzo dell’opera. Le CC offrono una varietà di licenze, permettendo agli autori di definire quali diritti riservare e quali concedere in uso. In sostanza, le licenze CC funzionano come un contratto che specifica come l’opera può essere utilizzata, modificata e distribuita. Ho scelto di distribuirla come *CC BY-SA*. 
 
 <p align="center">
-  <img src="ccbysa.png" width="25%">
+  <img src="img/ccbysa.png" width="25%">
 </p>
 
 Questa licenza consente ai riutilizzatori di distribuire, remixare, adattare e sviluppare il materiale in qualsiasi mezzo o formato, purché venga attribuita l’attribuzione al creatore. La licenza consente l’uso commerciale. Se si remixa, si adatta o si sviluppa il materiale, è necessario concedere in licenza il materiale modificato alle stesse condizioni. CC BY-SA include i seguenti elementi: BY: deve essere attribuito il merito all’autore. SA: gli adattamenti devono essere condivisi alle stesse condizioni.
