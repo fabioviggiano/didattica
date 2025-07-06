@@ -182,25 +182,25 @@ Al termine di questa unità, lo studente sarà in grado di:
 - Lo studente/la studentessa è in grado di modificare i **parametri** di un file audio (es. frequenza di campionamento, profondità di bit) per osservarne l'effetto sulla **dimensione del file**
 - Lo studente/la studentessa è in grado di calcolare la **dimensione** (in bit o byte) di un breve file audio non compresso, dati la frequenza di campionamento, la profondità di bit e la durata
 
-#### Livello 4: Analizzare (**Analyzing**)
+#### Livello 4: analizzare (**analyzing**)
 - Lo studente/la studentessa è in grado di analizzare la **forma d'onda** di un segnale audio digitale, distinguendo l'effetto di una **bassa frequenza di campionamento** da quello di una **bassa profondità di bit**.
 - Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con **parametri di qualità diversi**, e collegare le differenze qualitative percepite (**chiarezza**, **rumore di fondo**) ai parametri tecnici utilizzati.
 - Lo studente/la studentessa è in grado di scomporre il processo di **digitalizzazione audio** in un diagramma che illustri i **dati di ingresso** (onda sonora) e i **dati di uscita** (sequenza di numeri).
 
-#### Livello 5-6: Valutare e Creare (**Evaluating and Creating**)
+#### Livello 5-6: Valutare e creare (**Evaluating and creating**)
 - Lo studente/la studentessa è in grado di formulare un'**ipotesi verificabile** sulla relazione tra l'aumento della **frequenza di campionamento** e il miglioramento della **fedeltà di riproduzione** di un suono.
 - Lo studente/la studentessa è in grado di giustificare la scelta di specifici **parametri di codifica audio** (es. qualità CD vs. qualità telefonica) in base a un determinato scopo di utilizzo (es. podcast, suoneria, archiviazione musicale).
 - Lo studente/la studentessa è in grado di **progettare un semplice esperimento**, utilizzando un software audio, per dimostrare l'impatto della **quantizzazione** sulla qualità del suono.
 
 ## Metodologie didattiche
 
-- **(Unplugged Activity)**: Attività svolta senza l'uso di computer, utilizzando materiali concreti (carta, matita) per simulare processi computazionali. Permette di focalizzarsi sui concetti senza la barriera tecnologica.
+- **(Unplugged activity)**: Attività svolta senza l'uso di computer, utilizzando materiali concreti (carta, matita) per simulare processi computazionali. Permette di focalizzarsi sui concetti senza la barriera tecnologica.
 
-- **(Apprendimento Attivo / Learning by Doing)**: Gli studenti non sono recettori passivi, ma eseguono attivamente i passaggi di campionamento e quantizzazione.
+- **(Apprendimento attivo / Learning by doing)**: Gli studenti non sono recettori passivi, ma eseguono attivamente i passaggi di campionamento e quantizzazione.
 
 - **(Visualizzazione)**: L'uso della carta millimetrata e del disegno è centrale per rendere visibili concetti astratti.
 
-- **(Lezione Dialogata)**: L'insegnante guida l'attività, ma stimola la discussione, pone domande e incoraggia la riflessione collettiva.
+- **(Lezione dialogata)**: L'insegnante guida l'attività, ma stimola la discussione, pone domande e incoraggia la riflessione collettiva.
 
 ## Tempi
 
@@ -212,7 +212,7 @@ Totale: Circa 2 ore (es. 2 moduli da 50-60 minuti).
 
 - Lavagna o LIM per le spiegazioni e dimostrazioni dell'insegnante.
 
-## Materiali e Strumenti
+## Materiali e strumenti
 
 - Fogli di carta millimetrata (almeno 2-3 per studente/coppia).
 
