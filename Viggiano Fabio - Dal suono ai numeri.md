@@ -1,31 +1,31 @@
 ---
-title: Dal suono ai numeri
-author: Fabio Viggiano
-date: 07/07/2025
+title: Esame di didattica dell'informatica
+subtitle: Dal suono ai numeri, un viaggio unplugged nel digitale
+author: Fabio Viggiano - 0001195183 
 ---
 
-Esame di didattica dell'informatica, A.A. 2024/2025
+<p align="center">
+  Didattica dell'informatica<br>
+  Dal suono ai numeri, un viaggio unplugged nel digitale<br>
+  Fabio Viggiano - 0001195183 <br>
+  <img src="img/logo.png" width="25%">
+</p>
 
-Dal suono ai numeri: un viaggio unplugged nel digitale
-
-Fabio Viggiano - 0001195183
 
 # Changelog
 
-In seguito alle indicazioni ricevute sulla prima stesura consegnata a fine maggio, la relazione è stata profondamente revisionata per migliorarne la chiarezza, la coerenza didattica e l'aderenza ai requisiti richiesti. Le principali modifiche apportate sono le seguenti:
+In seguito alle indicazioni ricevute sulla prima stesura consegnata a fine Maggio, la relazione è stata profondamente revisionata per migliorarne la chiarezza, la coerenza didattica e l'aderenza ai requisiti richiesti. 
 
-* Riformulazione degli obiettivi:
+Le principali modifiche apportate sono le seguenti:
 
-Gli "Obiettivi generali sono stati riscritti in un'ottica student-centered ("Lo studente sarà in grado di..."), rendendoli più chiari e misurabili, come richiesto.
- Sono stati integrati espliciti riferimenti ai traguardi dei documenti ministeriali, in particolare alle "Proposte di indicazioni nazionali del CINI" e alle "Nuove indicazioni 2025", indicando i codici specifici degli obiettivi toccati dall'unità didattica.
-* Semplificazione e coerenza con l'età:
-È stata rimossa la terminologia tecnica non adatta alla scuola secondaria di I grado (es. "sinusoide, onda quadra") dalla fase di disegno iniziale, sostituendola con un linguaggio più intuitivo e metaforico ("onde morbide come colline", "punte affilate come montagne").
-* Potenziamento delle strategie di differenziazione:
-La sezione sulla differenziazione didattica è stata completamente riscritta e ampliata. Ora fornisce strategie concrete e dettagliate sia per lo scaffolding (studenti con difficoltà/BES) sia per il potenziamento (studenti ad alto potenziale cognitivo), con suggerimenti specifici per ogni fase della lezione.
-* Miglioramento della struttura e della chiarezza espositiva:
-La struttura del documento è stata razionalizzata, eliminando sezioni ambigue e riorganizzando i contenuti in modo più logico (es. posizionamento della "Contestualizzazione storica").
-Il tono generale è stato reso più formale e meno colloquiale, distinguendo più nettamente tra la "guida per l'insegnante" e le azioni dello "studente".
-Le sezioni "Grandi Idee" e "Prerequisiti" sono state affinate per essere più pertinenti e concise.
+* Gli obiettivi generali sono stati riscritti in un'ottica student-centered ("Lo studente sarà in grado di..."), rendendoli più chiari e misurabili.
+* Sono stati integrati espliciti riferimenti ai traguardi dei documenti ministeriali, in particolare alle "Proposte di indicazioni nazionali del CINI" e alle "Nuove indicazioni 2025".
+* È stata rimossa la terminologia tecnica non adatta alla scuola secondaria di I grado (es. "sinusoide, onda quadra") dalla fase di disegno iniziale, sostituendola con un linguaggio più intuitivo e metaforico ("onde morbide come colline", "punte affilate come montagne").
+* La sezione sulla differenziazione didattica è stata riscritta e ampliata. Ora fornisce strategie concrete e dettagliate sia per lo scaffolding (studenti con difficoltà/BES) sia per il potenziamento (studenti ad alto potenziale cognitivo), con suggerimenti specifici per ogni fase della lezione.
+* La struttura del documento è stata razionalizzata, eliminando sezioni ambigue e riorganizzando i contenuti in modo più logico.
+* Il tono generale è stato reso più formale e meno colloquiale, distinguendo più nettamente tra la "guida per l'insegnante" e le azioni dello "studente".
+* Le sezioni "Grandi Idee" e "Prerequisiti" sono state affinate per essere più pertinenti e concise.
+* Sono state aggiunte delle immagini esplicative per i punti cruciali del campionamento e quantizzazione.
 
 # Inquadramento del lavoro
 
@@ -37,7 +37,7 @@ L'informatica, disciplina prevalente dell'unità, si integra in modo interdiscip
 
 L'obiettivo è far apprendere agli studenti il concetto di suono digitale, insieme ai processi di campionamento e quantizzazione che ne permettono la rappresentazione e l'elaborazione mediante strumenti informatici. Questo verrà illustrato facendo disegnare loro un'onda sonora su carta millimetrata. Vediamo come questa unità didattica può inoltre essere adattata a studenti di età inferiore e superiore:
 
-Scuola primaria (classi 4-5): semplificando la terminologia, usando griglie più grandi come il classico foglio del quaderno a quadretti e meno livelli di quantizzazione, l'uso di matite colorate, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
+**Scuola primaria (classi 4-5)**: semplificando la terminologia, usando griglie più grandi come il classico foglio del quaderno a quadretti e meno livelli di quantizzazione, l'uso di matite colorate, concentrandosi sull'idea di "fare foto" (campionare) e "arrotondare" (quantizzare) un disegno.
 
 Obiettivo: introdurre il concetto di “trasformare suoni in numeri” in modo intuitivo.
 
@@ -46,7 +46,7 @@ Adattamento:
 - utilizzo di una linea del tempo con disegni al posto del grafico, ad esempio disegnando l’intensità del suono con l’altezza di barrette colorate
 - introduzione del concetto di “fotografare” il suono in momenti precisi (campionamento) con esempi come scattare tante foto in sequenza
 
-Scuola secondaria di II grado (primo biennio): introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il compromesso tra la qualità e la dimensione file.
+**Scuola secondaria di II grado (primo biennio)**: introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il compromesso tra la qualità e la dimensione file.
 
 Obiettivo: collegare l'attività a concetti più formali di informatica, matematica e fisica.
 
@@ -58,13 +58,15 @@ Adattamento:
 
 ## Motivazione e finalità
 
+Il concetto di pensiero computazionale, introdotto da Jeannette Wing [@Wing:2006], ha rivoluzionato l'approccio all'insegnamento dell'informatica. Questo approccio si basa su concetti fondamentali che possono essere insegnati anche senza l'uso di un computer, come dimostra il progetto CS Unplugged [@Bell:CSUnplugged].
+
 La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.
 
 L'idea nasce da due grandi passioni, ossia la tecnologia e la musica; questi due percorsi si sono spesso intrecciati nel mio percorso e, nell'ipotizzare un argomento di lezione, ho pensato alle basi del suono digitale, uno dei primi passi di qualsiasi musicista o fruitore dell'ascolto della musica in digitale quando la curiosità lo porta a interrogarsi su cosa si cela dietro il tasto play di un riproduttore di suoni.
 
 L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.
 
-Nelle prime battute l'idea era a un bivio tra un approccio ancora più interattivo attraverso l'uso di campionamenti e quantizzazioni differenti da provare in aula ed un approccio attraverso lo sviluppo di codice; in entrambi i casi si sono però intraviste criticità, in primis sull'andare contro i principi dell'attività unplugged. Tali sviluppi sono dunque da rimandare verso un percorso più ampio e più specifico negli studi musicali.
+Nelle prime battute l'idea era a un bivio tra un approccio ancora più interattivo attraverso l'uso di campionamenti e quantizzazioni differenti da provare in aula ed un approccio attraverso lo sviluppo di codice; in entrambi i casi si sono però intraviste criticità, in primis sull'andare contro i principi dell'attività unplugged [@Bell:CSUnplugged]. Tali sviluppi sono dunque da rimandare verso un percorso più ampio e più specifico negli studi musicali.
 
 ## Innovatività
 
@@ -132,7 +134,7 @@ L’attività si inserisce in un quadro nazionale e risponde a precise richieste
 
 #### Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola
 
-Secondo il documento del CINI, i traguardi raggiunti per lo sviluppo delle competenze al termine di questa unità didattica saranno:
+Secondo il documento del CINI [@CINI:2018], i traguardi raggiunti per lo sviluppo delle competenze al termine di questa unità didattica saranno:
 
 - **M-1**: l’allievo comprende l’esigenza di precisione affinché le istruzioni vengano interpretate sempre nello stesso modo da un esecutore automatico
 - **T-M-2**: descrive in maniera algoritmica semplici processi della natura o della vita quotidiana o studiati in altre discipline
@@ -147,7 +149,7 @@ Secondo il documento del CINI, i traguardi raggiunti per lo sviluppo delle compe
 
 #### Nuove indicazioni 2025 - scuola dell’infanzia e primo ciclo di istruzione
 
-Secondo il testo reperibile sul sito del Ministero dell’Istruzione che definisce le linee di indirizzo dei nuovi curricoli per le scuole dell’infanzia, nell’ambito degli obiettivi specifici di apprendimento, al termine dell’unità didattica, gli allievi:
+Secondo il testo reperibile sul sito del Ministero dell’Istruzione [@MIUR:2012] che definisce le linee di indirizzo dei nuovi curricoli per le scuole dell’infanzia, nell’ambito degli obiettivi specifici di apprendimento, al termine dell’unità didattica, gli allievi:
 - (**Numeri**) saper fornire stime approssimate per il risultato di un’operazione e controllare la plausibilità di un calcolo
 - (**Spazio e figure**) rappresentare punti, segmenti e figure nel piano cartesiano
 - (**Spazio e figure**) descrivere figure complesse e costruzioni geometriche al fine di comunicarle ad altri
@@ -313,7 +315,10 @@ In quel punto esatto di intersezione, disegna un altro punto ben marcato.
 Ripete questo processo metodicamente per tutta la lunghezza del suo disegno (a 6, 9, 12 quadretti, ecc.).
 Lo studente confronta l'originale con il risultato: Al termine dell'operazione, osserva il suo foglio. Ora non vede più solo una linea, ma una linea continua (il suono "reale", analogico) e una serie di campioni (i punti, ovvero i dati "digitali") che ne descrivono l'andamento.
 
-![Un'onda sonora analogica (linea curva continua) con i punti di campionamento evidenziati a intervalli regolari.](img/immagine-campionamento.png)
+<figure>
+    <img src="img/immagine-campionamento.png" alt="Testo alternativo" />
+    <figcaption>Un'onda sonora analogica (linea curva continua) con i punti di campionamento evidenziati a intervalli regolari.</figcaption>
+</figure>
 
 Lo studente percepisce l'approssimazione: Guardando solo i punti che ha disegnato, si rende conto che, anche senza la linea originale a collegarli, essi mantengono l'informazione essenziale sulla forma del suono. Può ancora "vedere" dove il suono era forte (punti in alto) e dove era debole (punti in basso), dove saliva e dove scende
 
@@ -422,7 +427,10 @@ I dati (mondo digitale): Le crocette e la sequenza di numeri, ovvero l'informazi
 La ricostruzione (il ritorno al mondo analogico): La linea spezzata, che rappresenta il suono come può essere ricreato da una macchina.
 Capisce visivamente perché l'audio digitale non è "reale", ma una ricostruzione. Intuisce che se i suoi campioni fossero stati più fitti e i suoi "gradini" (livelli) più numerosi, la linea spezzata sarebbe stata molto più vicina alla sua curva originale, quasi indistinguibile. Ha appena visualizzato il compromesso tra la qualità di un file audio e la quantità di dati necessari per descriverlo.
 
-![Confronto tra l'onda analogica originale, i punti quantizzati (crocette) e il segnale digitale ricostruito (linea spezzata).](immagine-ricostruzione.png)
+<figure>
+    <img src="img/immagine-quantizzazione.png" alt="Testo alternativo" />
+    <figcaption>Confronto tra l'onda analogica originale, i punti quantizzati (crocette) e il segnale digitale ricostruito (linea spezzata).</figcaption>
+</figure>
 
 ## Fase 5 -  Variare i parametri e conclusioni (20-30 min)
 
@@ -483,9 +491,11 @@ L'obiettivo è ridurre il carico cognitivo, semplificare le consegne e fornire s
 
 ### Fase 1 (Onda analogica)
 
-Supporto Visivo: Fornire fogli con gli assi già disegnati e, per chi ha difficoltà motorie, delle "onde-modello" tratteggiate da ricalcare.
-Semplificazione del Compito: Invece di un'onda complessa, chiedere di disegnare un suono molto semplice: un "bip" (una singola collina), o un suono costante (una linea retta a una certa altezza).
-Supporto Narrativo: Associare il disegno a una storia semplicissima: "la palla che rimbalza una volta".
+Supporto visivo: Fornire fogli con gli assi già disegnati e, per chi ha difficoltà motorie, delle "onde-modello" tratteggiate da ricalcare.
+
+Semplificazione del compito: Invece di un'onda complessa, chiedere di disegnare un suono molto semplice: un "bip" (una singola collina), o un suono costante (una linea retta a una certa altezza).
+
+Supporto narrativo: Associare il disegno a una storia semplicissima: "la palla che rimbalza una volta".
 
 ### Fase 2 (Campionamento):
 
@@ -499,17 +509,20 @@ I ruoli possono essere scambiati a metà attività per permettere a entrambi gli
 ### Fase 3 (Quantizzazione):
 
 Riduzione delle scelte: Usare pochissimi livelli di quantizzazione, molto distanziati tra loro (es. solo le linee Y=0, Y=5, Y=10). Questo rende la scelta del "livello più vicino" quasi ovvia.
+
 Guida visiva: Evidenziare non solo le linee dei livelli, ma anche le "zone" di appartenenza (es. colorare debolmente l'area tra Y=2.5 e Y=7.5 per indicare la "zona del livello 5").
+
 Focus sulla sequenza: Se la parte grafica è troppo complessa, concentrarsi sulla traduzione in numeri. L'insegnante può indicare la crocetta e lo studente deve solo scrivere il numero corrispondente.
 
 ### Fase 4 (Ricostruzione):
 
-Sequenze Brevi: Lavorare con una sequenza di soli 4-5 numeri per non perdere il filo.
-Guida Verbale: L'insegnante o un compagno può dettare i numeri uno alla volta mentre lo studente disegna: "Adesso vai a 3 e sali fino a 2. Ora vai a 6 e sali fino a 4...".
+Sequenze brevi: Lavorare con una sequenza di soli 4-5 numeri per non perdere il filo.
+
+Guida verbale: L'insegnante o un compagno può dettare i numeri uno alla volta mentre lo studente disegna: "Adesso vai a 3 e sali fino a 2. Ora vai a 6 e sali fino a 4...".
 
 ### Fase 5 (Conclusioni):
 
-Analogie Concrete: Invece di parlare di formati, usare analogie più tangibili. "Un disegno con pochi 
+Analogie concrete: Invece di parlare di formati, usare analogie più tangibili. "Un disegno con pochi 
 mattoncini Lego grandi (bassa qualità) contro un disegno con tantissimi mattoncini piccoli (alta qualità)". Oppure, una foto molto sgranata/pixelata contro una foto nitida.
 
 ## Per studenti ad alto potenziale cognitivo (Potenziamento ed estensione)
@@ -519,17 +532,18 @@ L'obiettivo è stimolare il pensiero critico, introdurre maggiore complessità e
 ### Fase 1 (Onda analogica):
 
 Complessità aggiuntiva: Chiedere di rappresentare un suono più complesso, come una breve melodia, includendo variazioni di ampiezza (un crescendo o un diminuendo). Chiedere di giustificare la forma disegnata.
+
 Introduzione di un secondo parametro: Introdurre l'idea che l'asse Y può rappresentare il volume, ma la "larghezza" delle onde può rappresentare la nota (onde strette = suono acuto, onde larghe = suono grave).
 
 ### Fase 2 (Campionamento):
 
-Domanda "What If...?": "Cosa succederebbe se campionassi ogni quadretto? E se campionassi ogni 10? Disegna entrambi i risultati su una piccola parte della tua onda e confrontali. Quale è meglio? Perché?".
+Domanda "What if...?": "Cosa succederebbe se campionassi ogni quadretto? E se campionassi ogni 10? Disegna entrambi i risultati su una piccola parte della tua onda e confrontali. Quale è meglio? Perché?".
 Introduzione all'Aliasing (intuitiva): Far disegnare un'onda molto veloce (tante oscillazioni in poco spazio) e chiedere di campionarla a una frequenza bassa. Lo studente noterà che i punti catturati descrivono un'onda completamente diversa, più lenta. "Hai visto? Se scatti le foto troppo lentamente, ti perdi il movimento reale e ne vedi uno falso!".
 
 ### Fase 3 (Quantizzazione):
 
 Introduzione alla codifica binaria: "Se avessimo 4 livelli, potremmo chiamarli 0, 1, 2, 3. In binario, sarebbero 00, 01, 10, 11. Servono 2 bit. E se avessimo 8 livelli? Quanti bit servirebbero? Prova a scrivere la tua sequenza di numeri in binario."
-Calcolo dell'Errore: Chiedere di calcolare, per alcuni punti, l'errore di quantizzazione: la differenza numerica tra l'altezza del punto originale e quella della crocetta.
+Calcolo dell' errore: Chiedere di calcolare, per alcuni punti, l'errore di quantizzazione: la differenza numerica tra l'altezza del punto originale e quella della crocetta.
 
 ### Fase 4 (Ricostruzione):
 
@@ -539,7 +553,7 @@ Critica all'algoritmo: "Abbiamo unito i punti con linee rette. Ti sembra il modo
 
 Calcolo della dimensione del file: Introdurre un calcolo semplificato. "Se ogni numero della tua sequenza occupa 2 bit, e hai 10 numeri, quanto è 'grande' il tuo file audio in bit? E se avessi usato 16 livelli (4 bit per numero)?". Questo rende concreto il concetto di "dimensione del file".
 
-Problema di Progettazione: Porre un problema reale: "Devi progettare il sistema audio per un videogioco. 
+Problema di progettazione: Porre un problema reale: "Devi progettare il sistema audio per un videogioco. 
 
 Per i dialoghi dei personaggi, useresti la stessa qualità della colonna sonora principale? Perché? Quali parametri cambieresti?".
 
