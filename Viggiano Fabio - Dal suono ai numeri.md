@@ -1,7 +1,7 @@
 ---
 title: Dal suono ai numeri
 author: Fabio Viggiano
-date: 02/07/2025
+date: 07/07/2025
 ---
 
 Esame di didattica dell'informatica, A.A. 2024/2025
