@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Viggiano Fabio - Dal suono ai numeri.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p align="center">
+  Didattica dell'informatica<br>
+  Dal suono ai numeri, un viaggio unplugged nel digitale<br>
+  Fabio Viggiano - 0001195183 <br>
+  <img src="img/logo.png" width="25%">
+</p>
+<h1 id="changelog---maggio">Changelog - Maggio</h1>
+<p>In seguito alle indicazioni ricevute sulla prima stesura consegnata a fine Maggio, la relazione è stata profondamente revisionata per migliorarne la chiarezza, la coerenza didattica e l'aderenza ai requisiti richiesti.</p>
+<p>Le principali modifiche apportate sono le seguenti:</p>
+<ul>
+<li>Gli obiettivi generali sono stati riscritti in un'ottica student-centered (&quot;Lo studente sarà in grado di...&quot;), rendendoli più chiari e misurabili.</li>
+<li>Sono stati integrati espliciti riferimenti ai traguardi dei documenti ministeriali, in particolare alle &quot;Proposte di indicazioni nazionali del CINI&quot; e alle &quot;Nuove indicazioni 2025&quot;.</li>
+<li>È stata rimossa la terminologia tecnica non adatta alla scuola secondaria di I grado (es. &quot;sinusoide, onda quadra&quot;) dalla fase di disegno iniziale, sostituendola con un linguaggio più intuitivo e metaforico (&quot;onde morbide come colline&quot;, &quot;punte affilate come montagne&quot;).</li>
+<li>La sezione sulla differenziazione didattica è stata riscritta e ampliata. Ora fornisce strategie concrete e dettagliate sia per lo scaffolding (studenti con difficoltà/BES) sia per il potenziamento (studenti ad alto potenziale cognitivo), con suggerimenti specifici per ogni fase della lezione.</li>
+<li>La struttura del documento è stata razionalizzata, eliminando sezioni ambigue e riorganizzando i contenuti in modo più logico.</li>
+<li>Il tono generale è stato reso più formale e meno colloquiale, distinguendo più nettamente tra la &quot;guida per l'insegnante&quot; e le azioni dello &quot;studente&quot;.</li>
+<li>Le sezioni &quot;Grandi Idee&quot; e &quot;Prerequisiti&quot; sono state affinate per essere più pertinenti e concise.</li>
+<li>Sono state aggiunte delle immagini esplicative per i punti cruciali del campionamento e quantizzazione.</li>
+</ul>
+<h1 id="changelog---luglio">Changelog - Luglio</h1>
+<p>In seguito alle indicazioni ricevute sulla seconda stesura consegnata a Luglio, la relazione è stata revisionata in modo tale da integrare delle esperienze sonore reali, dosati gli obiettivi specifici e reso la lezione più centrata sullo studente.</p>
+<p>Le principali modifiche apportate sono le seguenti:</p>
+<ul>
+<li>Introdotte le fasi 1.b e 1.c in cui viene replicato un suono tramite voce o strumento musicale per poi disegnarlo</li>
+<li>Ridotti gli obiettivi specifici.</li>
+<li>Maggiore partecipazione degli studenti aumentando l' interazione tra loro e tra loro ed il docente.</li>
+<li>Richiamate le fonti bibliografiche nelle perozioni di testo ad esse collegate e riferite.</li>
+</ul>
+<h1 id="inquadramento-del-lavoro">Inquadramento del lavoro</h1>
+<h2 id="livello-di-scuola-classei-indirizzo">Livello di scuola, classe/i, indirizzo</h2>
+<p>L'unità didattica è rivolta a studenti e studentesse di età compresa tra gli 11 e i 13/14 anni (scuola secondaria di I grado).</p>
+<p>L'informatica, disciplina prevalente dell'unità, si integra in modo interdisciplinare con la tecnologia (i processi di trasformazione), la matematica (in particolare grafici cartesiani e approssimazione), le scienze (attraverso lo studio delle onde sonore) e la musica (considerando la natura del suono).</p>
+<p>L'obiettivo è far apprendere agli studenti il concetto di suono digitale, insieme ai processi di campionamento e quantizzazione che ne permettono la rappresentazione e l'elaborazione mediante strumenti informatici. Questo verrà illustrato facendo disegnare loro un'onda sonora su carta millimetrata. Vediamo come questa unità didattica può inoltre essere adattata a studenti di età inferiore e superiore:</p>
+<p><strong>Scuola primaria (classi 4-5)</strong>: semplificando la terminologia, usando griglie più grandi come il classico foglio del quaderno a quadretti e meno livelli di quantizzazione, l'uso di matite colorate, concentrandosi sull'idea di &quot;fare foto&quot; (campionare) e &quot;arrotondare&quot; (quantizzare) un disegno.</p>
+<p>Obiettivo: introdurre il concetto di “trasformare suoni in numeri” in modo intuitivo.</p>
+<p>Adattamento:</p>
+<ul>
+<li>utilizzo di una linea del tempo con disegni al posto del grafico, ad esempio disegnando l’intensità del suono con l’altezza di barrette colorate</li>
+<li>introduzione del concetto di “fotografare” il suono in momenti precisi (campionamento) con esempi come scattare tante foto in sequenza</li>
+</ul>
+<p><strong>Scuola secondaria di II grado (primo biennio)</strong>: introducendo concetti più formali come frequenza di campionamento (Hz), bit depth, teorema di Nyquist (in modo intuitivo), e discutendo maggiormente il compromesso tra la qualità e la dimensione file.</p>
+<p>Obiettivo: collegare l'attività a concetti più formali di informatica, matematica e fisica.</p>
+<p>Adattamento:</p>
+<ul>
+<li>aggiunta di una seconda parte in cui si mostra come il segnale può essere rappresentato come array numerici (es. su fogli di calcolo)</li>
+<li>introduzione dei concetti di frequenza di campionamento, bit depth, aliasing</li>
+<li>se disponibile, utilizzo di strumenti digitali per confrontare grafici manuali con versioni digitali</li>
+</ul>
+<h2 id="motivazione-e-finalit%C3%A0">Motivazione e finalità</h2>
+<p>Il concetto di pensiero computazionale, introdotto da Jeannette Wing [@Wing:2006], ha rivoluzionato l'approccio all'insegnamento dell'informatica. Questo approccio si basa su concetti fondamentali che possono essere insegnati anche senza l'uso di un computer, come dimostra il progetto CS Unplugged [@Bell:CSUnplugged].</p>
+<p>La presente attività si inserisce all’interno del percorso di educazione scientifica e tecnologica della scuola secondaria di I grado, con l’obiettivo di introdurre concetti fondamentali dell’informatica in modo intuitivo e concreto. In particolare, si affronta il tema della digitalizzazione del suono, un argomento di grande attualità e rilevanza, spesso trascurato nei programmi scolastici.</p>
+<p>L'idea nasce da due grandi passioni, ossia la tecnologia e la musica; questi due percorsi si sono spesso intrecciati nel mio percorso e, nell'ipotizzare un argomento di lezione, ho pensato alle basi del suono digitale, uno dei primi passi di qualsiasi musicista o fruitore dell'ascolto della musica in digitale quando la curiosità lo porta a interrogarsi su cosa si cela dietro il tasto play di un riproduttore di suoni.</p>
+<p>L’attività è progettata per essere unplugged, ovvero priva di strumenti tecnologici complessi, al fine di stimolare la comprensione profonda dei concetti attraverso la manipolazione diretta e la simulazione analogica dei processi di campionamento e quantizzazione.</p>
+<p>Nelle prime battute l'idea era a un bivio tra un approccio ancora più interattivo attraverso l'uso di campionamenti e quantizzazioni differenti da provare in aula ed un approccio attraverso lo sviluppo di codice; in entrambi i casi si sono però intraviste criticità, in primis sull'andare contro i principi dell'attività unplugged [@Bell:CSUnplugged]. Tali sviluppi sono dunque da rimandare verso un percorso più ampio e più specifico negli studi musicali.</p>
+<h2 id="innovativit%C3%A0">Innovatività</h2>
+<p>Sebbene le attività unplugged per l'informatica siano diffuse, questa proposta si focalizza specificamente sulla visualizzazione manuale e combinata del campionamento e della quantizzazione su carta millimetrata come processo sequenziale applicato a un segnale disegnato dagli studenti stessi. L'approccio manuale rende più chiari i passaggi e l'approssimazione necessaria, cosa che le simulazioni software fanno meno.</p>
+<p>Esistono risorse online e attività unplugged generiche sulla rappresentazione binaria, come CS Unplugged sulla rappresentazione delle immagini, ma meno focalizzate sul processo A/D audio in questo modo specifico. Questa unità:</p>
+<ul>
+<li>mantiene: l'approccio unplugged e l'uso di metafore concrete</li>
+<li>differenzia/migliora: integra campionamento e quantizzazione in un unico flusso di lavoro manuale, partendo da un &quot;segnale&quot; creato dallo studente, rendendo il processo più personale e tangibile. Enfatizza la visualizzazione della perdita di informazione confrontando il disegno originale con quello &quot;digitalizzato&quot;.</li>
+</ul>
+<p>L'innovatività della lezione in questione è quindi presente come lo studente creatore del segnale, quindi protagonista del processo. La digitalizzazione avviene fisicamente, passo-passo, su carta, rendendo visibile e modificabile ogni singolo passo della conversione A/D; a ciò si aggiunge la riproduzione del suono rendendo la lezione, se possibile, anche interattiva.</p>
+<h2 id="prerequisiti">Prerequisiti</h2>
+<ul>
+<li>comprensione di base di un grafico cartesiano (asse x = tempo, asse y = ampiezza/valore)</li>
+<li>capacità di leggere valori su un asse graduato</li>
+<li>concetto intuitivo di &quot;segnale che cambia nel tempo&quot; (es. volume della musica, altezza di una collina)</li>
+<li>concetto di approssimazione (arrotondamento a un valore vicino)</li>
+</ul>
+<h3 id="percorso">Percorso</h3>
+<p>Questa attività può essere considerata autoconsistente per introdurre i concetti base, può però far parte di un percorso più ampio sull'introduzione al suono come onda sonora (scienze/musica).</p>
+<p>Questa unità didattica può definirsi come: &quot;campionamento e quantizzazione unplugged&quot;. Ad essa, si possono collegare in incontri successivi dei passaggi come:</p>
+<ul>
+<li>introduzione alla rappresentazione binaria dei numeri (collegare i livelli di quantizzazione ai bit)</li>
+<li>utilizzo di software semplice di editing audio (es. Audacity) per visualizzare forme d'onda reali e gli effetti di cambi di frequenza di campionamento/bit depth (collegamento al concreto)</li>
+<li>discussione sulla compressione audio come passo successivo</li>
+</ul>
+<h3 id="contestualizzazione-storica">Contestualizzazione storica</h3>
+<p>L’attività didattica si inserisce nell’ambito dell’educazione al pensiero computazionale e alla comprensione dei fondamenti del digitale, in particolare del processo di digitalizzazione del suono [@Pohlmann:2010].  Questo processo è governato da due principi fondamentali: il campionamento e la quantizzazione. Il teorema di Nyquist-Shannon [@Shannon:1949]stabilisce che per rappresentare fedelmente un segnale analogico, è necessario campionarlo ad una frequenza almeno doppia rispetto alla massima frequenza presente nel segnale. Se questa condizione non è rispettata, si verifica il fenomeno dell’aliasing, ovvero la comparsa di distorsioni nel segnale digitale.</p>
+<p>La quantizzazione, invece, consiste nell’approssimare ogni campione a un valore discreto all’interno di un numero finito di livelli, determinati dalla profondità in bit. Questo introduce un errore chiamato rumore di quantizzazione, che può ridurre la qualità del segnale audio risultante. In termini didattici, questi concetti rappresentano un’occasione per esplorare in modo interdisciplinare nozioni di matematica (discretizzazione, numeri binari) e di fisica (onde sonore), rendendoli tangibili attraverso attività concrete e visive.</p>
+<p>Questi principi, benché astratti, possono essere veicolati efficacemente anche a studenti della scuola secondaria di primo grado tramite attività unplugged, come la rappresentazione su carta millimetrata, e con esempi uditivi selezionati. Tuttavia, come evidenziato nella riflessione critica, è essenziale che la progettazione didattica tenga conto delle limitazioni percettive e cognitive degli studenti, affinché la traduzione pratica dei concetti teorici risulti significativa e accessibile.</p>
+<h3 id="obiettivo-generale">Obiettivo generale</h3>
+<p>Accompagnare gli studenti della scuola secondaria di primo grado alla scoperta del mondo digitale attraverso attività unplugged legate al suono, favorendo la comprensione dei concetti di campionamento, quantizzazione, e rappresentazione numerica del suono.</p>
+<h2 id="contenuti-spiegati-a-un-informatico">Contenuti (spiegati a un informatico)</h2>
+<p>Conversione analogico-digitale (ADC)</p>
+<p>Campionamento: discretizzazione dell'asse temporale. Acquisizione del valore del segnale a intervalli regolari T (periodo di campionamento). Frequenza di campionamento fs = 1/T. (Si introduce solo l'idea intuitiva che campionare più spesso cattura meglio le variazioni rapide).</p>
+<p>Quantizzazione: discretizzazione dell'asse delle ampiezze. Approssimazione del valore campionato al livello più vicino tra un insieme finito di livelli discreti (quantizzazione scalare uniforme). Il numero di livelli è legato alla risoluzione (bit depth). (Si introduce solo l'idea di &quot;arrotondare&quot; a valori predefiniti).</p>
+<p>Errore di quantizzazione: differenza tra l'ampiezza esatta del campione e il valore digitale assegnato dalla quantizzazione. È l'inevitabile scarto dovuto all'approssimazione a livelli finiti.</p>
+<p>Rappresentazione digitale come sequenza di numeri: il segnale audio, dopo campionamento e quantizzazione, diventa una successione di valori numerici. Ogni numero codifica l'ampiezza di un campione in un preciso istante.</p>
+<h2 id="grandi-idee">Grandi idee</h2>
+<p>Rappresentazione dei dati: come l'informazione continua del mondo reale (suono) viene rappresentata in forma discreta (numeri) comprensibile a un computer.</p>
+<p>Astrazione: il processo di campionamento e quantizzazione è un'astrazione che semplifica la complessità del segnale reale, perdendo dettagli ma rendendolo manipolabile.</p>
+<h2 id="traguardi-e-obiettivi">Traguardi e obiettivi</h2>
+<h3 id="traguardi-generali-dai-documenti-ministerialiproposte">Traguardi generali dai documenti ministeriali/proposte</h3>
+<p>L’attività si inserisce in un quadro nazionale e risponde a precise richieste istituzionali.</p>
+<h4 id="proposta-di-indicazioni-nazionali-per-linsegnamento-dellinformatica-nella-scuola">Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola</h4>
+<p>Secondo il documento del CINI [@CINI:2018], i traguardi raggiunti per lo sviluppo delle competenze al termine di questa unità didattica saranno:</p>
+<ul>
+<li><strong>M-1</strong>: l’allievo comprende l’esigenza di precisione affinché le istruzioni vengano interpretate sempre nello stesso modo da un esecutore automatico</li>
+<li><strong>T-M-2</strong>: descrive in maniera algoritmica semplici processi della natura o della vita quotidiana o studiati in altre discipline</li>
+<li><strong>T-M-3</strong>: comprende l'importanza e la necessità di riflettere sulla correttezza delle descrizioni algoritmiche</li>
+<li><strong>T-M-7</strong>: riconosce dati di ingresso e di uscita delle applicazioni informatiche</li>
+</ul>
+<h4 id="nuove-indicazioni-2025---scuola-dellinfanzia-e-primo-ciclo-di-istruzione">Nuove indicazioni 2025 - scuola dell’infanzia e primo ciclo di istruzione</h4>
+<p>Secondo il testo reperibile sul sito del Ministero dell’Istruzione [@MIUR:2012] che definisce le linee di indirizzo dei nuovi curricoli per le scuole dell’infanzia, nell’ambito degli obiettivi specifici di apprendimento, al termine dell’unità didattica, gli allievi:</p>
+<ul>
+<li>(<strong>Numeri</strong>) saper fornire stime approssimate per il risultato di un’operazione e controllare la plausibilità di un calcolo</li>
+<li>(<strong>Spazio e figure</strong>) rappresentare punti, segmenti e figure nel piano cartesiano</li>
+<li>(<strong>Spazio e figure</strong>) descrivere figure complesse e costruzioni geometriche al fine di comunicarle ad altri</li>
+<li>(<strong>Spazio e figure</strong>) riprodurre figure e disegni geometrici in base a una descrizione e codificazione fatta da altri</li>
+<li>(<strong>Informatica</strong>) esprimere gli algoritmi in funzione delle capacità dell’esecutore e riflettere sulla loro correttezza</li>
+</ul>
+<h3 id="traguardiobiettivi-generali">Traguardi/obiettivi generali</h3>
+<p>Al termine di questa unità, lo studente sarà in grado di:</p>
+<ul>
+<li>spiegare con parole proprie il concetto di <strong>campionamento</strong> di un segnale audio, descrivendo come un'onda sonora continua viene convertita in una serie di valori discreti</li>
+<li>descrivere il significato di <strong>quantizzazione</strong> e motivare perché questo processo introduce una inevitabile perdita di informazione rispetto al segnale originale</li>
+<li>mettere in relazione un'onda sonora (fenomeno fisico) con la sua <strong>rappresentazione digitale</strong> (sequenza di numeri), spiegando i passaggi fondamentali della conversione</li>
+<li>applicare i principi del <strong>pensiero computazionale</strong> (in particolare la discretizzazione) per descrivere come un fenomeno continuo può essere gestito da un computer</li>
+<li>analizzare la relazione tra parametri come la <strong>frequenza di campionamento</strong> e la <strong>qualità del suono digitale</strong>, formulando ipotesi su come questi influenzino la fedeltà della riproduzione</li>
+</ul>
+<h3 id="obiettivi-specifici-in-forma-operativa">Obiettivi specifici in forma operativa</h3>
+<h4 id="livello-1-comprendere">Livello 1: comprendere</h4>
+<ul>
+<li>Lo studente/la studentessa è in grado di spiegare con parole proprie, usando le metafore della lezione (&quot;foto&quot;, &quot;gradini&quot;), perché un suono digitale è un'approssimazione di un suono reale.</li>
+</ul>
+<h4 id="livello-2-applicare">Livello 2: applicare</h4>
+<ul>
+<li>Lo studente è in grado di eseguire manualmente i passaggi di campionamento e quantizzazione su un'onda disegnata, producendo una sequenza di numeri.</li>
+</ul>
+<h4 id="livello-3-analizzare">Livello 3: analizzare</h4>
+<ul>
+<li>Lo studente è in grado di confrontare il disegno originale con la linea ricostruita e identificare visivamente dove si è &quot;persa&quot; l'informazione.</li>
+</ul>
+<h2 id="metodologie-didattiche">Metodologie didattiche</h2>
+<ul>
+<li>
+<p><strong>(Unplugged activity)</strong>: Attività svolta senza l'uso di computer, utilizzando materiali concreti (carta, matita) per simulare processi computazionali. Permette di focalizzarsi sui concetti senza la barriera tecnologica.</p>
+</li>
+<li>
+<p><strong>(Apprendimento attivo / Learning by doing)</strong>: Gli studenti non sono recettori passivi, ma eseguono attivamente i passaggi di campionamento e quantizzazione.</p>
+</li>
+<li>
+<p><strong>(Visualizzazione)</strong>: L'uso della carta millimetrata e del disegno è centrale per rendere visibili concetti astratti.</p>
+</li>
+<li>
+<p><strong>(Lezione dialogata)</strong>: L'insegnante guida l'attività, ma stimola la discussione, pone domande e incoraggia la riflessione collettiva.</p>
+</li>
+</ul>
+<h2 id="tempi">Tempi</h2>
+<p>Totale: Circa 2 ore (es. 2 moduli da 50-60 minuti).</p>
+<h2 id="spazi">Spazi</h2>
+<ul>
+<li>
+<p>Aula scolastica standard con banchi adatti per disegnare.</p>
+</li>
+<li>
+<p>Lavagna o LIM per le spiegazioni e dimostrazioni dell'insegnante.</p>
+</li>
+</ul>
+<h2 id="materiali-e-strumenti">Materiali e strumenti</h2>
+<ul>
+<li>
+<p>Fogli di carta millimetrata (almeno 2-3 per studente/coppia).</p>
+</li>
+<li>
+<p>Matite con punta media (HB o simile).</p>
+</li>
+<li>
+<p>Gomme per cancellare.</p>
+</li>
+<li>
+<p>Matite colorate o pennarelli a punta fine (almeno 2 colori diversi per studente o eventuale coppia, es. nero e rosso).</p>
+</li>
+<li>
+<p>Righello (opzionale, può aiutare a tracciare i livelli di quantizzazione).</p>
+</li>
+<li>
+<p>Lavagna/LIM/tablet e pennarelli/pennino.</p>
+</li>
+</ul>
+<h1 id="sviluppo-dei-contenuti">Sviluppo dei contenuti</h1>
+<h2 id="fase-1a---introduzione-e-londa-analogica-10-min">Fase 1.a - Introduzione e l'onda analogica (10 min)</h2>
+<h3 id="guida-insegnante">Guida insegnante</h3>
+<h4 id="la-domanda-del-docente---come-arriva-la-musica">La domanda del docente - Come arriva la musica</h4>
+<p>Aprire la lezione ponendo una domanda aperta agli studenti:</p>
+<blockquote>
+<p>&quot;Come pensate che la musica che ascoltate arrivi sui vostri cellulari o computer?&quot;</p>
+</blockquote>
+<p><strong>Scopo:</strong> Raccogliere le loro idee iniziali, stimolare la discussione e creare un collegamento con la loro esperienza quotidiana. Lasciare che emergano diverse ipotesi.</p>
+<h2 id="fase-1b---riproduzione-e-disegno-dell-onda-analogica-10-min">Fase 1.b - Riproduzione e disegno dell' onda analogica (10 min)</h2>
+<p>Dopo aver raccolto le idee, l' insegnante produce dei suoni reali e li disegna insieme alla classe.</p>
+<ul>
+<li><strong>Suono semplice</strong>: Utilizzando uno strumento musicale o utilizzando la propria voce si produce una nota lunga e costante. Si chiede dunque alla classe:</li>
+</ul>
+<blockquote>
+<p>&quot;Come disegneremmo questo suono? Il volume cambia? E la sua intensità?&quot;</p>
+</blockquote>
+<p>Li si guida a disegnare una retta orizzontale.</p>
+<ul>
+<li><strong>Suono complesso</strong>: Si esegua un suono che aumenti di volume (il &quot;crescendo&quot;)</li>
+</ul>
+<blockquote>
+<p>&quot;E questo? Come lo disegniamo?&quot;</p>
+</blockquote>
+<p>Li si guida a disegnare una curva che sale.</p>
+<ul>
+<li><strong>Suono ritmato</strong>: Si battano le mani due volte, una forte ed una piano.</li>
+</ul>
+<blockquote>
+<p>&quot;E questo? Non è sicuramente un suono continuo, come lo disegniamo?&quot;</p>
+</blockquote>
+<p>Li si guida a disegnare due &quot;picchi&quot;, uno più alto dell' altro.</p>
+<p><em>Suggerimento</em>: Nel mentre si può utilizzare un computer o tablet con Audacity per registrare i suoni appena eseguiti e mostrare l' onda registra, effettuando
+uno zoom opportuno per consentire agli studenti di vedere il suono nel digitale.</p>
+<blockquote>
+<p>&quot;Ora che abbiamo capito come un suono può diventare un disegno, create il vostro suono personale&quot;</p>
+</blockquote>
+<h3 id="guida-studente">Guida studente</h3>
+<h4 id="la-risposta-alla-domanda---la-musica-da-dove-arriva">La risposta alla domanda - La musica da dove arriva</h4>
+<p>Alla domanda del docente, lo studente è invitato a rispondere, generalmente l’ età media in aula è quella in cui si approccia alla musica in modo indipendente iniziando a scoprire artisti e generi più affini. Il punto di contatto con il quotidiano potrà portare a risposte fantasiose, il riferimento ad artisti più o  meno attuali, chi è più estroverso magari a voler far ascoltare qualcosa che sta sentendo in quel periodo.</p>
+<blockquote>
+<p>“Da Internet!” / “Dalle casse del cellulare!” / “Dalle registrazioni in studio dei Metallica!”</p>
+</blockquote>
+<h4 id="il-disegno-dei-tre-suoni">Il disegno dei tre suoni</h4>
+<p>Coadiavati dal docente, gli studenti disegneranno su un foglio i tre suoni (semplice, complesso e ritmato).</p>
+<h2 id="fase-1c---la-richiesta-del-disegno-10-min">Fase 1.c - La richiesta del disegno (10 min)</h2>
+<h3 id="guida-insegnante">Guida insegnante</h3>
+<p>Chiedere agli studenti di disegnare la propria onda sonora personale, con una frase come:</p>
+<blockquote>
+<p>&quot;Adesso, sulla carta millimetrata, disegniamo il viaggio di un suono. Immaginate che la linea orizzontale in basso sia il tempo che passa, mentre la linea verticale a sinistra sia il volume: più la linea che disegnate è in alto, più il suono è forte. Create il vostro suono! Potete disegnare una linea con onde morbide e tonde, come delle colline, oppure con punte affilate, come le cime di una montagna. Potete anche disegnare una linea che fa dei salti netti verso l'alto e verso il basso, come dei gradini. Siate creativi, è il vostro suono personale!&quot;</p>
+</blockquote>
+<p>Nel mentre della richiesta sarebbe bene disegnare su un supporto visibile agli studenti altri esempi delle diverse onde sonore per agevolare chi ha più difficoltà nel disegno.</p>
+<h3 id="guida-studente">Guida studente</h3>
+<h5 id="preparazione-e-ricezione-delle-istruzioni">Preparazione e ricezione delle istruzioni</h5>
+<p>Lo studente riceve il materiale: Prende possesso del foglio di carta millimetrata e degli strumenti da disegno (matita, pennarelli).
+Lo studente ascolta e decodifica la consegna: Ascolta l'insegnante mentre spiega il significato dei due assi sul foglio:</p>
+<p>Asse orizzontale (X): Lo associa al concetto di &quot;tempo che passa&quot;.
+Asse verticale (Y): Lo associa al concetto di &quot;volume&quot; o &quot;intensità del suono&quot; (alto = forte; basso = debole/silenzio).</p>
+<h5 id="osservazione-e-interiorizzazione-degli-esempi">Osservazione e interiorizzazione degli esempi</h5>
+<p>Lo studente osserva attivamente: Guarda l'insegnante mentre disegna alla lavagna (o su un supporto visibile) gli esempi di onde sonore.
+Lo studente associa le forme ai suoni: Collega mentalmente le diverse rappresentazioni grafiche ai tipi di suono corrispondenti:
+Onde morbide e arrotondate: Le associa a suoni dolci, continui e graduali
+Punte acute e affilate: Le associa a suoni improvvisi, forti e brevi
+Linee a gradoni (segmenti orizzontali e verticali netti): Le associa a suoni artificiali, on/off o intermittenti.</p>
+<h5 id="ideazione-e-progettazione-personale">Ideazione e progettazione personale</h5>
+<p>Lo studente attiva l'immaginazione: Pensa e sceglie un suono specifico da rappresentare. Questo può essere un suono reale (la pioggia, il miagolio di un gatto), un suono immaginario, o una sequenza di suoni che raccontano una piccola storia (es. una tempesta che arriva, esplode e si allontana).
+Lo studente pianifica la traduzione grafica: Prefigura mentalmente come le caratteristiche del suono scelto (inizio, durata, picchi di volume, cali, fine) possano essere trasformate in una linea sul foglio.</p>
+<h2 id="fase-2---campionamento---fare-le-%22fotografie%22-20-25-min">Fase 2 - Campionamento - Fare le &quot;fotografie&quot; (20-25 min)</h2>
+<h3 id="guida-insegnante">Guida insegnante</h3>
+<h4 id="campionare-il-suono">Campionare il suono</h4>
+<p>Illustrare agli studenti il concetto di fotografia del suono, con una descrizione come.</p>
+<blockquote>
+<p>&quot;Il computer non può 'vedere' tutta la curva contemporaneamente. Deve guardarla un pezzetto alla volta, a intervalli regolari. È come fare delle foto (o misurare l'altezza) dell'onda ogni secondo, o ogni mezzo secondo. Questo si chiama campionamento e la velocità con cui facciamo le 'fotografie' al nostro suono è la frequenza di campionamento”</p>
+</blockquote>
+<p>Decidere insieme una &quot;frequenza di campionamento&quot; visiva.</p>
+<p>Suggerimento:</p>
+<blockquote>
+<p>&quot;Proviamo a misurare la nostra onda ogni 3 quadretti sull'asse del tempo.&quot; (Scegliere un intervallo che generi un numero ragionevole di campioni, es. 8-15 punti).</p>
+</blockquote>
+<p>Dimostrare alla lavagna/LIM: sull'onda disegnata, segnare un punto esattamente sulla curva in corrispondenza di x=0, x=3, x=6, x=9, ecc.</p>
+<p>Dopo il campionamento:</p>
+<blockquote>
+<p>&quot;Osservate i punti che avete disegnato. Secondo voi, bastano per capire com'era la linea originale? Parlatene con il vostro vicino.&quot;</p>
+</blockquote>
+<h3 id="guida-studente">Guida studente</h3>
+<h4 id="campionare-il-proprio-suono">Campionare il proprio suono</h4>
+<p>Lo studente ascolta e interiorizza l'analogia: Ascolta l'insegnante spiegare che un computer, a differenza dell'occhio umano, non può percepire la totalità della curva sonora in un solo istante. Lo studente interiorizza l'idea del computer che &quot;fa delle foto&quot; o &quot;misura l'altezza&quot; della curva a intervalli regolari.</p>
+<p>Lo studente associa il termine tecnico all'azione pratica: Collega il termine astratto &quot;campionamento&quot; all'azione concreta di &quot;misurare a pezzetti&quot;. Capisce che la &quot;frequenza di campionamento&quot; non è altro che la regola che decide quanto spesso fare queste misurazioni (es. &quot;ogni secondo&quot;, &quot;ogni tre passi&quot;).
+Lo studente si appropria del metodo: Prende il proprio disegno, la matita (o un pennarello di un altro colore per evidenziare) e, se necessario, un righello.
+Lo studente esegue il campionamento: Applica sistematicamente la regola condivisa al proprio &quot;suono personale&quot;.
+Individua il punto di partenza (tempo = 0) e segna un punto evidente sulla sua linea.
+Conta 3 quadretti verso destra lungo l'asse orizzontale.
+Da quel punto, sale verticalmente fino a incrociare la linea del suo suono.
+In quel punto esatto di intersezione, disegna un altro punto ben marcato.
+Ripete questo processo metodicamente per tutta la lunghezza del suo disegno (a 6, 9, 12 quadretti, ecc.).
+Lo studente confronta l'originale con il risultato: Al termine dell'operazione, osserva il suo foglio. Ora non vede più solo una linea, ma una linea continua (il suono &quot;reale&quot;, analogico) e una serie di campioni (i punti, ovvero i dati &quot;digitali&quot;) che ne descrivono l'andamento.</p>
+<figure>
+    <img src="img/immagine-campionamento.png" alt="Testo alternativo" />
+    <figcaption>Un'onda sonora analogica (linea curva continua) con i punti di campionamento evidenziati a intervalli regolari.</figcaption>
+</figure>
+<p>Lo studente percepisce l'approssimazione: Guardando solo i punti che ha disegnato, si rende conto che, anche senza la linea originale a collegarli, essi mantengono l'informazione essenziale sulla forma del suono. Può ancora &quot;vedere&quot; dove il suono era forte (punti in alto) e dove era debole (punti in basso), dove saliva e dove scende</p>
+<p>Lo studente giunge a un'intuizione fondamentale: Capisce che il computer non memorizza tutto il suono, ma solo questa serie di &quot;fotografie&quot; (i campioni). Più queste foto sono vicine (cioè più alta è la frequenza di campionamento), più l'immagine ricostruita sarà fedele all'originale. Ha appena visualizzato il principio alla base della digitalizzazione del suono.</p>
+<h2 id="fase-3---quantizzazione---arrotondare-laltezza-20-25-min">Fase 3 - Quantizzazione - Arrotondare l'altezza (20-25 min)</h2>
+<h3 id="guida-insegnante">Guida insegnante</h3>
+<p>Illustrare agli studenti il concetto di quantizzazione attraverso l’ arrotondamento dei valori, ciò che va fatto è introdurre l'idea che il computer non può gestire un numero infinito di altezze possibili. Ha bisogno di &quot;categorie&quot; o &quot;livelli&quot; predefiniti. La quantizzazione è il processo di &quot;arrotondare&quot; l'altezza reale di ogni campione al livello permesso più vicino.</p>
+<p>Una frase potrebbe essere:</p>
+<blockquote>
+<p>“I nostri punti campionati possono avere qualsiasi altezza. Il computer, invece, funziona a 'gradini'. Dobbiamo associare ogni punto al gradino più vicino. Questo processo si chiama quantizzazione. &quot;</p>
+</blockquote>
+<p>Ciò che va fatto è rendere visibili i livelli di quantizzazione, sulla carta millimetrata, evidenziare (magari con un tratto leggero di un altro colore o ripassando la linea) le linee orizzontali corrispondenti a valori Y interi (..., -2, -1, 0, 1, 2, 3, ...). Oppure, se la curva è tutta positiva, solo 0, 1, 2, 3... Assegnare un numero (il valore Y) a ciascuna linea evidenziata.</p>
+<blockquote>
+<p>“Questi sono i nostri livelli consentiti.”</p>
+</blockquote>
+<p>Dimostrare alla lavagna/LIM: Prendere un punto di campionamento. Guardare la sua altezza Y. Trovare la linea orizzontale (livello consentito) più vicina a quel punto. Segnare un nuovo punto (es. una crocetta) che ha la stessa X del campione originale, ma la cui Y è esattamente sul livello consentito più vicino. Ripetere per alcuni campioni.</p>
+<p>Girare tra i banchi aiutando a trovare il livello più vicino. Questo è il passaggio concettualmente più
+delicato.</p>
+<p>Istruzione aggiuntiva da fornire agli allievi:</p>
+<blockquote>
+<p>&quot;Ora, per ogni crocetta che avete fatto, scrivete sotto (o a fianco) il numero del livello su cui si trova. Fatelo in ordine, da sinistra a destra. Questa sequenza di numeri è il nostro 'segnale digitale'!&quot;</p>
+</blockquote>
+<p><em>Discussione guidata</em>: &quot;L'altezza delle crocette è esattamente uguale a quella dei puntini originali? (No, è approssimata). Cosa succederebbe se avessimo meno livelli consentiti, ad esempio solo le linee 0, 2, 4...? (L'approssimazione sarebbe più 'grossolana', perderemmo più dettagli sull'altezza). E se avessimo più livelli, ad esempio anche le linee intermedie a metà quadretto? (L'approssimazione sarebbe più precisa).&quot; Introdurre l'idea intuitiva che più livelli = più fedeltà nell'ampiezza.</p>
+<h3 id="guida-studente">Guida studente</h3>
+<p>Lo studente esegue l'arrotondamento visivo.</p>
+<p>Per ogni punto campione che ha disegnato prima, ora compie un'operazione di giudizio:</p>
+<ul>
+<li>Fissa un punto.</li>
+<li>Guarda in alto e in basso, verso le linee evidenziate più vicine.</li>
+<li>Decide quale delle due linee è la più prossima.</li>
+<li>Disegna una crocetta sulla stessa linea verticale del punto originale, ma posizionandola esattamente sul &quot;livello consentito&quot; che ha scelto.</li>
+<li>Ripete questo processo per tutti i suoi campioni, sentendosi un po' come se stesse &quot;correggendo&quot; il suo disegno per adattarlo a una regola.</li>
+<li>Lo studente traduce il grafico in un codice.</li>
+<li>Osserva le sue crocette. Per ognuna di esse, legge il numero corrispondente al livello (il valore Y) su cui si trova e lo scrive in sequenza su un lato del foglio.</li>
+</ul>
+<p>Il risultato è il disegno dal quale vedrà la sua curva sonora trasformarsi in una semplice lista di numeri. Capisce che quella è l'informazione che il computer memorizzerà.
+Lo studente percepisce la perdita di informazione.</p>
+<p>Confronta la posizione dei punti originali con quella delle crocette. Nota immediatamente che non coincidono quasi mai. C'è sempre una piccola differenza, un piccolo &quot;errore&quot;. Si rende conto che, per rendere il suono comprensibile al computer, ha dovuto sacrificare un po' di precisione. L'altezza delle crocette è solo un'approssimazione.
+Lo studente giunge a un'intuizione fondamentale sulla qualità.</p>
+<p>Attraverso le domande dell'insegnante, immagina due scenari. Se i &quot;livelli&quot; fossero stati più distanti (es. solo le linee 0, 2, 4...), le sue crocette sarebbero state ancora più lontane dai punti originali, e l'approssimazione molto più grossolana. Se, invece, i livelli fossero stati più fitti, le crocette sarebbero state quasi identiche ai punti originali. Capisce così il secondo principio della digitalizzazione: il numero di &quot;gradini&quot; (livelli di quantizzazione) determina la fedeltà dell'ampiezza del suono. Più livelli ci sono, più il suono digitale assomiglia a quello reale.</p>
+<h2 id="fase-4---ricostruzione-e-confronto-15-20-min">Fase 4 - Ricostruzione e confronto (15-20 min)</h2>
+<p>Obiettivo: Far comprendere agli studenti come un dispositivo digitale (es. un computer, un telefono) utilizza la sequenza numerica per ricreare un segnale udibile. Questa fase permette di visualizzare la differenza tra il segnale analogico originale e quello digitale ricostruito, consolidando i concetti di approssimazione e perdita di informazione.</p>
+<h3 id="guida-insegnante">Guida insegnante</h3>
+<h4 id="introdurre-il-problema-inverso">Introdurre il problema inverso</h4>
+<p>Lanciare la sfida finale agli studenti:</p>
+<blockquote>
+<p>&quot;Bene, ora abbiamo la nostra lista di numeri, il nostro 'segnale digitale'. Questo è ciò che viene salvato in un file MP3. Ma come facciamo a riascoltarlo? Il computer deve fare il processo inverso: prendere questi numeri e ritrasformarli in un'onda. Oggi saremo noi a fare il lavoro delle casse del vostro telefono!&quot;</p>
+</blockquote>
+<p>Scopo: Impostare il compito come un'inversione del processo precedente, introducendo l'idea della conversione da digitale ad analogico (DAC).</p>
+<h4 id="guidare-la-ricostruzione">Guidare la ricostruzione</h4>
+<p>Fornire istruzioni chiare e dimostrare il primo passaggio alla lavagna:</p>
+<blockquote>
+<p>&quot;Prendete un pennarello di un nuovo colore. Ora, dimenticatevi della vostra curva originale e delle crocette. Guardate solo la sequenza di numeri che avete scritto.
+&quot;Leggete il primo numero della lista.&quot;
+&quot;Trovate la prima posizione di campionamento (a x=3, per esempio) e l'altezza corrispondente a quel numero. Segnate un punto.&quot;
+&quot;Fate lo stesso per il secondo numero.&quot;
+&quot;Adesso, collegate questi due punti con una linea retta.&quot;
+&quot;Continuate così: leggete un numero, trovate il punto e collegatelo a quello precedente. Stiamo 'unendo i puntini'.&quot;</p>
+</blockquote>
+<p><em>Nota per l'insegnante</em>: È cruciale che gli studenti lavorino solo sulla base della loro sequenza numerica per simulare il comportamento di una macchina che non ha accesso all'informazione originale.</p>
+<h4 id="ricostruzione-del-suono-e-la-discussione-finale">Ricostruzione del suono e la discussione finale</h4>
+<p>Una volta che tutti hanno terminato, guidare una discussione di sintesi:</p>
+<blockquote>
+<p>&quot;Ora osservate il vostro foglio. Vedete tre cose: la vostra onda originale morbida, le crocette e questa nuova linea spezzata. La linea che avete appena disegnato è uguale all'originale? Che forma ha? Cosa vi ricorda? Cosa ci dice questo sulla musica che ascoltiamo? È una copia perfetta o un'approssimazione incredibilmente buona?&quot;</p>
+</blockquote>
+<blockquote>
+<p>&quot;Perché non proviamo a suonare la nostra linea spezzata? Scegliamo una nota e cantiamola insieme, se la curva sale aumentiamo la voce, se scende la abbassiamo&quot;</p>
+</blockquote>
+<p><em>Scopo</em>: Portare gli studenti a una conclusione consapevole. L'audio digitale è una ricostruzione basata su dati discreti, e la sua qualità dipende dalla &quot;densità&quot; di quei dati (frequenza di campionamento e livelli di quantizzazione).</p>
+<h3 id="guida-studente">Guida studente</h3>
+<p>Lo studente accetta la sfida finale: tornare indietro
+Lo studente ascolta l'insegnante e capisce che il lavoro non è finito. Se prima ha &quot;smontato&quot; il suono in numeri, ora deve &quot;rimontarlo&quot;. Interiorizza l'idea che questo è ciò che accade ogni volta che preme &quot;play&quot; su una canzone.
+Lo studente si mette nei panni del computer
+Prende un pennarello di un altro colore, pronto a eseguire un compito puramente meccanico. Si sforza di ignorare la sua bellissima curva originale e di concentrarsi solo sulla fredda sequenza di numeri che ha scritto. Applica l'algoritmo passo dopo passo:
+Legge il primo numero (es. &quot;2&quot;).
+Si posiziona sulla prima coordinata temporale (x=3) e sale fino al livello &quot;2&quot;, disegnando un punto.
+Legge il secondo numero (es. &quot;4&quot;).
+Si sposta sulla seconda coordinata temporale (x=6) e sale al livello &quot;4&quot;, disegnando un altro punto.
+Con il righello o a mano libera, traccia un segmento che unisce i due punti.
+Ripete metodicamente il processo, sentendosi come una stampante che esegue un comando, fino a esaurire la lista di numeri.
+Lo studente osserva il risultato: l'onda &quot;digitale&quot;
+Al termine, guarda il suo foglio. Vede emergere una nuova forma: non è la sua onda morbida originale, ma una linea spezzata, fatta di segmenti retti, spigolosa e geometrica. Assomiglia a una catena montuosa stilizzata o al profilo di un edificio.
+Lo studente confronta i tre mondi e giunge a una comprensione completa
+Con un solo sguardo, ora può vedere l'intero processo:
+L'originale (mondo analogico): La sua curva fluida, l'idea perfetta del suono.
+I dati (mondo digitale): Le crocette e la sequenza di numeri, ovvero l'informazione salvata, discreta e approssimata.
+La ricostruzione (il ritorno al mondo analogico): La linea spezzata, che rappresenta il suono come può essere ricreato da una macchina.
+Capisce visivamente perché l'audio digitale non è &quot;reale&quot;, ma una ricostruzione. Intuisce che se i suoi campioni fossero stati più fitti e i suoi &quot;gradini&quot; (livelli) più numerosi, la linea spezzata sarebbe stata molto più vicina alla sua curva originale, quasi indistinguibile. Ha appena visualizzato il compromesso tra la qualità di un file audio e la quantità di dati necessari per descriverlo.</p>
+<figure>
+    <img src="img/immagine-quantizzazione.png" alt="Testo alternativo" />
+    <figcaption>Confronto tra l'onda analogica originale, i punti quantizzati (crocette) e il segnale digitale ricostruito (linea spezzata).</figcaption>
+</figure>
+<h2 id="fase-5---variare-i-parametri-e-conclusioni-20-30-min">Fase 5 -  Variare i parametri e conclusioni (20-30 min)</h2>
+<h3 id="guida-insegnante">Guida insegnante</h3>
+<p>Obiettivo: Consolidare l'apprendimento spingendo gli studenti a riflettere su come la modifica dei parametri (frequenza di campionamento e numero di livelli) influenzi la qualità del segnale ricostruito. Collegare l'esperienza pratica ai formati audio e ai dispositivi di uso quotidiano.</p>
+<h4 id="impostare-un-esperimento-mentale-o-pratico">Impostare un esperimento mentale (o Pratico)</h4>
+<p>Guidare una discussione ipotetica per esplorare gli estremi.
+&quot;Abbiamo usato una regola: un campione ogni 3 quadretti e i livelli interi. Ma cosa succederebbe se cambiassimo queste regole?
+Scenario 1 (Bassa Qualità): Immaginate di dover rifare tutto prendendo un campione solo ogni 6 quadretti e usando solo i livelli pari (0, 2, 4...). Come sarebbe la vostra linea spezzata rossa? Assomiglierebbe di più o di meno all'originale?&quot;
+(Se il tempo lo permette, si può chiedere agli studenti di provare a farlo su una piccola porzione del loro grafico con un altro colore).
+Scenario 2 (Alta Qualità): E se invece potessimo prendere un campione ogni quadretto e usare anche i livelli a metà (0.5, 1.5, 2.5...)? Come cambierebbe il risultato?&quot;
+Scopo: Far dedurre agli studenti la relazione diretta tra densità dei dati e fedeltà della ricostruzione, senza necessariamente rieseguire l'intero processo.</p>
+<h4 id="formalizzare-i-principi-chiave">Formalizzare i principi chiave</h4>
+<p>Riassumere le scoperte in due regole chiare e scriverle alla lavagna:
+Regola della Frequenza: Più spesso facciamo le &quot;foto&quot; (maggiore frequenza di campionamento), più catturiamo i dettagli veloci del suono.
+Regola della Precisione: Più &quot;gradini&quot; usiamo (maggior numero di livelli di quantizzazione), più precisa è l'altezza di ogni campione.
+&quot;Queste due regole decidono la qualità del nostro suono digitale. Alta qualità significa tanti campioni e tanti livelli. Ma questo ha un costo...&quot;</p>
+<h4 id="collegare-lesperienza-al-mondo-reale">Collegare l'esperienza al mondo reale</h4>
+<p>Portare la discussione sui dispositivi e i formati che gli studenti conoscono, usando l'attività come chiave di lettura.
+&quot;Tutto quello che abbiamo fatto oggi sul foglio è ciò che accade miliardi di volte al secondo nei vostri dispositivi.
+Un CD Audio è come il nostro 'Scenario ad Alta Qualità'. Campiona il suono 44.100 volte al secondo e usa oltre 65.000 livelli di altezza! Il risultato è molto fedele, ma occupa tanto spazio.
+Un file MP3 o lo streaming a bassa qualità è come il nostro 'Scenario a Bassa Qualità'. Usa meno campioni e meno livelli (o trucchi più furbi per buttare via le informazioni che l'orecchio sente di meno). Il suono è meno fedele, ma il file è piccolo e si scarica velocemente.
+Una telefonata è ottimizzata per la voce. Usa pochi dati, sufficienti a farci capire le parole, ma se provassimo ad ascoltare musica, la sentiremmo 'piatta' e 'povera'.&quot;
+Scopo: Trasformare l'esercizio astratto in una competenza critica per comprendere il mondo digitale. Lo studente ora sa perché un video su YouTube può essere visto in &quot;1080p&quot; o &quot;360p&quot; e perché c'è differenza tra Spotify Free e Premium.</p>
+<p><strong>Estensione digitale (Facoltativa):</strong> Per collegare l'esperienza manuale a quella reale, l'insegnante può concludere la lezione mostrando sullo schermo (LIM) un software di editing audio come Audacity. Registrando un breve suono (es. un battito di mani) e facendo uno zoom estremo sulla forma d'onda, gli studenti potranno vedere i singoli 'punti' (campioni) che compongono il segnale digitale, riconoscendo visivamente la struttura che hanno appena costruito a mano sulla carta.</p>
+<h3 id="guida-studente">Guida studente</h3>
+<p>Lo studente ragiona come un ingegnere del suono
+Ascolta le domande dell'insegnante e usa la sua esperienza sul foglio per fare delle previsioni.
+Immaginando lo &quot;Scenario a Bassa Qualità&quot;: Visualizza meno punti, più distanti tra loro, e crocette che fanno salti più grandi per raggiungere i pochi livelli disponibili. Conclude che la linea spezzata rossa sarebbe una versione molto più grezza e &quot;squadrata&quot; del suo suono originale, perdendone quasi tutta la fluidità.
+Immaginando lo &quot;Scenario ad Alta Qualità&quot;: Visualizza una fittissima serie di punti sulla sua curva e livelli di quantizzazione così vicini da essere quasi indistinguibili. Capisce che la linea ricostruita seguirebbe la sua onda originale in modo quasi perfetto, con gradini piccolissimi.
+Lo studente interiorizza le regole della qualità digitale
+Collega le due &quot;manopole&quot; immaginarie (la frequenza dei campioni e il numero di livelli) al concetto di qualità. Non è più un termine vago, ma il risultato di due parametri precisi che può visualizzare. Capisce il trade-off fondamentale: per avere una copia perfetta, servono tantissimi dati; per risparmiare spazio, bisogna accettare un'approssimazione.
+Lo studente diventa un utente consapevole
+Sente i nomi &quot;CD&quot;, &quot;MP3&quot;, &quot;streaming&quot; e non sono più solo etichette. Ora li associa a scelte tecniche precise.
+Pensa al CD come a un foglio di carta millimetrata gigante con una griglia finissima.
+Pensa all'MP3 come a un foglio con una griglia più larga, dove si è deciso di &quot;barare&quot; un po' per far stare tutto in meno spazio.
+Pensa alla telefonata come a un disegno fatto con pochissimi punti, giusto l'essenziale per riconoscere la forma.
+Guarda il suo smartphone in modo diverso. Ora sa che dietro ogni file audio, ogni canzone su Spotify, c'è una lunga sequenza di numeri nata esattamente dal processo che ha appena eseguito a mano. Ha smontato e rimontato un pezzo di realtà digitale, comprendendone i meccanismi, i limiti e le potenzialità.</p>
+<h1 id="strategie-di-differenziazione-didattica">Strategie di differenziazione didattica</h1>
+<p>Questa attività, per sua natura manuale e visiva, si presta bene a essere adattata. Di seguito sono proposte strategie di scaffolding (supporto per studenti con maggiori difficoltà, BES o DSA) e di potenziamento (per studenti più veloci o con maggiore attitudine).</p>
+<h2 id="per-studenti-con-difficolt%C3%A0-scaffolding">Per studenti con difficoltà (Scaffolding)</h2>
+<p>L'obiettivo è ridurre il carico cognitivo, semplificare le consegne e fornire supporti concreti.</p>
+<h3 id="fase-1-onda-analogica">Fase 1 (Onda analogica)</h3>
+<p>Supporto visivo: Fornire fogli con gli assi già disegnati e, per chi ha difficoltà motorie, delle &quot;onde-modello&quot; tratteggiate da ricalcare.</p>
+<p>Semplificazione del compito: Invece di un'onda complessa, chiedere di disegnare un suono molto semplice: un &quot;bip&quot; (una singola collina), o un suono costante (una linea retta a una certa altezza).</p>
+<p>Supporto narrativo: Associare il disegno a una storia semplicissima: &quot;la palla che rimbalza una volta&quot;.</p>
+<h3 id="fase-2-campionamento">Fase 2 (Campionamento):</h3>
+<p><strong>Lavoro in Coppia (Peer Tutoring Strutturato):</strong> Far lavorare uno studente più sicuro con uno in difficoltà per favorire l'apprendimento tra pari. Per rendere la collaborazione efficace, si suggerisce di assegnare ruoli specifici che aumentino l'interdipendenza positiva. Ad esempio:</p>
+<ul>
+<li><strong>Ruolo A - &quot;Il Misuratore&quot;:</strong> Conta i quadretti sull'asse del tempo e si assicura che il campionamento avvenga all'intervallo corretto.</li>
+<li><strong>Ruolo B - &quot;Il Disegnatore&quot;:</strong> Individua il punto di intersezione sulla curva e lo segna fisicamente sul foglio.</li>
+</ul>
+<p>I ruoli possono essere scambiati a metà attività per permettere a entrambi gli studenti di sperimentare entrambi i compiti.</p>
+<h3 id="fase-3-quantizzazione">Fase 3 (Quantizzazione):</h3>
+<p>Riduzione delle scelte: Usare pochissimi livelli di quantizzazione, molto distanziati tra loro (es. solo le linee Y=0, Y=5, Y=10). Questo rende la scelta del &quot;livello più vicino&quot; quasi ovvia.</p>
+<p>Guida visiva: Evidenziare non solo le linee dei livelli, ma anche le &quot;zone&quot; di appartenenza (es. colorare debolmente l'area tra Y=2.5 e Y=7.5 per indicare la &quot;zona del livello 5&quot;).</p>
+<p>Focus sulla sequenza: Se la parte grafica è troppo complessa, concentrarsi sulla traduzione in numeri. L'insegnante può indicare la crocetta e lo studente deve solo scrivere il numero corrispondente.</p>
+<h3 id="fase-4-ricostruzione">Fase 4 (Ricostruzione):</h3>
+<p>Sequenze brevi: Lavorare con una sequenza di soli 4-5 numeri per non perdere il filo.</p>
+<p>Guida verbale: L'insegnante o un compagno può dettare i numeri uno alla volta mentre lo studente disegna: &quot;Adesso vai a 3 e sali fino a 2. Ora vai a 6 e sali fino a 4...&quot;.</p>
+<h3 id="fase-5-conclusioni">Fase 5 (Conclusioni):</h3>
+<p>Analogie concrete: Invece di parlare di formati, usare analogie più tangibili. &quot;Un disegno con pochi
+mattoncini Lego grandi (bassa qualità) contro un disegno con tantissimi mattoncini piccoli (alta qualità)&quot;. Oppure, una foto molto sgranata/pixelata contro una foto nitida.</p>
+<h2 id="per-studenti-ad-alto-potenziale-cognitivo-potenziamento-ed-estensione">Per studenti ad alto potenziale cognitivo (Potenziamento ed estensione)</h2>
+<p>L'obiettivo è stimolare il pensiero critico, introdurre maggiore complessità e incoraggiare l'esplorazione autonoma.</p>
+<h3 id="fase-1-onda-analogica">Fase 1 (Onda analogica):</h3>
+<p>Complessità aggiuntiva: Chiedere di rappresentare un suono più complesso, come una breve melodia, includendo variazioni di ampiezza (un crescendo o un diminuendo). Chiedere di giustificare la forma disegnata.</p>
+<p>Introduzione di un secondo parametro: Introdurre l'idea che l'asse Y può rappresentare il volume, ma la &quot;larghezza&quot; delle onde può rappresentare la nota (onde strette = suono acuto, onde larghe = suono grave).</p>
+<h3 id="fase-2-campionamento">Fase 2 (Campionamento):</h3>
+<p>Domanda &quot;What if...?&quot;: &quot;Cosa succederebbe se campionassi ogni quadretto? E se campionassi ogni 10? Disegna entrambi i risultati su una piccola parte della tua onda e confrontali. Quale è meglio? Perché?&quot;.
+Introduzione all'Aliasing (intuitiva): Far disegnare un'onda molto veloce (tante oscillazioni in poco spazio) e chiedere di campionarla a una frequenza bassa. Lo studente noterà che i punti catturati descrivono un'onda completamente diversa, più lenta. &quot;Hai visto? Se scatti le foto troppo lentamente, ti perdi il movimento reale e ne vedi uno falso!&quot;.</p>
+<h3 id="fase-3-quantizzazione">Fase 3 (Quantizzazione):</h3>
+<p>Introduzione alla codifica binaria: &quot;Se avessimo 4 livelli, potremmo chiamarli 0, 1, 2, 3. In binario, sarebbero 00, 01, 10, 11. Servono 2 bit. E se avessimo 8 livelli? Quanti bit servirebbero? Prova a scrivere la tua sequenza di numeri in binario.&quot;
+Calcolo dell' errore: Chiedere di calcolare, per alcuni punti, l'errore di quantizzazione: la differenza numerica tra l'altezza del punto originale e quella della crocetta.</p>
+<h3 id="fase-4-ricostruzione">Fase 4 (Ricostruzione):</h3>
+<p>Critica all'algoritmo: &quot;Abbiamo unito i punti con linee rette. Ti sembra il modo migliore? Riesci a immaginare un modo più 'intelligente' per collegarli, in modo che la curva finale sia più morbida e simile all'originale?&quot; (Questo introduce l'idea di algoritmi di interpolazione più complessi).</p>
+<h3 id="fase-5-conclusioni">Fase 5 (Conclusioni):</h3>
+<p>Calcolo della dimensione del file: Introdurre un calcolo semplificato. &quot;Se ogni numero della tua sequenza occupa 2 bit, e hai 10 numeri, quanto è 'grande' il tuo file audio in bit? E se avessi usato 16 livelli (4 bit per numero)?&quot;. Questo rende concreto il concetto di &quot;dimensione del file&quot;.</p>
+<p>Problema di progettazione: Porre un problema reale: &quot;Devi progettare il sistema audio per un videogioco.</p>
+<p>Per i dialoghi dei personaggi, useresti la stessa qualità della colonna sonora principale? Perché? Quali parametri cambieresti?&quot;.</p>
+<h3 id="valutazione-dell-apprendimento">Valutazione dell' apprendimento</h3>
+<p>La valutazione di questa unità didattica è concepita come un processo continuo che integra momenti di valutazione formativa (in itinere) e sommativa (finale). L'obiettivo non è solo misurare l'apprendimento, ma anche monitorare la comprensione in tempo reale, fornire feedback agli studenti e verificare il raggiungimento degli obiettivi specifici definiti in precedenza.</p>
+<p>Si farà uso di tre strumenti principali: una griglia di osservazione sistematica per il lavoro pratico, domande-stimolo per la discussione collettiva e un breve compito di consolidamento da svolgere a casa.</p>
+<ol>
+<li>Griglia di osservazione sistematica (valutazione formativa in itinere)</li>
+</ol>
+<p>Durante le fasi pratiche dell'attività (disegno, campionamento, quantizzazione, ricostruzione), l'insegnante utilizzerà una griglia per osservare e registrare i comportamenti degli studenti. Questo strumento permette di valutare non solo il prodotto finale, ma soprattutto il processo, l'impegno e la comprensione manifestata durante il lavoro.
+Scopo: Identificare immediatamente difficoltà, correggere eventuali fraintendimenti e valutare le competenze procedurali e di problem solving.</p>
+<p>Esempio di griglia di osservazione:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Indicatore di competenza</th>
+<th style="text-align:left">Livello iniziale (1)</th>
+<th style="text-align:left">Livello base (2)</th>
+<th style="text-align:left">Livello avanzato (3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Partecipazione e impegno</strong></td>
+<td style="text-align:left">Svolge l'attività solo se sollecitato, appare distratto.</td>
+<td style="text-align:left">Partecipa in modo autonomo, seguendo le istruzioni.</td>
+<td style="text-align:left">Partecipa con entusiasmo, pone domande, aiuta i compagni.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Competenza procedurale</strong></td>
+<td style="text-align:left">Fatica a seguire i passaggi (es. contare i quadretti, trovare il livello più vicino).</td>
+<td style="text-align:left">Esegue correttamente le procedure di campionamento e quantizzazione.</td>
+<td style="text-align:left">Esegue le procedure con sicurezza e precisione, proponendo anche piccole varianti.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Comprensione concettuale</strong></td>
+<td style="text-align:left">Esegue meccanicamente senza cogliere il nesso tra l'azione e il concetto.</td>
+<td style="text-align:left">Collega l'azione pratica alla metafora (es. &quot;sto facendo le foto&quot;).</td>
+<td style="text-align:left">Spiega con parole proprie il significato dei passaggi (es. &quot;ora sto approssimando&quot;).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Collaborazione (se in coppia)</strong></td>
+<td style="text-align:left">Lavora in modo isolato o non contribuisce al lavoro di coppia.</td>
+<td style="text-align:left">Collabora con il compagno, dividendosi i compiti in modo funzionale.</td>
+<td style="text-align:left">Discute attivamente con il compagno, confrontando idee e strategie.</td>
+</tr>
+</tbody>
+</table>
+<ol start="2">
+<li>Domande-stimolo per la discussione finale (Valutazione orale e sommativa)</li>
+</ol>
+<p>Al termine dell'attività, nella fase di confronto e conclusione, l'insegnante guiderà una discussione per valutare la comprensione dei concetti chiave a un livello più astratto. Le domande saranno aperte per stimolare il ragionamento critico e la rielaborazione personale.</p>
+<p><strong>Scopo</strong>: Verificare la capacità di sintesi, di analisi e di collegamento dell'esperienza con il mondo reale.</p>
+<p>Esempi di domande-stimolo:</p>
+<ul>
+<li>(<strong>Comprensione)</strong> &quot;Con parole vostre, qual è la differenza più grande tra la linea morbida che avete disegnato all'inizio e la sequenza di numeri che avete scritto alla fine? Cosa si è 'perso' nel processo?&quot;</li>
+<li>(<strong>Analisi)</strong> &quot;Perché la linea spezzata che abbiamo ricostruito non è identica a quella originale? Quale dei due passaggi, il campionamento (fare le foto) o la quantizzazione
+(scegliere i gradini), ha creato la maggiore differenza? Perché?&quot;</li>
+<li>(<strong>Valutazione e applicazione</strong>) &quot;Immaginate di dover registrare l'audio per un videogioco. Per i dialoghi dei personaggi, che devono essere molto chiari, usereste più 'foto' e più 'gradini' o di meno? E per la musica di sottofondo, che deve solo creare un'atmosfera, potreste risparmiare spazio usando meno dati? Giustificate la vostra scelta.&quot;</li>
+</ul>
+<ol start="3">
+<li>Compito per casa (Consolidamento e verifica scritta individuale)</li>
+</ol>
+<p>Per consolidare l'apprendimento e ottenere una valutazione individuale scritta, verrà assegnato un breve compito a casa che richiede una rielaborazione personale dei concetti.</p>
+<p><strong>Scopo</strong>: Verificare la comprensione individuale e la capacità di comunicare un concetto tecnico in modo semplice e chiaro.</p>
+<p><strong>Consegna del compito</strong>:</p>
+<blockquote>
+<p>&quot;Immagina di dover spiegare a un amico che non era presente a lezione la differenza tra un suono 'reale' (come quello di una chitarra suonata dal vivo) e un suono 'digitale' (come quello in un file MP3).
+Scrivi un breve testo (massimo 10 righe) usando le idee che abbiamo scoperto oggi, come le 'fotografie' del suono, i 'gradini' per misurare l'altezza e la sequenza finale di numeri.&quot;</p>
+</blockquote>
+<p><strong>Criteri di valutazione del compito</strong>:</p>
+<p>Correttezza concettuale: Lo studente dimostra di aver capito la differenza tra segnale continuo e discreto.
+Uso appropriato delle metafore: Le idee di campionamento (&quot;fotografie&quot;) e quantizzazione (&quot;gradini&quot;) sono usate correttamente per spiegare il processo.
+Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.</p>
+<h1 id="bibliografia">Bibliografia</h1>
+<ul>
+<li>
+<p>Bell, T., Witten, I. H., &amp; Fellows, M. (s.d.). <em>CS Unplugged</em> <a href="https://csunplugged.org/en/">https://csunplugged.org/en/</a> (Materiale didattico per l'informatica unplugged).</p>
+</li>
+<li>
+<p>Ministero dell'Istruzione, dell'Università e della Ricerca. (2012). <em>Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione</em> (Documento Ufficiale). Roma, Italia: Ministero dell'Istruzione, dell'Università e della Ricerca.</p>
+</li>
+<li>
+<p>Pohlmann, K. C. (2010). <em>Principles of Digital Audio</em> (6th ed.). New York, NY: McGraw-Hill.</p>
+</li>
+<li>
+<p>Shannon, C. E. (1949). Communication in the presence of noise. <em>Proceedings of the IRE</em>, <em>37</em>(1), 10–21.</p>
+</li>
+<li>
+<p>Wing, J. M. (2006). Computational thinking. <em>Communications of the ACM</em>, <em>49</em>(3), 33–35.</p>
+</li>
+<li>
+<p>(2017). CINI - Consorzio Universitario nazionale per l' informatica - Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola</p>
+</li>
+</ul>
+<h1 id="licenza-del-documento">Licenza del documento</h1>
+<p>git
+La presente relazione è rilasciata secondo licenza Creative Commons (CC), uno strumento legale che permette agli autori di opere creative di concedere alcuni diritti patrimoniali a terzi, mantenendo il controllo su altri aspetti dell’utilizzo dell’opera. Le CC offrono una varietà di licenze, permettendo agli autori di definire quali diritti riservare e quali concedere in uso. In sostanza, le licenze CC funzionano come un contratto che specifica come l’opera può essere utilizzata, modificata e distribuita. Ho scelto di distribuirla come <em>CC BY-SA</em>.</p>
+<p align="center">
+  <img src="img/ccbysa.png" width="25%">
+</p>
+<p>Questa licenza consente ai riutilizzatori di distribuire, remixare, adattare e sviluppare il materiale in qualsiasi mezzo o formato, purché venga attribuita l’attribuzione al creatore. La licenza consente l’uso commerciale. Se si remixa, si adatta o si sviluppa il materiale, è necessario concedere in licenza il materiale modificato alle stesse condizioni. CC BY-SA include i seguenti elementi: BY: deve essere attribuito il merito all’autore. SA: gli adattamenti devono essere condivisi alle stesse condizioni.</p>
+
+</body>
+</html>

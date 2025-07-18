@@ -33,9 +33,10 @@ In seguito alle indicazioni ricevute sulla seconda stesura consegnata a Luglio, 
 
 Le principali modifiche apportate sono le seguenti:
 
-* Introdotta la fase 1.b in cui viene replicato un suono tramite voce o strumento musicale.
-* Ridotti gli obiettivi specifici.
+* Introdotte le fasi 1.b e 1.c in cui viene replicato un suono tramite voce o strumento musicale per poi disegnarlo
+* Ridotti gli obiettivi dell' unità didattica.
 * Maggiore partecipazione degli studenti aumentando l' interazione tra loro e tra loro ed il docente.
+* Richiamate le fonti bibliografiche nelle perozioni di testo ad esse collegate e riferite.
 
 # Inquadramento del lavoro
 
@@ -108,7 +109,7 @@ Questa unità didattica può definirsi come: "campionamento e quantizzazione unp
 
 ### Contestualizzazione storica
 
-L’attività didattica si inserisce nell’ambito dell’educazione al pensiero computazionale e alla comprensione dei fondamenti del digitale, in particolare del processo di digitalizzazione del suono. Questo processo è governato da due principi fondamentali: il campionamento e la quantizzazione. Il teorema di Nyquist-Shannon stabilisce che per rappresentare fedelmente un segnale analogico, è necessario campionarlo ad una frequenza almeno doppia rispetto alla massima frequenza presente nel segnale. Se questa condizione non è rispettata, si verifica il fenomeno dell’aliasing, ovvero la comparsa di distorsioni nel segnale digitale.
+L’attività didattica si inserisce nell’ambito dell’educazione al pensiero computazionale e alla comprensione dei fondamenti del digitale, in particolare del processo di digitalizzazione del suono [@Pohlmann:2010].  Questo processo è governato da due principi fondamentali: il campionamento e la quantizzazione. Il teorema di Nyquist-Shannon [@Shannon:1949]stabilisce che per rappresentare fedelmente un segnale analogico, è necessario campionarlo ad una frequenza almeno doppia rispetto alla massima frequenza presente nel segnale. Se questa condizione non è rispettata, si verifica il fenomeno dell’aliasing, ovvero la comparsa di distorsioni nel segnale digitale.
 
 La quantizzazione, invece, consiste nell’approssimare ogni campione a un valore discreto all’interno di un numero finito di livelli, determinati dalla profondità in bit. Questo introduce un errore chiamato rumore di quantizzazione, che può ridurre la qualità del segnale audio risultante. In termini didattici, questi concetti rappresentano un’occasione per esplorare in modo interdisciplinare nozioni di matematica (discretizzazione, numeri binari) e di fisica (onde sonore), rendendoli tangibili attraverso attività concrete e visive.
 
@@ -150,21 +151,15 @@ Secondo il documento del CINI [@CINI:2018], i traguardi raggiunti per lo svilupp
 - **T-M-2**: descrive in maniera algoritmica semplici processi della natura o della vita quotidiana o studiati in altre discipline
 - **T-M-3**: comprende l'importanza e la necessità di riflettere sulla correttezza delle descrizioni algoritmiche
 - **T-M-7**: riconosce dati di ingresso e di uscita delle applicazioni informatiche
-- **T-M-9**: classifica le tipologie di dati (es.: numerici, testuali, ...)
-- **T-M-10**: conosce l'architettura di principio (fisica e funzionale) di un sistema di elaborazione digitale
-- **T-M-11**: riconosce le componenti hardware e software dei sistemi di elaborazione digitale
-- **T-M-14**: seleziona ed utilizza, anche in modo combinato, programmi e servizi software per raggiungere uno specifico obiettivo
-- **T-M-15**: sperimenta le potenzialità della tecnologia informatica come strumento di espressione personale
-- **O-M-D-2**: effettua operazioni semplici su simboli che rappresentano informazione strutturata (es. numeri binari, immagini "bitmap")
 
 #### Nuove indicazioni 2025 - scuola dell’infanzia e primo ciclo di istruzione
 
 Secondo il testo reperibile sul sito del Ministero dell’Istruzione [@MIUR:2012] che definisce le linee di indirizzo dei nuovi curricoli per le scuole dell’infanzia, nell’ambito degli obiettivi specifici di apprendimento, al termine dell’unità didattica, gli allievi:
+
 - (**Numeri**) saper fornire stime approssimate per il risultato di un’operazione e controllare la plausibilità di un calcolo
 - (**Spazio e figure**) rappresentare punti, segmenti e figure nel piano cartesiano
 - (**Spazio e figure**) descrivere figure complesse e costruzioni geometriche al fine di comunicarle ad altri
 - (**Spazio e figure**) riprodurre figure e disegni geometrici in base a una descrizione e codificazione fatta da altri
-- (**Dati e previsioni**) rappresentare insiemi di dati, anche facendo uso di software
 - (**Informatica**) esprimere gli algoritmi in funzione delle capacità dell’esecutore e riflettere sulla loro correttezza
 
 ### Traguardi/obiettivi generali
