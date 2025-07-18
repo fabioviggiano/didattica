@@ -647,7 +647,7 @@ Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
 
 *   Wing, J. M. (2006). Computational thinking. *Communications of the ACM*, *49*(3), 33–35.
 
-*   (2017). Consorzio Universitario nazionale per l' informatica - Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola 
+*   (2017). CINI - Consorzio Universitario nazionale per l' informatica - Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola 
 
 # Licenza del documento
 
