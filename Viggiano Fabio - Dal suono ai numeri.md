@@ -12,7 +12,7 @@ author: Fabio Viggiano - 0001195183
 </p>
 
 
-# Changelog
+# Changelog - Maggio
 
 In seguito alle indicazioni ricevute sulla prima stesura consegnata a fine Maggio, la relazione è stata profondamente revisionata per migliorarne la chiarezza, la coerenza didattica e l'aderenza ai requisiti richiesti. 
 
@@ -26,6 +26,16 @@ Le principali modifiche apportate sono le seguenti:
 * Il tono generale è stato reso più formale e meno colloquiale, distinguendo più nettamente tra la "guida per l'insegnante" e le azioni dello "studente".
 * Le sezioni "Grandi Idee" e "Prerequisiti" sono state affinate per essere più pertinenti e concise.
 * Sono state aggiunte delle immagini esplicative per i punti cruciali del campionamento e quantizzazione.
+
+# Changelog - Luglio
+
+In seguito alle indicazioni ricevute sulla seconda stesura consegnata a Luglio, la relazione è stata revisionata in modo tale da integrare delle esperienze sonore reali, dosati gli obiettivi specifici e reso la lezione più centrata sullo studente.
+
+Le principali modifiche apportate sono le seguenti:
+
+* Introdotta la fase 1.b in cui viene replicato un suono tramite voce o strumento musicale.
+* Ridotti gli obiettivi specifici.
+* Maggiore partecipazione degli studenti aumentando l' interazione tra loro e tra loro ed il docente.
 
 # Inquadramento del lavoro
 
@@ -650,7 +660,7 @@ Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
 *   (2017). CINI - Consorzio Universitario nazionale per l' informatica - Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola 
 
 # Licenza del documento
-
+git 
 La presente relazione è rilasciata secondo licenza Creative Commons (CC), uno strumento legale che permette agli autori di opere creative di concedere alcuni diritti patrimoniali a terzi, mantenendo il controllo su altri aspetti dell’utilizzo dell’opera. Le CC offrono una varietà di licenze, permettendo agli autori di definire quali diritti riservare e quali concedere in uso. In sostanza, le licenze CC funzionano come un contratto che specifica come l’opera può essere utilizzata, modificata e distribuita. Ho scelto di distribuirla come *CC BY-SA*. 
 
 <p align="center">
