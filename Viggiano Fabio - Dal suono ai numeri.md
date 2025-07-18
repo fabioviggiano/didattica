@@ -168,31 +168,17 @@ Al termine di questa unità, lo studente sarà in grado di:
 
 ### Obiettivi specifici in forma operativa
 
-#### Livello 1: ricordare (**remembering**)
-- Lo studente/la studentessa è in grado di definire i concetti di "**campionamento**", "**frequenza di campionamento**" e "**quantizzazione**" nel contesto dell'audio digitale
-- Lo studente/la studentessa è in grado di elencare in sequenza le fasi principali del processo di conversione di un segnale audio da analogico a digitale
-- Lo studente/la studentessa è in grado di identificare le componenti **hardware** (es. microfono, scheda audio) e **software** (es. editor audio) necessarie per acquisire un suono con un computer
+#### Livello 1: comprendere
 
-#### Livello 2: comprendere (**understanding**)
-- Lo studente/la studentessa è in grado di spiegare con parole proprie perché un computer necessita di **discretizzare** un segnale continuo come un'onda sonora
-- Lo studente/la studentessa è in grado di descrivere perché il processo di **quantizzazione** comporta una perdita irreversibile di informazioni rispetto al segnale originale
-- Lo studente/la studentessa è in grado di riassumere la relazione tra un'onda sonora (fenomeno fisico) e la sua **rappresentazione digitale** (sequenza di numeri binari)
-- Lo studente/la studentessa è in grado di confrontare il concetto di **segnale analogico** (continuo) con quello di **segnale digitale** (discreto), utilizzando l'audio come esempio
+- Lo studente/la studentessa è in grado di spiegare con parole proprie, usando le metafore della lezione ("foto", "gradini"), perché un suono digitale è un'approssimazione di un suono reale.
 
-#### Livello 3: applicare (**applying**)
-- Lo studente/la studentessa è in grado di utilizzare un **software di editing audio** (es. Audacity) per registrare un breve suono e visualizzarne la forma d'onda
-- Lo studente/la studentessa è in grado di modificare i **parametri** di un file audio (es. frequenza di campionamento, profondità di bit) per osservarne l'effetto sulla **dimensione del file**
-- Lo studente/la studentessa è in grado di calcolare la **dimensione** (in bit o byte) di un breve file audio non compresso, dati la frequenza di campionamento, la profondità di bit e la durata
+#### Livello 2: applicare
 
-#### Livello 4: analizzare (**analyzing**)
-- Lo studente/la studentessa è in grado di analizzare la **forma d'onda** di un segnale audio digitale, distinguendo l'effetto di una **bassa frequenza di campionamento** da quello di una **bassa profondità di bit**.
-- Lo studente/la studentessa è in grado di confrontare due registrazioni audio dello stesso suono, realizzate con **parametri di qualità diversi**, e collegare le differenze qualitative percepite (**chiarezza**, **rumore di fondo**) ai parametri tecnici utilizzati.
-- Lo studente/la studentessa è in grado di scomporre il processo di **digitalizzazione audio** in un diagramma che illustri i **dati di ingresso** (onda sonora) e i **dati di uscita** (sequenza di numeri).
+- Lo studente è in grado di eseguire manualmente i passaggi di campionamento e quantizzazione su un'onda disegnata, producendo una sequenza di numeri.
 
-#### Livello 5-6: Valutare e creare (**Evaluating and creating**)
-- Lo studente/la studentessa è in grado di formulare un'**ipotesi verificabile** sulla relazione tra l'aumento della **frequenza di campionamento** e il miglioramento della **fedeltà di riproduzione** di un suono.
-- Lo studente/la studentessa è in grado di giustificare la scelta di specifici **parametri di codifica audio** (es. qualità CD vs. qualità telefonica) in base a un determinato scopo di utilizzo (es. podcast, suoneria, archiviazione musicale).
-- Lo studente/la studentessa è in grado di **progettare un semplice esperimento**, utilizzando un software audio, per dimostrare l'impatto della **quantizzazione** sulla qualità del suono.
+#### Livello 3: analizzare
+
+- Lo studente è in grado di confrontare il disegno originale con la linea ricostruita e identificare visivamente dove si è "persa" l'informazione.
 
 ## Metodologie didattiche
 
@@ -230,7 +216,7 @@ Totale: Circa 2 ore (es. 2 moduli da 50-60 minuti).
 
 # Sviluppo dei contenuti
 
-## Fase 1 - Introduzione e l'onda analogica (15-20 min)
+## Fase 1.a - Introduzione e l'onda analogica (10 min)
 
 ### Guida insegnante
 
@@ -240,7 +226,34 @@ Aprire la lezione ponendo una domanda aperta agli studenti:
 
 > "Come pensate che la musica che ascoltate arrivi sui vostri cellulari o computer?"
 
-**Scopo:** Raccogliere le loro idee iniziali, stimolare la discussione e creare un collegamento con la loro esperienza quotidiana. Lasciare che emergano diverse ipotesi per poi disegnare sulla lavagna un'onda sonora illustrando brevemente di cosa si tratta.
+**Scopo:** Raccogliere le loro idee iniziali, stimolare la discussione e creare un collegamento con la loro esperienza quotidiana. Lasciare che emergano diverse ipotesi.
+
+## Fase 1.b - Riproduzione e disegno dell' onda analogica (10 min)
+
+Dopo aver raccolto le idee, l' insegnante produce dei suoni reali e li disegna insieme alla classe.
+
+* **Suono semplice**: Utilizzando uno strumento musicale o utilizzando la propria voce si produce una nota lunga e costante. Si chiede dunque alla classe:
+
+> "Come disegneremmo questo suono? Il volume cambia? E la sua intensità?"
+
+Li si guida a disegnare una retta orizzontale.
+
+* **Suono complesso**: Si esegua un suono che aumenti di volume (il "crescendo")
+
+> "E questo? Come lo disegniamo?"
+
+Li si guida a disegnare una curva che sale.
+
+* **Suono ritmato**: Si battano le mani due volte, una forte ed una piano. 
+
+> "E questo? Non è sicuramente un suono continuo, come lo disegniamo?"
+
+Li si guida a disegnare due "picchi", uno più alto dell' altro.
+
+*Suggerimento*: Nel mentre si può utilizzare un computer o tablet con Audacity per registrare i suoni appena eseguiti e mostrare l' onda registra, effettuando
+uno zoom opportuno per consentire agli studenti di vedere il suono nel digitale.
+
+> "Ora che abbiamo capito come un suono può diventare un disegno, create il vostro suono personale"
 
 ### Guida studente
 
@@ -248,10 +261,13 @@ Aprire la lezione ponendo una domanda aperta agli studenti:
 
 Alla domanda del docente, lo studente è invitato a rispondere, generalmente l’ età media in aula è quella in cui si approccia alla musica in modo indipendente iniziando a scoprire artisti e generi più affini. Il punto di contatto con il quotidiano potrà portare a risposte fantasiose, il riferimento ad artisti più o  meno attuali, chi è più estroverso magari a voler far ascoltare qualcosa che sta sentendo in quel periodo.
 
-
 > “Da Internet!” / “Dalle casse del cellulare!” / “Dalle registrazioni in studio dei Metallica!”
 
-#### La richiesta del disegno
+#### Il disegno dei tre suoni
+
+Coadiavati dal docente, gli studenti disegneranno su un foglio i tre suoni (semplice, complesso e ritmato).
+
+## Fase 1.c - La richiesta del disegno (10 min)
 
 ### Guida insegnante
 
@@ -259,7 +275,7 @@ Chiedere agli studenti di disegnare la propria onda sonora personale, con una fr
 
 > "Adesso, sulla carta millimetrata, disegniamo il viaggio di un suono. Immaginate che la linea orizzontale in basso sia il tempo che passa, mentre la linea verticale a sinistra sia il volume: più la linea che disegnate è in alto, più il suono è forte. Create il vostro suono! Potete disegnare una linea con onde morbide e tonde, come delle colline, oppure con punte affilate, come le cime di una montagna. Potete anche disegnare una linea che fa dei salti netti verso l'alto e verso il basso, come dei gradini. Siate creativi, è il vostro suono personale!"
 
-Nel mentre della richiesta sarebbe bene disegnare su un supporto visibile agli studenti gli esempi delle diverse onde sonore per agevolare chi ha più difficoltà nel disegno.
+Nel mentre della richiesta sarebbe bene disegnare su un supporto visibile agli studenti altri esempi delle diverse onde sonore per agevolare chi ha più difficoltà nel disegno.
 
 ### Guida studente
 
@@ -295,9 +311,17 @@ Illustrare agli studenti il concetto di fotografia del suono, con una descrizion
 
 >  "Il computer non può 'vedere' tutta la curva contemporaneamente. Deve guardarla un pezzetto alla volta, a intervalli regolari. È come fare delle foto (o misurare l'altezza) dell'onda ogni secondo, o ogni mezzo secondo. Questo si chiama campionamento e la velocità con cui facciamo le 'fotografie' al nostro suono è la frequenza di campionamento”
 
-Decidere insieme una "frequenza di campionamento" visiva. Suggerimento: "Proviamo a misurare la nostra onda ogni 3 quadretti sull'asse del tempo." (Scegliere un intervallo che generi un numero ragionevole di campioni, es. 8-15 punti).
+Decidere insieme una "frequenza di campionamento" visiva. 
+
+Suggerimento: 
+
+> "Proviamo a misurare la nostra onda ogni 3 quadretti sull'asse del tempo." (Scegliere un intervallo che generi un numero ragionevole di campioni, es. 8-15 punti).
 
 Dimostrare alla lavagna/LIM: sull'onda disegnata, segnare un punto esattamente sulla curva in corrispondenza di x=0, x=3, x=6, x=9, ecc.
+
+Dopo il campionamento:
+
+> "Osservate i punti che avete disegnato. Secondo voi, bastano per capire com'era la linea originale? Parlatene con il vostro vicino."
 
 ### Guida studente 
 
@@ -382,29 +406,33 @@ Obiettivo: Far comprendere agli studenti come un dispositivo digitale (es. un co
 
 Lanciare la sfida finale agli studenti:
 
-"Bene, ora abbiamo la nostra lista di numeri, il nostro 'segnale digitale'. Questo è ciò che viene salvato in un file MP3. Ma come facciamo a riascoltarlo? Il computer deve fare il processo inverso: prendere questi numeri e ritrasformarli in un'onda. Oggi saremo noi a fare il lavoro delle casse del vostro telefono!"
+> "Bene, ora abbiamo la nostra lista di numeri, il nostro 'segnale digitale'. Questo è ciò che viene salvato in un file MP3. Ma come facciamo a riascoltarlo? Il computer deve fare il processo inverso: prendere questi numeri e ritrasformarli in un'onda. Oggi saremo noi a fare il lavoro delle casse del vostro telefono!"
 
 Scopo: Impostare il compito come un'inversione del processo precedente, introducendo l'idea della conversione da digitale ad analogico (DAC).
 
 #### Guidare la ricostruzione
 
 Fornire istruzioni chiare e dimostrare il primo passaggio alla lavagna:
-"Prendete un pennarello di un nuovo colore. Ora, dimenticatevi della vostra curva originale e delle crocette. Guardate solo la sequenza di numeri che avete scritto.
-Leggete il primo numero della lista.
-Trovate la prima posizione di campionamento (a x=3, per esempio) e l'altezza corrispondente a quel numero. Segnate un punto.
-Fate lo stesso per il secondo numero.
-Adesso, collegate questi due punti con una linea retta.
-Continuate così: leggete un numero, trovate il punto e collegatelo a quello precedente. Stiamo 'unendo i puntini'."
-Nota per l'insegnante: È cruciale che gli studenti lavorino solo sulla base della loro sequenza numerica per simulare il comportamento di una macchina che non ha accesso all'informazione originale.
 
-#### Stimolare il confronto e la discussione finale
+> "Prendete un pennarello di un nuovo colore. Ora, dimenticatevi della vostra curva originale e delle crocette. Guardate solo la sequenza di numeri che avete scritto.
+> "Leggete il primo numero della lista."
+> "Trovate la prima posizione di campionamento (a x=3, per esempio) e l'altezza corrispondente a quel numero. Segnate un punto."
+> "Fate lo stesso per il secondo numero."
+> "Adesso, collegate questi due punti con una linea retta."
+> "Continuate così: leggete un numero, trovate il punto e collegatelo a quello precedente. Stiamo 'unendo i puntini'."
+
+*Nota per l'insegnante*: È cruciale che gli studenti lavorino solo sulla base della loro sequenza numerica per simulare il comportamento di una macchina che non ha accesso all'informazione originale.
+
+#### Ricostruzione del suono e la discussione finale
 
 Una volta che tutti hanno terminato, guidare una discussione di sintesi:
-"Ora osservate il vostro foglio. Vedete tre cose: la vostra onda originale morbida, le crocette e questa nuova linea spezzata.
-La linea che avete appena disegnato è uguale all'originale?
-Che forma ha? Cosa vi ricorda?
-Cosa ci dice questo sulla musica che ascoltiamo? È una copia perfetta o un'approssimazione incredibilmente buona?"
-Scopo: Portare gli studenti a una conclusione consapevole. L'audio digitale è una ricostruzione basata su dati discreti, e la sua qualità dipende dalla "densità" di quei dati (frequenza di campionamento e livelli di quantizzazione).
+
+> "Ora osservate il vostro foglio. Vedete tre cose: la vostra onda originale morbida, le crocette e questa nuova linea spezzata. La linea che avete appena disegnato è uguale all'originale? Che forma ha? Cosa vi ricorda? Cosa ci dice questo sulla musica che ascoltiamo? È una copia perfetta o un'approssimazione incredibilmente buona?"
+
+> "Perché non proviamo a suonare la nostra linea spezzata? Scegliamo una nota e cantiamola insieme, se la curva sale aumentiamo la voce, se scende la abbassiamo" 
+
+
+*Scopo*: Portare gli studenti a una conclusione consapevole. L'audio digitale è una ricostruzione basata su dati discreti, e la sua qualità dipende dalla "densità" di quei dati (frequenza di campionamento e livelli di quantizzazione).
 
 ### Guida studente
 
@@ -619,7 +647,7 @@ Chiarezza espositiva: Il testo è comprensibile, logico e ben formulato.
 
 *   Wing, J. M. (2006). Computational thinking. *Communications of the ACM*, *49*(3), 33–35.
 
-*   https://www.consorzio-cini.it/images/Proposta-Indicazioni-Nazionali-Informatica-Scuola-numerata.pdf
+*   (2017). Consorzio Universitario nazionale per l' informatica - Proposta di indicazioni nazionali per l'insegnamento dell’informatica nella scuola 
 
 # Licenza del documento
 
